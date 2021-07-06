@@ -4,13 +4,13 @@ Args=-p 30 -a peppie.png
 Source=http://msvchat.github.io/Vchat/Worlds/Lobby/world.adf
 
 [Data]
-world.wdb=./Data/world.wd_
+world.wdb=http://msvchat.github.io/Vchat/Worlds/Lobby/Data/world.wd_
 world.pal=world.pal
 about.txt=about.txt
 hotlinks.txt=hotlinks.txt
 
 [Images]
-FLOOR.GIF=./Images/FLOOR.GIF, 512,512, 0, 76,94,100, 96,114,120
+FLOOR.GIF=http://msvchat.github.io/Vchat/Worlds/Lobby/Images/FLOOR.GIF, 512,512, 0, 76,94,100, 96,114,120
 arch.gif=arch.gif, 128,32,0, 65,70,97, 60,75,102
 GIRDER.GIF=GIRDER.GIF, 16,128
 g255.gif=g255.gif, 32,32, 0, 0,255,0, 0,255,0
@@ -50,7 +50,7 @@ HORIZON.GIF=HORIZON.GIF, 128,64, 0, 113,105,96, 113,105,96
 TRAINA.GIF=TRAINA.GIF, 512,2048, 0, 73,91,98, 76,94,100
 
 [Sounds]
-collide.wav=./Sounds/collide.wa_
+collide.wav=http://msvchat.github.io/Vchat/Worlds/Lobby/Sounds/collide.wa_
 enter.wav=enter.wa_
 exit.wav=exit.wa_
 song.wav=song.wa_
