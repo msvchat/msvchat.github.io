@@ -4,7 +4,7 @@ Args=-p 30 -a peppie.png
 Source=https://github.com/msvchat/msvchat.github.io/blob/main/vchat/worlds/lobby/world.adf
 
 [Data]
-world.wdb=https://github.com/msvchat/msvchat.github.io/blob/main/vchat/worlds/lobby/data/world.wdb
+world.wdb=https://msvchat.github.io/vchat/worlds/lobby/data/world.wdb
 world.pal=https://github.com/msvchat/msvchat.github.io/blob/main/vchat/worlds/lobby/data/world.pal
 about.txt=https://github.com/msvchat/msvchat.github.io/blob/main/vchat/worlds/lobby/data/about.txt
 hotlinks.txt=https://github.com/msvchat/msvchat.github.io/blob/main/vchat/worlds/lobby/data/hotlinks.txt
