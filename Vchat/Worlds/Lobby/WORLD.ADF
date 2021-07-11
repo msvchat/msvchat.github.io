@@ -1,7 +1,7 @@
 [General]
 Name=The V-Chat Lobby
 Args=-p 30 -a peppie.png
-Source=http://msvchat.github.io/Vchat/Worlds/Lobby/world.adf
+Source=http://msvchat.github.io/Vchat/Worlds/Lobby/WORLD.ADF
 
 [Data]
 world.wdb=./Data/world.wd_
