@@ -71,7 +71,7 @@ scratch.png=http://msvchat.github.io/vchat/worlds/cartooncity/avatars/scratch.pn
 scritch.png=http://msvchat.github.io/vchat/worlds/cartooncity/avatars/scritch.png
 t73.png=http://msvchat.github.io/vchat/worlds/cartooncity/avatars/t73.png
 twins.png=http://msvchat.github.io/vchat/worlds/cartooncity/avatars/twins.png
-http://msvchat.github.io/vchat/worlds/cartooncity/
+
 [Sounds]
 collide.wav=http://msvchat.github.io/vchat/worlds/cartooncity/sounds/collide.wav
 enter.wav=http://msvchat.github.io/vchat/worlds/cartooncity/sounds/enter.wav
