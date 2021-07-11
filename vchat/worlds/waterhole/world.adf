@@ -1,0 +1,35 @@
+[General]
+Name=The Waterhole
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/waterhole/world.adf
+[Data]
+world.wdb=http://msvchat.github.io/vchat/worlds/waterhole/data/world.wdb
+world.pal=http://msvchat.github.io/vchat/worlds/waterhole/data/world.pal
+about.txt=http://msvchat.github.io/vchat/worlds/waterhole/data/about.txt
+
+[Images]
+water2.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/water2.gif, 128,128, 0 ,86,189,233, 79,116,223
+sand.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/sand.gif, 64,64, 0, 228,189,144, 234,211,181
+sand01.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/sand01.gif, 64,64, 0, 108,169,122, 214,191,161
+red-bchl.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/red-bchl.gif, 256,128
+bch-wall.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/bch-wall.gif, 256,128
+bch-txt.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/bch-txt.gif, 256,128
+sky.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/sky.gif, 512,256, 0, 164,234,220, 176,242,231
+dock.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/dock.gif, 256,256, 0, 50,87,164, 131,104,104
+docktop.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/docktop.gif, 64,64
+reeds.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/reeds.gif, 128,128, 0, 77,131,48, 113,176,98
+g255.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/g255.gif, 32,32, 0, 0,255,0, 0,255,0
+wsurfur.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/wsurfur.gif, 128,256, 0, 109,187,202, 200,243,250
+umbrlla.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/umbrlla.gif, 128,256
+life-gd.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/life-gd.gif, 128,256
+raftside.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/raftside.gif, 64,1024, 0, 160,250,181, 250,229,168
+raftfrnt.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/raftfrnt.gif, 128,1024
+anim0435.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/anim0435.gif, 256,256
+horizon.gif=http://msvchat.github.io/vchat/worlds/waterhole/images/horizon.gif, 512,128, 0, 233,250,247, 182,250,230
+
+[Sounds]
+collide.wav=http://msvchat.github.io/vchat/worlds/waterhole/sounds/collide.wav
+enter.wav=http://msvchat.github.io/vchat/worlds/waterhole/sounds/enter.wav
+exit.wav=http://msvchat.github.io/vchat/worlds/waterhole/sounds/exit.wav
+song.wav=http://msvchat.github.io/vchat/worlds/waterhole/sounds/song.wav
+sound.htm=http://msvchat.github.io/vchat/worlds/waterhole/sounds/sound.htm
