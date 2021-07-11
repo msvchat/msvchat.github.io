@@ -4,7 +4,7 @@ Args=-p 30 -a peppie.png
 Source=http://msvchat.github.io/Vchat/Worlds/Lobby/world.adf
 
 [Data]
-world.wdb=./Data/world.wd_
+world.wdb=./Data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
 hotlinks.txt=hotlinks.txt
@@ -50,9 +50,9 @@ HORIZON.GIF=HORIZON.GIF, 128,64, 0, 113,105,96, 113,105,96
 TRAINA.GIF=TRAINA.GIF, 512,2048, 0, 73,91,98, 76,94,100
 
 [Sounds]
-collide.wav=../sounds/collide.wa_
-enter.wav=enter.wa_
-exit.wav=exit.wa_
-song.wav=song.wa_
-song2.wav=song2.wa_
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+song2.wav=song2.wav
 sound.htm=sound.htm
