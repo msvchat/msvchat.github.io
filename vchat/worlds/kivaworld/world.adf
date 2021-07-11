@@ -1,0 +1,81 @@
+[General]
+Name=The Kiva World
+Args=-p 30 -a peppie.png
+Source=http://msvchat.github.io/vchat/worlds/kivaworld/world.adf
+
+[Data]
+world.wdb=http://msvchat.github.io/vchat/worlds/kivaworld/Data/world.wdb
+world.pal=http://msvchat.github.io/vchat/worlds/kivaworld/Data/world.pal
+about.txt=http://msvchat.github.io/vchat/worlds/kivaworld/Data/about.txt
+hotlinks.txt=http://msvchat.github.io/vchat/worlds/kivaworld/Data/hotlinks.txt
+
+[Images]
+baldeag1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/baldeag1.gif, 256,128, 0, 47, 47, 58, 115, 115, 115
+cart1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/cart1.gif, 256,512, 0, 192, 192, 192, 192, 192, 192
+cart2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/cart2.gif, 128,128, 0, 20, 30, 44, 31, 42, 74
+cart3.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/cart3.gif, 128,128
+kribbw.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kribbw.gif, 512,256  
+kribbw1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kribbw1.gif, 256,128  
+kribbw2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kribbw2.gif, 256,128 
+kribbwa.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kribbwa.gif, 256,128 
+kribf1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kribf1.gif, 256,128  
+kribf2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kribf2.gif, 256,128  
+kritf1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kritf1.gif, 256,128 
+kritf2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kritf2.gif, 256,128 
+krobf1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/krobf1.gif, 512,256, 0, 82, 41, 92, 74, 53, 74
+krobf2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/krobf2.gif, 512,256
+krobt1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/krobt1.gif, 512,256  
+krobt1a.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/krobt1a.gif, 256,128 
+kwdbot2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/kwdbot2.gif, 256,128, 0, 40, 13, 27, 13, 13, 40
+mesa2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/mesa2.gif, 1024,128, 0, 67, 78, 107, 0, 0, 0
+mesa2at.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/mesa2at.gif, 256,32, 0, 86, 96, 125, 0, 0, 0
+moon2a.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/moon2a.gif, 128,128, 0, 128, 128, 128, 222, 222, 222
+mrange1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/mrange1.gif, 512,64, 0, 0,0,0,0,0,0
+mvalley5.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/mvalley5.gif, 256,128, 0, 0,0,0, 24, 24, 51
+mvally1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/mvally1.gif, 256,128, 
+mvally2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/mvally2.gif, 128,128 
+mvally3.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/mvally3.gif, 256,128 
+mvally4.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/mvally4.gif, 128,128 
+nitesky2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/nitesky2.gif, 256,256, 0, 43,0,74, 84,30,30 
+pdog2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/pdog2.gif, 64,1024, 0, 160,160,164, 44,63,93
+pots1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/pots1.gif, 256,128, 0, 156,90,66, 177,138,3
+pots2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/pots2.gif, 256,128
+pots3.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/pots3.gif, 128,256
+puma1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/puma1.gif, 128,256, 0, 115,115,155, 63,43,74 
+rabbit1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rabbit1.gif, 128,128
+rback.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rback.gif, 512,256, 0, 30,42,84, 93,50,50
+rdwd2m.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rdwd2m.gif, 64,64, 0, 86,40,6, 33,16,8 
+ribsw.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/ribsw.gif, 256,256, 0, 30,42,84, 93,50,50
+rtf1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rtf1.gif, 512,256  
+rtf2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rtf2.gif, 512,256 
+rtt1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rtt1.gif, 512,256 
+saguaro1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/saguaro1.gif, 64,128, 25,25,25, 0,0,0 
+smoke2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/smoke2.gif, 16,512, 0, 192,192,192, 255,255,255
+stars1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/stars1.gif, 256,256, 0, 128,128,128, 44,63,93
+stonwal2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/stonwal2.gif, 128,128, 0, 208,86,4, 0,0,0
+topkiva.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/topkiva.gif, 256,256, 0, 128,0,0, 128,0,0
+tpfloor.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/tpfloor.gif, 64,64, 0, 20,30,44, 49,49,99
+wolf.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/wolf.gif, 128,128, 0, 67,78,107, 33,16,16
+wolf1a.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/wolf1a.gif, 128,128
+yucca.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/yucca.gif, 128,256,0, 16,16,33, 120,130,158 
+brown.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/brown.gif, 64,64, 0, 198,154,4, 147,174,174
+chipa.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/chipa.gif, 64,128
+pots4.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/pots4.gif, 64,64
+pots5.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/pots5.gif, 64,128
+pots6.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/pots6.gif, 64,64
+pots7.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/pots7.gif, 64,128
+rdwd3m.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rdwd3m.gif, 64,64, 0, 33,33,16, 25,0,25
+rug1.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rug1.gif, 512,256, 0, 49,49,99, 117,68,117
+rug2.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rug2.gif, 512,256
+rug3.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/rug3.gif, 512,256
+snake.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/snake.gif, 128,128, 0, 94,94,133, 62,52,84,
+wide.gif=http://msvchat.github.io/vchat/worlds/kivaworld/Images/wide.gif, 128,64, 0, 198,154,4, 147,174,174
+
+[Avatars]
+coloredrabbit.png=http://msvchat.github.io/vchat/worlds/kivaworld/Avatars/coloredrabbit.png
+lizzard.png=http://msvchat.github.io/vchat/worlds/kivaworld/Avatars/lizzard.png
+man.png=http://msvchat.github.io/vchat/worlds/kivaworld/Avatars/man.png
+
+[Sounds]
+song.wav=http://msvchat.github.io/vchat/worlds/kivaworld/Sounds/song.wav
+Sound.htm=http://msvchat.github.io/vchat/worlds/kivaworld/Sounds/sound.htm
