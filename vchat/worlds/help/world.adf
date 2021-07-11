@@ -1,0 +1,20 @@
+[General]
+Name=The Help
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/help/world.adf
+
+[Data]
+world.wdb=http://msvchat.github.io/vchat/worlds/help/data/world.wdb
+about.txt=http://msvchat.github.io/vchat/worlds/help/data/about.txt
+
+[Images]
+Glow.GIF=http://msvchat.github.io/vchat/worlds/help/images/glow.gif, 256,256, 0, 47, 89, 151, 148, 160, 188
+Groundb.gif=http://msvchat.github.io/vchat/worlds/help/images/groundb.gif, 512, 512, 0, 200,225, 197, 39,40, 95
+Horizona.gif=http://msvchat.github.io/vchat/worlds/help/images/horizona.gif, 128,128, 0, 67, 96, 142, 0,0,0
+Sphere.gif=http://msvchat.github.io/vchat/worlds/help/images/sphere.gif, 256,256, 0, 153, 74, 16, 46, 23, 31
+
+[Sounds]
+song.wav=http://msvchat.github.io/vchat/worlds/help/sounds/song.wav
+collide.wav=http://msvchat.github.io/vchat/worlds/help/sounds/collide.wav
+Sound.htm=http://msvchat.github.io/vchat/worlds/help/sounds/sound.htm
+
