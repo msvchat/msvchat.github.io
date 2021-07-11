@@ -1,16 +1,265 @@
 -<!DOCTYPE html>
-<html>
-<body>
-<h1>Welcome to the MS V-Chat Server Homepage</h1>
-<p>The goal of this website is to share what ive found and links to my IRC server when those files are properly uploaded to this github.</p>
-<p>There is A LOT of things I have put on my plate for this so please be patient with me.</p>
-<p>I have chosen <a href="https://www.unrealircd.org/">UnrealIRCd</a> as my server software, I would have liked to have used <a href="https://www.officeirc.com">OfficeIRC</a> but funds are limited.</p>
-<p>rewriting the vchat20.inf in the self extracting archive of the vchat2.exe, should be easy enough with 32bit iExpress and MSChat's(Comic Chat)installer file from ITS 32bit self extractable.</p>
-<p>the purpose of that is so i can package the required files and detailed instructions for setting up dgVoodoo to get vchat working [as intended]</p>
-  
-  <p>Here is how to install V-chat and get it working on later versions of windows.</p>
-  
-<p>If you have any questions about updates coming or have information (world files, avatars)or solutions to issues im working on.</p>
-<p><a href="mailto:breadsmacker@outlook.com">breadmsacker@outlook.com</a></p>
-</body>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>MSVChat Server</title>
+		<style type="text/css">
+		IMG.displayed {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			height: 100%; 
+			max-height: 100%; 
+			font-family:cursive;
+			line-height: 1.5em;
+		}
+		main {
+			position: fixed;
+			top: 50px; /* Set this to the height of the header */
+			bottom: 50px; /* Set this to the height of the footer */
+			left: 200px; 
+			right: 200px;
+			overflow: auto; 
+			background: #fff;
+		}
+		#header {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 50px;
+			overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: #4485b8;
+		}
+		#footer {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 50px; 
+			overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: #4485b8;
+		}
+		#left {
+			position: absolute; 
+			top: 50px; /* Set this to the height of the header */
+			bottom: 50px; /* Set this to the height of the footer */
+			left: 0; 
+			width: 200px;
+			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+			background: #bcc4e9; 		
+		}
+		#right {
+			position: absolute; 
+			top: 50px; /* Set this to the height of the header */
+			bottom: 50px; /* Set this to the height of the footer */
+			right: 0; 
+			width: 200px;
+			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+			background: #bccbe9; 		
+		}
+		.innertube {
+			margin: 15px; /* Provides padding for the content */
+		}
+		p {
+			color: #555;
+		}
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav ul a {
+			color: blue;
+			text-decoration: none;
+		}
+		/*IE6 fix*/
+		* html body{
+			padding: 50px 200px 50px 200px; /* Set the first value to the height of the header, the second value to the width of the right column, third value to the height of the footer, and last value to the width of the left column */
+		}
+		* html main{ 
+			height: 100%; 
+			width: 100%; 
+		}
+		</style>
+	</head>
+	<body>
+		<header id="header">
+			<div class="innertube">
+				<img style="border: 0px solid #4485b8; border-radius: 0px;" src="vchat2ico.png" alt="V-Chat Logo" width="20" height="20" />
+				<strong>MSVChat Server</strong>
+			</div>
+		</header>
+		<main>
+			<div class="innertube">
+			<hr />
+				<h1 id="TOP" style="text-align: center"><img class="displayed" src="vchatlogo.gif" alt="V-Chat Logo 2" width="134" height="69" /></h1>	
+			<hr />
+				<h1 style="text-align: center">MSVChat Server</h1>
+					<h2>Hello and welcome!</h2>
+					<p>The goal of this website is to share what ive found and links to my IRC server when the world files are properly uploaded to this github.</p>
+					<p>There is A LOT of things I have put on my plate for this so please be patient with me.</p>
+					<p>I have chosen <a href="https://www.unrealircd.org/">UnrealIRCd</a> as my server software, I would have liked to have used <a href="https://www.officeirc.com">OfficeIRC</a> but funds are limited.</p>
+					<p>I plan on rewriting the vchat20.inf in the self extracting archive of the vchat2.exe, should be easy enough with 32bit iExpress and MSChat's(Comic Chat)installer file from ITS 32bit self extractable.The purpose of that is so I can package the required files and detailed instructions for setting up dgVoodoo to get vchat working [as intended] but for now follow the Install V-Chat guide i have made.</p>
+					<p>This site has guides compiled from multiple sources, most of which are archived in the <a href="https://archive.org/web/">Wayback Machine</a>.</p>
+					<p>I know it looks like it, but this page is NOT oldschool frames so archiving this page should be fairly easy.</p>
+			<hr /><hr />
+					<h2 id="INFO">Information on V-Chat 2.0</h2>
+						<h3>V-Chat's system requirements</h3>
+							<ul>
+								<li>Direct X 3.0</li>
+								<li>Win95 or better</li>
+								<li>8MB Ram</li>
+								<li>486 processor or better</li>
+								<li>about 3MB space</li>
+							</ul>
+						<h3>V-Chat features</h3>
+							<ul>
+								<li>Both graphical and text based chatting experiences</li>
+								<li>Save chat histories.</li>
+								<li>Using the Avatar Wizard you can make or customize an avatar.</li>
+								<li>Password your private rooms</li>
+								<li>kick out unwanted or obnoxious guests in your own rooms</li>
+								<li>Emote through avatar action buttons, or the button beside your text box.</li>
+							</ul>
+							<p>V-chat is a 3D chat program that involves the user with other users in rich 3D environments. MSN relinquished it as a service in 2001 and stopped developing the chat.</p>
+							<p>You can walk,fly,and look up and down through the 'rooms' using your <strong>arrow</strong> keys (up,down,left,right).You can also use your mouse to click "portals" to navigate to different rooms.</p>
+						<h3>How to 'fly' in V-chat.</h3>
+							<ul>
+								<li>ctrl+up arrow key,to 'fly' up</li>
+								<li>ctrl+down arrow key, 'fly' down</li>
+								<li>ctrl+left arrow key, 'sidestep' left</li>
+								<li>ctrl+right arrow key, 'sidestep' right</li>
+							</ul>
+						<h3>How to look up and down in V-chat.</h3>
+							<ul>
+								<li>ctrl+alt+up arrow key,to reset your veiw</li>
+								<li>ctrl+alt+down arrow key, to look down</li>
+								<li>ctrl+alt+left arrow key, to look left</li>
+								<li>ctrl+alt+right arrow key, to look right</li>
+							</ul>
+						<h3>What's an Avatar?</h3>
+							<p>Avatars are 2d representations of yourself in V-Chat. With the Avatar Wizard you can make your own avatars.</p>
+			<hr /><hr />
+					<h2 id="INSTALL">Installing Microsoft V-Chat and how to get it working on Windows 10/11</h2>
+						<h3><p>Please note that if any of the files below trigger windows defender, allow them, defender is falsly identifying non existant trogens when it comes to some older 16 and 32 bit files.</p></h3>
+						<ul>
+							<li>First you need to download and install <strong><a href="https://timigi.com/Stuff/Archive/vchat/vchat.html" >V-Chat</a></strong></li>
+							<li>After that navigate to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong></li>
+							<li>Rename <strong>WORLDS</strong> to <strong>Worlds</strong></li>
+							<li>Rename <strong>NEWWOR</strong> to <strong>NewWorlds</strong></li>
+							<li>Open the <strong>Worlds</strong> folder and rename <strong>HOME</strong> to <strong>DefHomespace</strong></li>
+							<li>Next <a href=""https://msvchat.github.io/Downloads/dgvoodooandd3drm.zip"><span style="background-color: #4485b8; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;"> Download </span></a><strong> dgVoodoo2 & d3drm</strong> files.</li>
+							<li>Extract the contents to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong></li>
+							<li>Now open <strong>dgVoodooCpl.exe</strong></li>
+							<li>Make your settings match mine.</li>
+							<img src="screenshot1.png" class="imageRight" alt="General Tab" width="400" height="475" />
+							<img src="screenshot2.png" class="imageCenter" alt="Glide Tab" width="400" height="475" />
+							<img src="screenshot3.png" class="imageLeft" alt="DirectX Tab" width="400" height="475" />
+							<li>Now you can run V-Chat like normal!</li>
+						</ul>
+			<hr /><hr />
+					<h2 id="AVWIZARD">Installing the V-Chat Avatar Wizard and getting it to work on Windows 10/11</h2>
+						COMING SOON
+			<hr /><hr />
+					<h2 id="LOADAV">How to load a room from this site</h2>
+						COMING SOON
+			<hr /><hr />
+					<h2 id="CREATEAV">How to create and avatar</h2>
+						COMING SOON
+			<hr /><hr />
+					<h2 id="LOADROOM">How to Load a Room from a site</h2>
+						COMING SOON
+			<hr /><hr />
+					<h2 id="AUTHOR">Installing Microsoft Author and getting it to work on Windows 10/11</h2>
+						COMING SOON
+			<hr /><hr />
+					<h2 id="CREATEROOM">How to modify an existing world</h2>
+						COMING SOON
+			<hr /><hr />
+					<h2 id="CREATEWORLD">How to create your own world</h2>
+						<h4>WARNING! This guide is untested on todays hardware so the outcomes might be different.</h4>
+						<ul>
+							<li><a href=https://web.archive.org/web/20060117035229/http://v-chatterbox.net:80/polygons.htm>https://web.archive.org/web/20060117035229/http://v-chatterbox.net:80/polygons.htm</a></li>
+							<li><a href=https://web.archive.org/web/20060117033127/http://v-chatterbox.net:80/speedup.htm>https://web.archive.org/web/20060117033127/http://v-chatterbox.net:80/speedup.htm</a></li>
+						</ul>
+			<hr /><hr />
+					<h2 id="SERVERS">Active Servers</h2>
+						<ul>
+							<li>NONE</li>
+							If you know of a server let me know so I can add it to the list! <a href="mailto:breadsmacker@outlook.com">breadsmacker@outlook.com</a>
+						</ul>
+			<hr /><hr />
+					<h2 id="ABOUT">About me</h2>
+						I first played V-Chat at a friend of mines house back in 1998. I was 11 or 12 but I thought it was amazing at the time and it's been stuck in my mind ever since. I used to use the name Kolestan and if you search hard enough on the Way Back Machine you might find references to that username with v-chatterbox.I joined the forum on Jan 7th, 2004 and moderated the IRC Servers section. The site wasn't very popular so traffic was very limited.
+					<p>If you have any questions about updates coming or have information (world files, avatars)or solutions to issues im working on.</p>
+					<p><a href="mailto:breadsmacker@outlook.com">breadmsacker@outlook.com</a></p>
+			<hr /><hr />
+					<h2 id="LINKS">Links to sites related to V-Chat</h2>
+						<ul>
+							<li><a href="https://angelsociety.tripod.com/">The Angel Society</a>
+							<li><a href="https://flatplaces.net/">Not Quite 3D </a>
+							<li><a href="https://timigi.com/Stuff/Archive/vchat/vchat.html">Timigi's V-Chat Archive</a>
+						</ul>
+			<hr /><hr />
+					<h2 id="CREDITS">Links to sites I borrowed guides from</h2>
+			<hr /><hr />
+			</div>
+		</main>
+		<nav id="left">
+			<div class="innertube">
+				<h3>V-Chat 2.0</h3>
+				<h5>
+				<ul>
+					<li><a href="#TOP">Home</a></li>
+					<hr />
+					<li><a href="#INFO">Information</a></li>
+					<hr />
+					<li><a href="#SERVERS">Servers</a></li>
+					<hr />
+					<li><a href="#ABOUT">About</a></li>
+					<hr />
+					<li><a href="#LINKS">Links</a></li>
+					<hr />
+					<li><a href="#CREDITS">Credits</a></li>
+				</ul>
+				</h5>
+				<h3>Tutorials</h3>
+				<h5>
+				<ul>
+					<li><a href="#INSTALL">Install V-Chat</a></li>
+					<hr />
+					<li><a href="#AVWIZARD">Install Avatar Wizard</a></li>
+					<hr />
+					<li><a href="#LOADAV">Loading an avatar</a></li>
+					<hr />
+					<li><a href="#CREATEAV">Creating an avatar</a></li>
+					<hr />
+					<li><a href="#LOADROOM">Loading a room</a></li>
+					<hr />
+					<li><a href="#AUTHOR">Install Author</a></li>
+					<hr />
+					<li><a href="#CREATEROOM">Customizing a room</a></li>
+					<hr />
+					<li><a href="#CREATEWORLD">Creating a world</a></li>
+				</ul>
+				</h5>
+			</div>
+		</nav>	
+		<div id="right">
+			<div class="innertube">
+				<p>JJJ</p>
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="innertube">
+				<p><em>&copy;BreadSmacker</em></p>
+			</div>
+		</footer>
+	</body>
 </html>
