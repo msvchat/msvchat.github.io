@@ -4,7 +4,7 @@
 "portal04",VCHAT,msvchatsvr.webredirect.org,#V-ChatOuterworld,"Portal to the V-Chat OuterWorld",1,1,1,10000
 "portal05",VCHAT,msvchatsvr.webredirect.org,#V-ChatLodge,"Portal to the V-Chat Lodge",1,1,1,10000
 "portal06",VCHAT,msvchatsvr.webredirect.org,#V-ChatKiva,"Portal to the V-Chat Kiva",1,1,1,1000
-"portal07",VCHAT,msvchatsvr.webredirect.org,#V-ChatCartoon,"Portal to the V-Chat Cartoon City",1,1,1,1000
+"portal07",VCHAT,msvchatsvr.webredirect.org,#V-ChatCartoonCity,"Portal to the V-Chat Cartoon City",1,1,1,1000
 "url01",URL,http://vchat.microsoft.com,"Shortcut to the Microsoft V-Chat Web Page"
 "url02",URL,http://www.microsoft.com/netmeeting,"Shortcut to the Microsoft NetMeeting Web Page"
 "url03",URL,http://www.microsoft.com/ie,"Shortcut to the Microsoft Internet Explorer Web Page"
