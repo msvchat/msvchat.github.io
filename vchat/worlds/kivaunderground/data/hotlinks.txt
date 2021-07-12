@@ -1,5 +1,5 @@
-"LadLight",VCHAT,msvchatsvr.webredirect.org,#V-ChatKivaWorld,"Portal to the Kiva World",0,0,1,10000
-"LadDark",VCHAT,msvchatsvr.webredirect.org,#V-ChatKivaWorld,"Portal to the Kiva World",0,0,1,10000
+"LadLight",VCHAT,msvchatsvr.webredirect.org,#V-ChatKiva,"Portal to the Kiva World",0,0,1,10000
+"LadDark",VCHAT,msvchatsvr.webredirect.org,#V-ChatKiva,"Portal to the Kiva World",0,0,1,10000
 Url_Pic_01, URL, "http://alishaw.sscf.ucsb.edu/anth/projects/great.kiva/index.html", "Shortcut to the Chetro Ketl Great Kiva Web Page"
 Url_Pic_02, URL, "http://www.ptw.com:80/~natsu/Coman.html", "Shortcut to the Comanche Tribe Web Page"
 Url_Pic_03, URL, "http://www.nativeweb.org/", "Shortcut to the Native Web Internet Community Web Page"
