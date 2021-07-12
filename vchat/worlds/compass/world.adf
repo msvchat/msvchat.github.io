@@ -1,0 +1,35 @@
+[General]
+Name=The Compass
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/compass/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+hotlinks.txt=hotlinks.txt
+
+[images]
+compass.gif=../images/compass.gif,512,512,0,210,157,159,210,170,168
+grad_b.gif=grad_b.gif,16,64,0,224,194,194,224,200,187
+grad_f.gif=grad_f.gif,16,64,0,219,207,173,219,192,172
+grad_m.gif=grad_m.gif,16,64,0,214,186,177,227,189,197
+grad_p.gif=grad_p.gif,16,64,0,242,223,220,231,226,217
+bilbrd.gif=bilbrd.gif,128,64,0,121,154,184,126,135,184
+miro_s1.gif.gif=miro_s1.gif,32,32
+miro1.gif=miro1.gif,128,128
+miro2.gif=miro2.gif,128,128
+miro3.gif=miro3.gif,128,128
+miro4.gif=miro4.gif,128,256
+miro5.gif=miro5.gif,32,16
+fish.gif=fish.gif,128,512
+carving.gif=carving.gif,256,128
+bird.gif=bird.gif,32,16, 0, 0,0,0, 0,0,0
+
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+song2.wav=song2.wav
+sound.htm=sound.htm
