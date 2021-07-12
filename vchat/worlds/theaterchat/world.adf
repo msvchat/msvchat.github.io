@@ -31,7 +31,7 @@ r2.gif= r2.gif, 256,256
 
 [sounds]
 collide.wav=../sounds/collide.wav
-enter.wav=entry.wav
+enter.wav=enter.wav
 exit.wav=exit.wav
 song.wav=song.wav
 sound.htm=sound.htm
