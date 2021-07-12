@@ -1,6 +1,6 @@
 "Portal01",VCHAT,msvchatsvr.webredirect.org,#V-ChatGallery,"Portal to the V-Chat Gallery",1,1,1,10000
 "Portal02",VCHAT,msvchatsvr.webredirect.org,#V-ChatWaterhole,"Portal to the V-Chat Waterhole",1,1,1,10000
-"portal03",VCHAT,msvchatsvr.webredirect.org,#V-ChatRedden,"Portal to the V-Chat RedDen",1,1,1,10000
+"portal03",VCHAT,msvchatsvr.webredirect.org,#V-ChatRedDen,"Portal to the V-Chat RedDen",1,1,1,10000
 "portal04",VCHAT,msvchatsvr.webredirect.org,#V-ChatOuterworld,"Portal to the V-Chat OuterWorld",1,1,1,10000
 "portal05",VCHAT,msvchatsvr.webredirect.org,#V-ChatLodge,"Portal to the V-Chat Lodge",1,1,1,10000
 "portal06",VCHAT,msvchatsvr.webredirect.org,#V-ChatKiva,"Portal to the V-Chat Kiva",1,1,1,1000
