@@ -72,7 +72,7 @@ snake.gif=snake.gif, 128,128, 0, 94,94,133, 62,52,84,
 wide.gif=wide.gif, 128,64, 0, 198,154,4, 147,174,174
 
 [avatars]
-coloredrabbit.png=../avatars/coloredrabbit.png
+coloredrabbit.png=./avatars/coloredrabbit.png
 lizzard.png=lizzard.png
 man.png=man.png
 
