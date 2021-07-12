@@ -1,0 +1,71 @@
+[General]
+Name=The Stadium
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/eurostadium/world.adf
+
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+
+[images]
+birch.gif= ../images/birch.gif, 256,256, 0, 0,255,0, 0,255,0
+blimp.gif= blimp.gif, 256,256, 0, 164, 160, 160, 0, 0, 0
+cr-tile.gif= cr-tile.gif, 64,64, 0, 213, 85, 64, 240, 202, 166
+ebanner.gif= ebanner.gif, 256,128, 0, 255, 255, 255, 0, 0,0
+eflag.gif= eflag.gif, 128,1280
+entrance.gif= entrance.gif, 512,256, 0, 128, 128, 128, 170, 170, 191
+exit.gif= exit.gif, 64,64, 0, 255, 255, 255, 85, 170, 64
+flodlg01.gif= flodlg01.gif, 256,256, 0, 102, 102, 102, 255, 255, 255
+flodlg02.gif= flodlg02.gif, 256,256
+green.gif= green.gif, 64,64, 0, 0, 255, 0, 0, 255, 0
+maple.gif= maple.gif, 256,256, 0, 0,255,0, 0,255,0
+mflag.gif= mflag.gif, 128,1280, 0, 255, 255, 255, 0, 0, 0
+net.gif= net.gif, 256,256, 0, 255, 255, 255, 255, 255, 255
+pitch.gif= pitch.gif, 512,256, 0, 0, 128, 0, 43, 85, 0
+roof.gif= roof.gif, 64,64, 0, 201, 201, 201, 128, 128, 128
+score.gif= score.gif, 256,512, 0, 0, 255, 0, 0, 255, 0
+scranim.gif= scranim.gif, 128,384, 0, 255, 255, 0, 0, 0, 0
+scrbrd.gif= scrbrd.gif, 256,256
+sgncen.gif= sgncen.gif, 128,128, 0, 43, 43, 191, 255, 0, 0
+sground2.gif= sground2.gif, 512,512, 0, 43, 128, 64, 164, 160, 160
+signwem.gif= signwem.gif, 128,128, 0, 43, 43, 191, 255, 0, 0
+socfilm.gif= socfilm.gif, 128,9344, 0, 255, 213, 128, 213, 128, 0
+soc-pic1.gif= soc-pic1.gif, 256,256, 0, 43, 85, 64, 0, 43, 64
+soc-pic2.gif= soc-pic2.gif, 512,256
+strip2.gif= strip2.gif, 64,1600, 0, 255, 213, 128, 213, 128, 0
+towerbtm.gif= towerbtm.gif, 256,128, 0, 128, 128, 128, 170, 170, 191
+towertp.gif= towertp.gif, 256,256
+tv-scr1.gif= tv-scr1.gif, 64,64, 
+tv-scrn.gif= tv-scrn.gif, 64,64
+wembmap.gif= wembmap.gif, 512,512
+wht-top.gif= wht-top.gif, 64,64
+
+[avatars]
+bulgaria.png=../avatars/bulgaria.png
+croatia.png= croatia.png
+czech.png= czech.png
+denmark.png= denmark.png
+england.png= england.png
+football.png= football.png
+france.png= france.png
+germany.png= germany.png
+holland.png= holland.png
+italy.png= italy.png
+le-saux.png= le-saux.png
+portugal.png= portugal.png
+ref-ade.png= ref-ade.png
+ref-dsir.png= ref-dsir.png
+ref-kate.png= ref-kate.png
+romania.png= romania.png
+russia.png= russia.png
+scotland.png= scotland.png
+spain.png= spain.png
+swiss.png= swiss.png
+turkey.png= turkey.png
+
+[sounds]
+song.wav=../sounds/song.wav
+sound.htm=sound.htm
+
