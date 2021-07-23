@@ -1,119 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>MSVChat Server</title>
-		<style type="text/css">
-		IMG.displayed {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		body {
-			margin: 0;
-			padding: 0;
-			overflow: hidden;
-			height: 100%; 
-			max-height: 100%; 
-			font-family:cursive;
-			line-height: 1.5em;
-		}
-		main {
-			position: fixed;
-			top: 50px; /* Set this to the height of the header */
-			bottom: 50px; /* Set this to the height of the footer */
-			left: 200px; 
-			right: 200px;
-			overflow: auto; 
-			background: #fff;
-		}
-		#header {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 50px;
-			overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
-			background: #4485b8;
-		}
-		#footer {
-			position: absolute;
-			left: 0;
-			bottom: 0;
-			width: 100%;
-			height: 50px; 
-			overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
-			background: #4485b8;
-		}
-		#left {
-			position: absolute; 
-			top: 50px; /* Set this to the height of the header */
-			bottom: 50px; /* Set this to the height of the footer */
-			left: 0; 
-			width: 200px;
-			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
-			background: #bcc4e9; 		
-		}
-		#right {
-			position: absolute; 
-			top: 50px; /* Set this to the height of the header */
-			bottom: 50px; /* Set this to the height of the footer */
-			right: 0; 
-			width: 200px;
-			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
-			background: #bccbe9; 		
-		}
-		.innertube {
-			margin: 15px; /* Provides padding for the content */
-		}
-		p {
-			color: #555;
-		}
-		nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-		nav ul a {
-			color: blue;
-			text-decoration: none;
-		}
-		/*IE6 fix*/
-		* html body{
-			padding: 50px 200px 50px 200px; /* Set the first value to the height of the header, the second value to the width of the right column, third value to the height of the footer, and last value to the width of the left column */
-		}
-		* html main{ 
-			height: 100%; 
-			width: 100%; 
-		}
-		</style>
+		
+		<link rel="stylesheet" href="css/styles.css">
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+		<link rel="manifest" href="favicon/site.webmanifest">
 	</head>
 	<body>
 		<header id="header">
 			<div class="innertube">
-				<img style="border: 0px solid #4485b8; border-radius: 0px;" src="vchat2ico.png" alt="V-Chat Logo" width="20" height="20" />
+				<img style="border: 0px solid #4485b8; border-radius: 0px;" src="images/vchat2ico.png" alt="V-Chat Logo" width="20" height="20" />
 				<strong>MSVChat Server</strong>
 			</div>
 		</header>
+		
+		<h1>External Styles</h1>
+		<p id="intro">Allow you to define styles for the whole website.</p>
+		<p class="colorful">This has a style applied via a class.</p>
+		
 		<main>
 			<div class="innertube">
-			<hr />
-				<h1 id="TOP" style="text-align: center"><img class="displayed" src="vchatlogo.gif" alt="V-Chat Logo 2" width="134" height="69" /></h1>	
-			<hr />
+				<hr />
+				<h1 id="TOP" style="text-align: center"><img class="displayed" src="images/vchatlogo.gif" alt="V-Chat Logo 2" width="134" height="69" /></h1>
+				<hr />
 				<h1 style="text-align: center">MSVChat Server</h1>
-					<h2>Hello and welcome!</h2>
-					<p>The goal of this website is to share what ive found and links to my IRC server when the world files are properly uploaded to this github.</p>
-					<p>There is A LOT of things I have put on my plate for this so please be patient with me.</p>
-					<p>I have chosen <a href="https://www.officeirc.com">OfficeIRC</a> as my server software, unfortunately I can't get a license to a full version right now so it will expire soon.</p>
-					<p>I plan on rewriting the vchat20.inf in the self extracting archive of the vchat2.exe, should be easy enough with 32bit iExpress and MSChat's(Comic Chat)installer file from ITS 32bit self extractable.The purpose of that is so I can package the required files and detailed instructions for setting up dgVoodoo to get vchat working [as intended] but for now follow the Install V-Chat guide i have made.</p>
-					<p>This site has guides compiled from multiple sources, most of which are archived in the <a href="https://archive.org/web/">Wayback Machine</a>.</p>
-					<p>I know it looks like it, but this page is NOT oldschool frames so archiving this page should be fairly easy.</p>
-			<hr /><hr />
-					<h2 id="INFO">Information on V-Chat 2.0</h2>
+				<h2>Hello and welcome!</h2>
+				<p>The purpose of this site is to provide guides to Microsoft V-Chat and tools associated with it.There are A LOT of things I have put on my plate for this so please be patient with me. I have chosen <a href="https://www.officeirc.com">OfficeIRC</a> as my server software, unfortunately I can't get a license to a full version right now so it will expire soon. I plan on rewriting the vchat20.inf in the self extracting archive of the vchat2.exe, should be easy enough with 32bit iExpress and MSChat's(Comic Chat)installer file from ITS 32bit self extractable.The purpose of that is so I can package the required files and detailed instructions for setting up dgVoodoo to get vchat working [as intended] but for now follow the Install V-Chat guide i have made. This site has guides compiled from multiple sources, most of which are archived in the <a href="https://archive.org/web/">Wayback Machine</a>.</p>
+				<hr /><hr />
+				<h2 id="INFO">Information on V-Chat 2.0</h2>
 						<h3>V-Chat's system requirements</h3>
 							<ul>
 								<li>Direct X 3.0</li>
@@ -151,7 +70,7 @@
 							<p>Avatars are 2d representations of yourself in V-Chat. With the Avatar Wizard you can make your own avatars.</p>
 			<hr /><hr />
 					<h2 id="INSTALL">Installing Microsoft V-Chat and how to get it working on Windows 10/11</h2>
-						<h3><p>Please note that if any of the files below trigger windows defender, allow them, defender is falsly identifying non existant trogens when it comes to some older 16 and 32 bit files.</p></h3>
+						<h3>Please note that if any of the files below trigger windows defender, allow them, defender is falsly identifying non existant trogens when it comes to some older 16 and 32 bit files.</h3>
 						<ul>
 							<li>First you need to download and install <strong><a href="https://timigi.com/Stuff/Archive/vchat/vchat.html" >V-Chat</a></strong></li>
 							<li>After that navigate to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong></li>
@@ -206,21 +125,10 @@
 					<p>If you have any questions about updates coming or have information (world files, avatars)or solutions to issues im working on.</p>
 					<p><a href="mailto:breadsmacker@outlook.com">breadmsacker@outlook.com</a></p>
 			<hr /><hr />
-					<h2 id="LINKS">Links to sites related to V-Chat</h2>
-						<ul>
-							<li><a href="https://wirlaburla.com/library/V-Chat/">Wirlaburla</a></li>
-							<li><a href="https://angelsociety.tripod.com/">The Angel Society</a>
-							<li><a href="https://flatplaces.net/">Not Quite 3D </a>
-							<li><a href="https://timigi.com/Stuff/Archive/vchat/vchat.html">Timigi's V-Chat Archive</a>
-							<li><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/1999/09/The-Social-Life-of-Small-Graphical-Chat-Spaces.pdf">The Social Life of Small Graphical Chat Spaces</a>
-							<li><a href="http://varian.net/dreamfare/dreamavatars/index.html">Varian's Dreamfare</a></li>
-						</ul>
-			<hr /><hr />
-					<h2 id="CREDITS">Links to sites I borrowed guides from</h2>
-			<hr /><hr />
+
 			</div>
 		</main>
-		<nav id="left">
+				<nav id="left">
 			<div class="innertube">
 				<h3>V-Chat 2.0</h3>
 				<h5>
@@ -232,10 +140,6 @@
 					<li><a href="#SERVERS">Servers</a></li>
 					<hr />
 					<li><a href="#ABOUT">About</a></li>
-					<hr />
-					<li><a href="#LINKS">Links</a></li>
-					<hr />
-					<li><a href="#CREDITS">Credits</a></li>
 				</ul>
 				</h5>
 				<h3>Tutorials</h3>
@@ -259,16 +163,22 @@
 				</ul>
 				</h5>
 			</div>
-		</nav>	
+		</nav>
 		<div id="right">
 			<div class="innertube">
-				<p></p>
+				<h2>Links</h2>
+				<h6>
+					<dt><a href="https://wirlaburla.com/library/V-Chat/">Wirlaburla</a></dt>
+					<dt><a href="https://angelsociety.tripod.com/">The Angel Society</a></dt>
+					<dt><a href="https://flatplaces.net/">Not Quite 3D </a></dt>
+					<dt><a href="https://timigi.com/Stuff/Archive/vchat/vchat.html">Timigi's V-Chat Archive</a></dt>
+					<dt><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/1999/09/The-Social-Life-of-Small-Graphical-Chat-Spaces.pdf">The Social Life of Small Graphical Chat Spaces</a></dt>
+					<dt><a href="http://varian.net/dreamfare/dreamavatars/index.html">Varian's Dreamfare</a></dt>
+				</h6>
+				<hr />
+				<dt><h2 id="CREDITS">Archive Links</h2></dt>
 			</div>
 		</div>
-		<footer id="footer">
-			<div class="innertube">
-				<p><em>&copy;BreadSmacker</em></p>
-			</div>
-		</footer>
+		<footer id="footer"><div class="innertube"><p><em>&copy;2021 BreadSmacker</em></p></div></footer>
 	</body>
 </html>
