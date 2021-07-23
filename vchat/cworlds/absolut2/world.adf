@@ -1,5 +1,5 @@
 [general]
-Name=#Absolut2
+Name=Absolut2
 Args=-p 30 -a cluck.png
 source=http://msvchat.github.io/vchat/cworlds/absolut2/world.adf
 
