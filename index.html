@@ -25,7 +25,7 @@
 			<h2>Hello and welcome!</h2>
 			<p>UPDATE as of 8/3/2021 the license for OfficeIRC has been aquired!</p>
 			<p>The discord server is currently underconstruction!</p>
-			<p>The server is online but hasn't been properly configured yet.</p>
+			<p>The IRC server is online!</p>
 			<p>A HUGE thank you to Paul Heinlein over at <a href="https://www.officeirc.com/">OfficeIRC</a> for providing some files thought to be long lost! Also for providing me with the oppurtunity to even have an IRC server.</p>
 			<p>A HUGE thank you to Phil over at <a href="https://flatplaces.net/">Not Quite 3D </a> for a treasure trove of custom rooms people made and a huge trove of information regarding v-chat he shared with me that will greatly help out my endeavors here! I'll be adding them to the rooms available to browse on the IRC server I am setting up.</p>
 			<p>If you have any questions, links to active websites on v-chat I haven't listed, or have information (world files, avatars, active v-chat servers)or solutions to issues im working on. PLEASE EMAIL ME.</p>
@@ -34,7 +34,6 @@
 			<h3>TODO</h3>
 			<li>Build a better website with a friendlier navigation in mind.</li>
 			<li>Write some of the easier guides</li>
-			<li>Purchase a license for OfficeIRC and work out the issues of server setup</li>
 			<li>Continue setup of room catalog on the irc server</li>
 			<li>Create website navigation to link counterpart rooms to the IRC server</li>
 			<li>Upload the current collection of avatars I possess so they can be used with V-Chat again</li>
@@ -113,8 +112,9 @@
 				<li><p>Clicking the link above will automatically open V-Chat and connect to the server and enter #V-ChatLobby if you have V-Chat installed.</p></li>
 			</ul>
 			<hr /><hr />
-			<h2 id="INSTALL">Installing Microsoft V-Chat and how to get it working on Windows 10/11</h2>
+			<h2 id="INSTALL">Installing Microsoft V-Chat 2.0 and how to get it working on Windows 10/11</h2>
 			<h3>Please note that if any of the files below trigger windows defender, allow them, defender is falsly identifying non existant trogens when it comes to some older 16 and 32 bit files.</h3>
+			<h3>Second note: because the installers are broken for later operating systems you will need something like <a href="https://geekuninstaller.com/">Geek Uninstaller</a> to forcefully uninstall V-Chat, I am sorry about this. I hope that by repackaging the installer(when I get around to it) I can remedy this issue.</h3>
 			<ul>
 				<li>First you need to <a href="https://msvchat.github.io/vchat/downloads/vchat2L.zip"><span style="background-color: #4485b8; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;"> Download </span></a><strong> Microsoft V-Chat 2.0</strong> extract it from the zip and install it(github gives warnings for hosting an exe file unless its a release so I zipped it to solve this issue)</li>
 				<li>After you've done that, navigate to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong></li>
@@ -128,10 +128,14 @@
 				<img src="images/screenshot1.png" class="imageRight" alt="General Tab" width="400" height="475" />
 				<img src="images/screenshot2.png" class="imageCenter" alt="Glide Tab" width="400" height="475" />
 				<img src="images/screenshot3.png" class="imageLeft" alt="DirectX Tab" width="400" height="475" />
-				<li>Now you can run V-Chat as administrator so it can write to the drive and you are good to go!</li>
+				<li>Right click on <strong>VCHAT20.EXE</strong> choose properties</li>
+				<li>Click on the "Compatibility" tab, check the box next to "Run this program as administrator"</li>
+				<li>Click Apply and then OK</li>
+				<li>Now you can run V-Chat!</li>
+				<img src="images/screenshot4.png" class="imageLeft" alt="V-Chat" width="866" height="568" />
 			</ul>
-			<h3>IT IS HIGHLY RECOMMENDED</h3>
-			...that you add the ability to see .hlp files as they are meant to be seen 
+			<h3 id="HELPFILE">IT IS HIGHLY RECOMMENDED...that you add the ability to see .hlp files as they are meant to be seen!</h3>
+			Why? Because most of V-Chat and its related utilities useful knowledge is locked away behind these files. Plus it is pretty cool to beable to use the help function like it was meant to be used.
 			<dt><img src="images/help.png" class="imageRight" alt="General Tab" width="430" height="435" /></dt>
 				<a href="https://msvchat.github.io/vchat/downloads/Hlp32Fix_Win10.zip"><span style="background-color: #4485b8; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;"> Download </span></a> and extract the zip file, then run install.cmd as administrator. Now you will beable to use the help files included in V-Chat!
 			<h3>NOTE</h3>
@@ -139,7 +143,16 @@
 			<hr /><hr />
 			<h2 id="CREATEROOM">How to modify an existing world and host it online</h2>COMING SOON
 			<hr /><hr />
-			<h2 id="AVWIZARD">Installing the V-Chat Avatar Wizard and getting it to work on Windows 10/11</h2>COMING SOON
+			<h2 id="AVWIZARD">Installing Microsoft V-Chat Avatar Wizard 2.0 and getting it to work on Windows 10/11</h2>
+			<ul>
+				<li>First <a href="#INSTALL">Install V-Chat</a></li>
+				<li>Then <a href="https://msvchat.github.io/vchat/downloads/avawiz.zip"><span style="background-color: #4485b8; color: #fff; display: inline-block; padding: 2px 8px; font-weight: bold; border-radius: 5px;"> Download </span></a><strong> Microsoft V-Chat Avatar Wizard 2.0</strong> extract it from the zip and install it(github gives warnings for hosting an exe file unless its a release so I zipped it to solve this issue)</li>
+				<li>After you've done that, navigate to <strong>C:\Program Files (x86)\Microsoft V-Chat\Avatar Wizard 2.0</strong></li>
+				<li>Right click on <strong>AvaWiz2.EXE</strong> choose properties</li>
+				<li>Click on the "Compatibility" tab, check the box next to "Run this program as administrator"</li>
+				<li>Click Apply and then OK</li>
+				<li>Now you can run the V-Chat Avatar Wizard!</li>
+			</ul>
 			<hr /><hr />
 			<h2 id="CREATEAV">How to create an avatar and host it online</h2>COMING SOON
 			<hr /><hr />
@@ -175,6 +188,8 @@
 			<h5>
 				<ul>
 					<li><a href="#INSTALL">Install V-Chat</a></li>
+					<hr />
+					<li><a href="#HELPFILE">Re-Enable .hlp files</a></li>
 					<hr />
 					<li><a href="#CREATEROOM">Customizing a room</a></li>
 					<hr />
