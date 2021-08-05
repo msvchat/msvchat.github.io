@@ -4,7 +4,7 @@ Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/Help/world.adf
 
 [Data]
-world.wdb=./Data/world.wd_
+world.wdb=./Data/WORLD.WD_
 about.txt=about.txt
 
 [Images]
@@ -14,7 +14,7 @@ Horizona.gif=Horizona.gif, 128,128, 0, 67, 96, 142, 0,0,0
 Sphere.gif=Sphere.gif, 256,256, 0, 153, 74, 16, 46, 23, 31
 
 [Sounds]
-song.wav=../Sounds/song.wa_
-collide.wav=collide.wa_
-Sound.htm=sound.htm
+song.wav=../Sounds/SONG.WA_
+collide.wav=COLLIDE.WA_
+Sound.htm=Sound.htm
 
