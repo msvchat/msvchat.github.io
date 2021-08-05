@@ -4,7 +4,7 @@ Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/Help/world.adf
 
 [Data]
-world.wdb=./Data/WORLD.WD_
+world.wdb=./Data/world.wd_
 about.txt=about.txt
 
 [Images]
