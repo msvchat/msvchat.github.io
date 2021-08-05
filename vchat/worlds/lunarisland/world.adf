@@ -1,7 +1,7 @@
 [General]
 Name=The Lunar Island
 Args=-p 30 -a unclmort.png
-Source=http://msvchat.github.io/vchat/worlds/lunarisland/world.adf
+source=http://msvchat.github.io/vchat/worlds/lunarisland/world.adf
 
 [data]
 world.wdb=./data/world.wdb

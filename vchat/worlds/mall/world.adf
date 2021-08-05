@@ -1,7 +1,7 @@
 [General]
 Name=The V-Chat Mall
 Args=-p 30 -a cluck.png
-Source=http://msvchat.github.io/vchat/worlds/mall/world.adf
+source=http://msvchat.github.io/vchat/worlds/mall/world.adf
 
 [data]
 world.wdb=./data/world.wdb

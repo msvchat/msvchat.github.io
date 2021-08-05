@@ -1,7 +1,7 @@
 [General]
 Name=The Compass
 Args=-p 30 -a cluck.png
-Source=http://msvchat.github.io/vchat/worlds/compass/world.adf
+source=http://msvchat.github.io/vchat/worlds/compass/world.adf
 
 [data]
 world.wdb=./data/world.wdb

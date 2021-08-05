@@ -1,7 +1,7 @@
 [General]
-Name=The MS V-Chat Server Homespace
+Name=The MS V-Chat Museum Server Homespace
 Args=-p 30 -a peppie.png
-Source=http://msvchat.github.io/vchat/worlds/homespace/world.adf
+source=http://msvchat.github.io/vchat/worlds/homespace/world.adf
 
 [data]
 world.wdb=./data/world.wdb

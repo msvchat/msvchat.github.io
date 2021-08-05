@@ -1,7 +1,7 @@
 [General]
 Name=The Hutch Space
 Args=-p 30 -a Cluck.png
-Source=http://msvchat.github.io/vchat/worlds/hutchspace/world.adf
+source=http://msvchat.github.io/vchat/worlds/hutchspace/world.adf
 
 [data]
 world.wdb=./data/world.wdb

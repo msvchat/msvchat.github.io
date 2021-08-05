@@ -1,7 +1,7 @@
 [General]
 Name=The Theater Chat
 Args=-p 30 -a cluck.png
-Source=http://msvchatsvr.webredirect.org/vchat/worlds/theaterchat/world.adf
+source=http://msvchatsvr.webredirect.org/vchat/worlds/theaterchat/world.adf
 
 [data]
 world.wdb=./data/world.wdb

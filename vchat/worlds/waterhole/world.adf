@@ -1,7 +1,7 @@
 [General]
 Name=The Waterhole
 Args=-p 30 -a cluck.png
-Source=http://msvchat.github.io/vchat/worlds/waterhole/world.adf
+source=http://msvchat.github.io/vchat/worlds/waterhole/world.adf
 
 [data]
 world.wdb=./data/world.wdb

@@ -1,7 +1,7 @@
 [General]
 Name=The Stadium
 Args=-p 30 -a cluck.png
-Source=http://msvchat.github.io/vchat/worlds/eurostadium/world.adf
+source=http://msvchat.github.io/vchat/worlds/eurostadium/world.adf
 
 
 [data]
