@@ -1,7 +1,7 @@
 [General]
 Name=The Gallery
 Args=-p 30 -a cluck.png
-source=http://msvchat.github.io/vchat/worlds/gallery/world.adf
+Source=http://msvchat.github.io/vchat/worlds/gallery/world.adf
 
 [data]
 world.wdb=./data/world.wdb

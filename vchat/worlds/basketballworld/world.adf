@@ -1,7 +1,7 @@
 [General]
 Name=The Basketball World
 Args=-p 30 -a hoop.png
-source=http://msvchatsvr.github.io/vchat/worlds/basketballworld/world.adf
+Source=http://msvchatsvr.github.io/vchat/worlds/basketballworld/world.adf
 
 [data]
 world.wdb=./data/world.wdb

@@ -1,7 +1,7 @@
 [General]
 Name=The Little House
 Args=-p 30 -a cluck.png
-source=http://msvchat.github.io/vchat/worlds/littlehouse/world.adf
+Source=http://msvchat.github.io/vchat/worlds/littlehouse/world.adf
 
 [data]
 world.wdb=./data/world.wdb

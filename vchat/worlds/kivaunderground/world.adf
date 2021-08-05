@@ -1,7 +1,7 @@
 [General]
 Name=The Kiva Underground
 Args=-p 30 -a Lizzard.png
-source=http://msvchat.github.io/vchat/worlds/kivaunderground/world.adf
+Source=http://msvchat.github.io/vchat/worlds/kivaunderground/world.adf
 
 [data]
 world.wdb=./data/world.wdb
