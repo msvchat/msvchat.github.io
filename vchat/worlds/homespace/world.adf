@@ -1,5 +1,5 @@
 [General]
-Name=The MS V-Chat Museum Server Homespace
+Name=The V-Chat Homespace
 Args=-p 30 -a peppie.png
 Source=http://msvchat.github.io/vchat/worlds/homespace/world.adf
 

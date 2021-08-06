@@ -1,5 +1,5 @@
 [General]
-Name=The Kiva World
+Name=The V-Chat Kiva World
 Args=-p 30 -a peppie.png
 Source=http://msvchat.github.io/vchat/worlds/kiva/world.adf
 

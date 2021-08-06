@@ -1,5 +1,5 @@
 [General]
-Name=The Kiva Underground
+Name=The V-Chat Kiva Underground
 Args=-p 30 -a Lizzard.png
 Source=http://msvchat.github.io/vchat/worlds/kivaunderground/world.adf
 

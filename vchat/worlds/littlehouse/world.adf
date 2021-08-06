@@ -1,5 +1,5 @@
 [General]
-Name=The Little House
+Name=The V-Chat Little House
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/littlehouse/world.adf
 

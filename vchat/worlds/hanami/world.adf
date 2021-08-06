@@ -1,5 +1,5 @@
 [General]
-Name=The Hanami
+Name=The V-Chat Hanami
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/hanami/world.adf
 

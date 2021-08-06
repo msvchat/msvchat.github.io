@@ -1,5 +1,5 @@
 [General]
-Name=The Waterhole
+Name=The V-Chat Waterhole
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/waterhole/world.adf
 

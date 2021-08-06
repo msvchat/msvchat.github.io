@@ -1,5 +1,5 @@
 [General]
-Name=The Red Den
+Name=The V-Chat Red Den
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/redden/world.adf
 

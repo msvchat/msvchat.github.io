@@ -1,5 +1,5 @@
 [General]
-Name=The OuterWorld
+Name=The V-Chat OuterWorld
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/outerworld/world.adf
 

@@ -1,0 +1,22 @@
+[General]
+Name=The Help
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/practice/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+
+[images]
+cloud.bmp=../images/cloud.bmp, 128,128, 0, 47, 89, 151, 148, 160, 188
+fish2.bmp=fish2.bmp, 256, 128, 0, 200,225, 197, 39,40, 95
+plane.gif=plane.gif, 256,128, 0, 67, 96, 142, 0,0,0
+text.gif=text.gif, 256,16, 0, 153, 74, 16, 46, 23, 31
+
+[sounds]
+song.wav=../sounds/song.wav
+collide.wav=collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+sound.htm=sound.htm

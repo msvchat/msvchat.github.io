@@ -1,5 +1,5 @@
 [General]
-Name=The Basketball World
+Name=The V-Chat Basketball World
 Args=-p 30 -a hoop.png
 Source=http://msvchatsvr.github.io/vchat/worlds/basketballworld/world.adf
 

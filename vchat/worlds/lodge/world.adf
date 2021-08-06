@@ -1,5 +1,5 @@
 [General]
-Name=The Lodge
+Name=The V-Chat Lodge
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/lodge/world.adf
 

@@ -1,5 +1,5 @@
 [General]
-Name=The TableTop
+Name=The V-Chat TableTop
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/tabletop/world.adf
 
