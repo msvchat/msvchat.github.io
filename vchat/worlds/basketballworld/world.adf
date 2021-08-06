@@ -44,7 +44,7 @@ window.gif=window.gif, 128,128, 0, 255, 255, 255, 0,0,0
 
 [avatars]
 hoop.png=../avatars/hoop.png
-hoop2.png=../avatars/hoop2.png
+hoop2.png=hoop2.png
 
 [sounds]
 song.wav=../sounds/song.wav

@@ -1,5 +1,5 @@
 [General]
-Name=The Help
+Name=The V-Chat Practice Area
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/practice/world.adf
 
