@@ -1,7 +1,7 @@
 [General]
-Name=Alicia_Jaz's lil place
+Name=Alicia Jaz's lil place
 Args=-p 30 -a cluck.png
-Source=http://www.cybernosis.com/vchat/cworlds/lilplace/world.adf
+Source=http://msvchat.github.io/vchat/cworlds/lilplace/world.adf
 
 [data]
 world.wdb=./data/world.wdb

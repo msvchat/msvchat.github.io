@@ -8,7 +8,6 @@ world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
 
-
 [images]
 art1.gif=../images/art1.gif, 128,128, 0, 255, 0, 255, 102, 203, 73
 art2.gif=art2.gif, 128,128, 0, 169, 45, 200, 27, 27, 54
