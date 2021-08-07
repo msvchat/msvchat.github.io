@@ -19,7 +19,7 @@ stucco4.gif=stucco4.gif, 128,128, 0, 50,50,50, 100,100,100
 oldwood.gif=oldwood.gif, 256,128, 0, 76,94,100, 0,255,0
 brkwea.gif=brkwea.gif, 256,256,0,0,0,0,0,0,0
 tutshngl.gif=tutshngl.gif, 512,256,0,0,0,0,0,0,0
-brkwea_b.gif=brkwea_b.gif, 256,256,0,0,0,0,0,0,0
+brkweab.gif=brkweab.gif, 256,256,0,0,0,0,0,0,0
 jstndgl.gif=jstndgl.gif, 512,512,0,0,0,0,0,0,0
 
 [sounds]
