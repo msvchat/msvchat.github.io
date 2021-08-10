@@ -1,0 +1,3 @@
+Sitemap: https://msvchat.github.io/Sitemap.xml
+User-agent: *
+Disallow:
