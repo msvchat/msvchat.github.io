@@ -1,0 +1,34 @@
+[General]
+Name=The V-Chat Red Den
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/redden/world.adf
+
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+hotlinks.txt=hotlinks.txt
+
+[images]
+floor.gif=../images/floor.gif, 256,256, 0, 30,1,0, 0,21,45
+redcurtn.gif=redcurtn.gif, 256,256, 0, 157,35,35, 130,20,82
+lulusign.gif=lulusign.gif, 128,128, 0, 3,20,86, 22,0,95
+cushion.gif=cushion.gif, 128,128, 0, 117,26,81, 190,19,95
+fire.gif=fire.gif, 128,192, 0, 253,107,0, 187,0,0
+fireplce.gif=fireplce.gif, 256,256, 0, 223,77,0, 150,0,0
+firertrn.gif=firertrn.gif, 32,256, 0, 39,0,0, 4,24,0
+frame.gif=frame.gif, 128,128
+lampbase.gif=lampbase.gif, 64,128, 0, 11,51,68, 1,11,52
+lmpshade.gif=lmpshade.gif, 128,128, 0, 71,67,17, 1,106,99
+chandel.gif=chandel.gif, 64,256
+tablebtm.gif=tablebtm.gif, 64,32, 0, 13,74,106, 25,53,106
+tabletop.gif=tabletop.gif, 128,128
+
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+song2.wav=song2.wav
+sound.htm=sound.htm

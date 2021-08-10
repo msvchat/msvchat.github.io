@@ -1,0 +1,36 @@
+[General]
+Name=The V-Chat Waterhole
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/waterhole/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+
+[images]
+water2.gif=../images/water2.gif, 128,128, 0 ,86,189,233, 79,116,223
+sand.gif=sand.gif, 64,64, 0, 228,189,144, 234,211,181
+sand01.gif=sand01.gif, 64,64, 0, 108,169,122, 214,191,161
+red-bchl.gif=red-bchl.gif, 256,128
+bch-wall.gif=bch-wall.gif, 256,128
+bch-txt.gif=bch-txt.gif, 256,128
+sky.gif=sky.gif, 512,256, 0, 164,234,220, 176,242,231
+dock.gif=dock.gif, 256,256, 0, 50,87,164, 131,104,104
+docktop.gif=docktop.gif, 64,64
+reeds.gif=reeds.gif, 128,128, 0, 77,131,48, 113,176,98
+g255.gif=g255.gif, 32,32, 0, 0,255,0, 0,255,0
+wsurfur.gif=wsurfur.gif, 128,256, 0, 109,187,202, 200,243,250
+umbrlla.gif=umbrlla.gif, 128,256
+life-gd.gif=life-gd.gif, 128,256
+raftside.gif=raftside.gif, 64,1024, 0, 160,250,181, 250,229,168
+raftfrnt.gif=raftfrnt.gif, 128,1024
+anim0435.gif=anim0435.gif, 256,256
+horizon.gif=horizon.gif, 512,128, 0, 233,250,247, 182,250,230
+
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+sound.htm=sound.htm

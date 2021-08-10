@@ -1,0 +1,2 @@
+"curtain1",VCHAT,vchatsrv.microsoft.com,#V-ChatLobby,"Portal to the V-Chat Lobby",0,0,1,10000
+"curtain2",VCHAT,vchatsrv.microsoft.com,#V-ChatLobby,"Portal to the V-Chat Lobby",0,0,1,10000

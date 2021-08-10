@@ -1,0 +1,51 @@
+[General]
+Name=The V-Chat Little House
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/littlehouse/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+
+[images]
+antanim.gif=../images/antanim.gif, 256,64
+beads2.gif=beads2.gif, 64,64, 0, 8,141,111,176, 159,143,83
+bed.gif=bed.gif, 32,16, 0, 213, 120,138,136, 120,138,136
+curtain2.gif=curtain2.gif, 64,128, 0, 8,23,74, 39,40,95,98
+dirt2.gif=dirt2.gif, 128,128, 0, 66,41,24, 33,16,8
+door.gif=door.gif, 64,128, 0, 34,58,115, 34,58,115
+eyeblink.gif=eyeblink.gif, 64,128, 0,0,0,0,0,0,0
+eyes.gif=eyes.gif, 32,16, 0, 188,165,123, 188,165, 123
+eyespict.gif=eyespict.gif, 128,128
+fireanim.gif=fireanim.gif, 128,512, 0, 33,16,8, 250, 121,27
+frame.gif=frame.gif, 256,32, 0, 113, 103,90, 113, 103, 90
+geniebot.gif=geniebot.gif, 32,128, 0,132, 82, 99, 132, 82, 99
+glasshoe.gif=glasshoe.gif, 128,64, 0, 137, 172, 181, 137, 172, 181
+ivy.gif=ivy.gif, 128,128, 0, 64, 86, 62, 33, 46, 29
+litebulb.gif=litebulb.gif, 2,16
+moushol3.gif=moushol3.gif, 64,64, 0,0,0,0,0,0,0
+nowitchs.gif=nowitchs.gif, 128,128, 0, 0,0,0, 255,255,255
+nowolves.gif=nowolves.gif, 128,128
+pillow.gif=pillow.gif, 8,16
+porridge.gif=porridge.gif, 32,32, 0, 200, 169, 123, 200, 169, 200
+rat.gif=rat.gif, 128,64, 0, 107, 49, 33, 107, 49, 33
+rokwall2.gif=rokwall2.gif, 128,128, 0, 93, 86, 57, 0,0,0
+smokyani.gif=smokyani.gif, 64,256, 0, 192, 192, 192, 192, 192, 192
+spiderwb.gif=spiderwb.gif, 64,64, 0, 255, 255, 255, 255, 255, 255
+straw3.gif=straw3.gif, 128,128, 0, 148, 126, 72, 128, 107, 52
+tree.gif=tree.gif, 128,128, 0, 27, 86, 54, 66, 16, 16
+trunkfac.gif=trunkfac.gif, 128,64, 0, 107, 107, 74, 0,0,0
+trunklin.gif=trunklin.gif, 64,64, 0, 141, 111, 176, 0,0,0
+vase.gif=vase.gif, 64,128, 0, 29, 49, 41, 171, 23, 33
+wallpapr.gif=wallpapr.gif, 64,64, 0, 214, 198, 148, 159, 143, 83
+wood1hlt.gif=wood1hlt.gif, 128,128, 0, 49, 33, 88, 26, 24, 103
+wood1hmd.gif=wood1hmd.gif, 128,128, 0, 69, 32, 16, 69, 32, 16
+woodsl2.gif=woodsl2.gif, 128,128, 0, 49, 16, 8, 49, 16, 8
+
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+sound.htm=sound.htm

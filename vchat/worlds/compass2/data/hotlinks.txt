@@ -1,0 +1,9 @@
+v_face,URL,"","V-Chat Web Page"
+v_body,URL,"","V-Chat Web Page"
+miro1,VCHAT,msvchatsvr.webredirect.org,#V-ChatRedden,"Portal to the Red Den",1,0,1,10000
+miro4,VCHAT,msvchatsvr.webredirect.org,#V-ChatRedden,"Portal to the Red Den",1,0,1,10000
+stele_1,VCHAT,msvchatsvr.webredirect.org,#V-ChatWaterhole,"Portal to the Waterhole",1,0,1,10000
+stele_2,VCHAT,msvchatsvr.webredirect.org,#V-ChatWaterhole,"Portal to the Waterhole",1,0,1,10000
+bilbrd_pln,VCHAT,msvchatsvr.webredirect.org,#V-ChatLobby,"Portal to the Lobby",1,0,1,10000
+bilbrd_spk,VCHAT,msvchatsvr.webredirect.org,#V-ChatLobby,"Portal to the Lobby",1,0,1,10000
+Anim0430,VCHAT,msvchatsvr.webredirect.org,#V-ChatLodge,"Portal to the Lodge",1,0,1,10000

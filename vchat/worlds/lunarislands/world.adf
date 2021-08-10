@@ -1,0 +1,25 @@
+[General]
+Name=The V-Chat Lunar Islands
+Args=-p 30 -a unclmort.png
+Source=http://msvchat.github.io/vchat/worlds/lunarisland/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+
+[images]
+glow.gif= ../images/glow.gif,256,256, 0,231,128,18,86,40,6
+leaves.gif = leaves.gif,256,256,0,70,111,0,29,84,0
+moon.gif = moon.gif,256,256,0,153,154,156,0,0,0
+moon2.gif = moon2.gif,256,256,0,182,146,77,108,37,69
+range.gif = range.gif,1024,256,0,54,49,122,184,16,39
+sferein.gif = sferein.gif,256,256,0,79,112,166,44,63,93
+sphere.gif = sphere.gif,256,256,0,251,217,57,255,0,255
+
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+sound.htm=sound.htm

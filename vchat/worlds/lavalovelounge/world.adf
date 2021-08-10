@@ -1,0 +1,53 @@
+[General]
+Name=The V-Chat LavaLove Lounge
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/lavalovelounge/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+about.txt=about.txt
+
+[images]
+barkeep.gif= ../images/barkeep.gif, 128,256, 0, 255,0,0, 255, 204, 153
+bottles.gif= bottles.gif, 256,256, 0, 102, 102, 51, 255, 51, 51
+cigs.gif= cigs.gif, 64,256, 0, 51, 102, 153, 68, 68, 68
+cologne.gif= cologne.gif, 128,128, 0, 153, 153, 153, 68, 68, 68
+hearts2.gif= hearts2.gif, 128,128, 0, 232, 64, 66, 255, 244, 0
+hearts1.gif= hearts1.gif, 128,128
+lllblue.gif= lllblue.gif, 128,128, 0, 48, 123, 223, 0, 0, 0
+lllbord.gif= lllbord.gif, 64,64, 0, 232, 66, 66, 232, 66, 66
+lllchk.gif= lllchk.gif, 32,128, 
+llldrkpr.gif= llldrkpr.gif, 128,128, 0, 128, 0, 128, 128, 0, 128
+llldrpr.gif= llldrpr.gif, 128,128
+lllflr.gif= lllflr.gif, 256,256, 0, 255, 255, 255, 0,0,0
+llllav.gif= llllav.gif, 128,512, 0, 255, 0, 255, 48, 128, 223
+llllav2.gif= llllav2.gif, 128,512
+lllsgn.gif= lllsgn.gif, 256,128, 0, 208, 0, 42, 0, 0, 0
+lllwal.gif= lllwal.gif, 256,256, 0, 217, 16, 117, 128, 0, 128
+lllyel.gif= lllyel.gif, 128,128, 0, 255, 244, 0, 255, 244, 0
+palm.gif= palm.gif, 64,128, 0, 255, 102, 0, 51, 204, 0
+perfume.gif= perfume.gif, 128,128, 0, 255, 51, 153, 153, 0, 102
+restro1.gif= restro1.gif, 128,64, 0, 255, 255, 255, 0,0,0
+restroom.gif= restroom.gif, 128,64
+restwal1.gif= restwal1.gif, 256,256, 0, 255, 255, 255, 0,0,0
+restwal3.gif= restwal3.gif, 256,256
+signos.gif= signos.gif, 128,64, 0, 206, 22, 28, 0,0,0
+stars.gif= stars.gif, 128,128, 0, 255, 255, 255, 0,0,0
+target.gif= target.gif, 64,64, 0, 255,0,0, 0, 0, 255
+testpat.gif= testpat.gif, 128,128, 0, 80, 48, 24, 80, 48, 24
+tiki.gif= tiki.gif, 64,256, 0, 0, 0, 0, 255, 255, 0
+toiletp.gif= toiletp.gif, 64,64, 0, 233, 233, 233, 233, 233, 233
+tpgal.gif= tpgal.gif, 128,512, 0, 255, 0, 255, 255, 204, 153
+
+[avatars]
+anton.png=../avatars/anton.png
+buddy.png=buddy.png
+chezwiz.png=chezwiz.png
+moody.png=moody.png
+trish.png=trish.png
+
+[sounds]
+song.wav=../sounds/song.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+sound.htm=sound.htm

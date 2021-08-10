@@ -1,0 +1,10 @@
+v_face,URL,"http://vchat1.microsoft.com","V-Chat Web Page"
+v_body,URL,"http://vchat1.microsoft.com","V-Chat Web Page"
+miro1,VCHAT,msvchatsvr.webredirect.org,#V-ChatRedden,"Portal to the Red Den",1,0,1,10000
+miro4,VCHAT,msvchatsvr.webredirect.org,#V-ChatRedden,"Portal to the Red Den",1,0,1,10000
+stele_1,VCHAT,msvchatsvr.webredirect.org,#V-ChatLunarIslands,"Portal to the Lunar Islands",1,0,1,10000
+stele_2,VCHAT,msvchatsvr.webredirect.org,#V-ChatLunarIslands,"Portal to the Lunar Islands",1,0,1,10000
+bilbrd_pln,VCHAT,msvchatsvr.webredirect.org,#V-ChatPracticeArea,"Portal to the Practice Area",1,0,1,10000
+bilbrd_spk,VCHAT,msvchatsvr.webredirect.org,#V-ChatPracticeArea,"Portal to the Practice Area",1,0,1,10000
+Anim0430,VCHAT,msvchatsvr.webredirect.org,#V-ChatFishbowl,"Portal to the Fishbowl",1,0,1,10000
+fish,VCHAT,msvchatsvr.webredirect.org,#V-ChatFishbowl,"Portal to the Fishbowl",1,0,1,10000
