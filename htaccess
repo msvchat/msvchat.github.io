@@ -1,0 +1,14 @@
+# Created by https://www.htaccessbuilder.com/
+# Edit at https://www.htaccessbuilder.com/rules/6111da658dc85/
+# Tue, 10th August 2021
+<IfModule mod_rewrite.c>
+
+# Enable Rewrite Engine
+RewriteEngine On
+RewriteBase /
+
+# Redirect from www.
+RewriteCond %{HTTP_HOST} ^www.msvchat.github.io$
+RewriteRule (.*) https://msvchat.github.io/$1 [R=301,L] 
+
+</IfModule>
