@@ -1,5 +1,5 @@
 # Created by https://www.htaccessbuilder.com/
-# Edit at https://www.htaccessbuilder.com/rules/6111d86c8569b/
+# Edit at https://www.htaccessbuilder.com/rules/6111d8cf414ad/
 # Tue, 10th August 2021
 <IfModule mod_rewrite.c>
 
@@ -7,7 +7,13 @@
 RewriteEngine On
 RewriteBase /
 
-# Redirect Urls (Permanent)
+# Redirect from www.
+RewriteCond %{HTTP_HOST} ^www.msvchat.github.io$
+RewriteRule (.*) http://msvchat.github.io/$1 [R=301,L] 
 
+# Redirect index.php to /
+RewriteCond %{QUERY_STRING} ^$
+RewriteCond %{REQUEST_METHOD} !^POST$
+RewriteRule ^index\.php$ / [R=301,L]
 
 </IfModule>
