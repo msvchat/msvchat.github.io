@@ -1,5 +1,5 @@
 [general]
-Name=Amazing by Marti
+Name=Amazing
 Args=-f 50 -p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/cworlds/amazing/world.adf
 

@@ -52,8 +52,8 @@ traina.gif=traina.gif, 512,2048, 0, 73,91,98, 76,94,100
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav
-portal.wav=portal.wav
 exit.wav=exit.wav
 song.wav=song.wav
 song2.wav=song2.wav
+portal.wav=portal.wav
 sound.htm=sound.htm
