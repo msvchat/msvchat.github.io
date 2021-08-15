@@ -1,0 +1,7 @@
+v_face,URL,http://www.varian.net/,"Shortcut to Varian's Website"
+v_body,URL,http://www.varian.net/,"Shortcut to Varian's Website"
+miro1,URL,http://www.varian.net/angeldreams/angelkisses/,"Web link to AngelKisses",1,0,1,10000
+miro4,URL,http://www.varian.net/angeldreams/angelkisses/,"Web link to AngelKisses",1,0,1,10000
+bilbrd_pln,URL,http://www.varian.net/angeldreams/,"Portal to Varian's Angeldreams web page",1,0,1,10000
+bilbrd_spk,URL,http://www.varian.net/angeldreams/,"Portal to Varian's Angeldreams web page",1,0,1,10000
+Anim0430,VCHAT,vchatsrv.microsoft.com,#V-ChatLobby,"Portal to the V-Chat Lobby",1,0,1,10000
