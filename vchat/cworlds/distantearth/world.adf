@@ -1,5 +1,5 @@
 [General]
-Name=Distant Earth    (by Scorpyo-Aug 99)
+Name=Distant Earth
 Args=-p 30 -a peppie.png
 Source=http://msvchat.github.io/vchat/cworlds/distantearth/world.adf
 

@@ -1,5 +1,5 @@
 [General]
-Name=#V-Chat Angeldreams
+Name=Angel Dreams
 Args=-p 30 -a def-angel.png
 Source=http://msvchat.github.io/vchat/cworlds/angeldreams/world.adf
 
@@ -36,4 +36,3 @@ exit.wav=exit.wav
 song.wav=song.wav
 song2.wav=song2.wav
 sound.htm=sound.htm
-

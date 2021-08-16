@@ -1,0 +1,12 @@
+©Microsoft Corporation
+
+--
+FractalFun world re-design by Varian, April 1999.
+--
+Original fractals created using Tierazon and
+other programs by Stephen C. Ferguson. More info
+at his page:  http://home.hiwaay.net/~stephenf/
+--
+Interested in modifying your own V-Chat world?
+Helpful info:  http://www.rimke.nl/vhelp1.htm
+help1.htm
