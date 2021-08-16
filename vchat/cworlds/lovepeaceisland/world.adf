@@ -46,8 +46,8 @@ watwall.gif=watwall.gif, 256,128, 0, 0, 0, 128, 33, 16, 8
 wv.gif=wv.gif, 256,1024, 0, 66, 66, 231, 165, 173, 255
 
 [avatars]
-baby.png=../avatars/baby.png
-boy.png=boy.png
+baby.png=../avatars/baby.pn_
+boy.png=boy.pn_
 dolphin.png=dolphin.png
 hanabi.png=hanabi.png
 jonny.png=jonny.png
