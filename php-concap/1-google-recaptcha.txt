@@ -1,0 +1,4 @@
+1) Sign up at https://www.google.com/recaptcha/admin
+2) Register your site, remember to add all the applicable domains, including localhost for testing
+3) Copy the site key into 2-form.php
+4) Copy the secret key into 3-process.php

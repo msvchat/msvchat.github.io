@@ -1,0 +1,25 @@
+/* (A) NOTIFICATION */
+#notify {
+  background: #dadaff;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* (B) FORM */
+#cform {
+  max-width: 400px;
+  background: #f2f2f2;
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+#cform label, #cform input, #cform textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 5px;
+  resize: none;
+}
+#cform input, #cform textarea { margin-bottom: 10px; }
+#cform input[type=submit] { margin-top: 10px; }
+
+/* (C) DOES NOT MATTER */
+html, body { font-family: arial, sans-serif; }
