@@ -7,7 +7,7 @@ require('recaptcha-master/src/autoload.php');
 $from = 'Demo contact form <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <demo@domain.com>';
+$sendTo = 'BreadSmacker@outlook.com';
 
 // subject of the email
 $subject = 'New message from contact form';
