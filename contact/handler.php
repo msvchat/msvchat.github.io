@@ -20,7 +20,7 @@ $validator->field('message')->maxLength(6000);
 
 
 $pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('6LeRuwgcAAAAAMA0llwZL9oNSsk8QEWizUAWr2QL');
+$pp->getReCaptcha()->initSecretKey('6LcRBwkcAAAAAOYD1uROgJDsPCbblaGx8Amsf0mL');
 
 
 $pp->sendEmailTo('BreadSmacker@outlook.com'); // ← Your email here
