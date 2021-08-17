@@ -1,39 +1,39 @@
 <!doctype html>
 <html>
-<head>
-<link rel="stylesheet" href="lib/style.css">
-<script src="lib/script.js"></script>
-</head>
-<body>
-<h1>My first contact form</h1>
-<form onsubmit="return false">
-<input type="text" placeholder="Enter your last name" id="lastName" />
-<br><br>
-<input type="text" placeholder="Enter your first name" id="firstName" />
-<input type="radio" id="male" name="gender" value="male"> Male
-<input type="radio" id="female" name="gender" value="female"> Female
-<br><br>
-<input type="email" placeholder="Enter your email" id="email" />
-<input type="text" placeholder="Address" id="address" />   
-<input type="text" placeholder="House number" id="houseNumber" />
-<select id="country">
-<option disabled selected value> -- select a country -- </option>
-<option value="Narnia">Narnia</option>
-<option value="Neverland">Neverland</option>
-<option value="Vulcan">Vulcan</option>
-</select>
-<option disabled selected value> -- select a country -- </option>
-<input type="password" placeholder="Enter password" id="password" />   
-<input type="password" placeholder="Enter password (check)" id="passwordCheck" />
-<br><br>
-<input type="checkbox" id="newsletter" />Send me monthly newsletter
-<br><br>
-<span>What is your question?</span>
-<br>
-<textarea id="question" rows="4"></textarea>
-<br><br>
-<button onclick="sendContact();">Send contact</button>
-<br><br>
-</form>
-</body>
+   <head>
+      <link rel="stylesheet" href="lib/style.css">
+      <script src="lib/script.js"></script>
+   </head>
+   <body>
+      <h1>My first contact form</h1>
+      <form onsubmit="return false">
+         <input type="text" placeholder="Enter your last name" id="lastName" />
+         <br><br>
+         <input type="text" placeholder="Enter your first name" id="firstName" />
+         <input type="radio" id="male" name="gender" value="male"> Male
+         <input type="radio" id="female" name="gender" value="female"> Female
+         <br><br>
+         <input type="email" placeholder="Enter your email" id="email" />
+         <input type="text" placeholder="Address" id="address" />   
+         <input type="text" placeholder="House number" id="houseNumber" />
+         <select id="country">
+            <option disabled selected value> -- select a country -- </option>
+            <option value="Narnia">Narnia</option>
+            <option value="Neverland">Neverland</option>
+            <option value="Vulcan">Vulcan</option>
+         </select>
+         <option disabled selected value> -- select a country -- </option>
+         <input type="password" placeholder="Enter password" id="password" />   
+         <input type="password" placeholder="Enter password (check)" id="passwordCheck" />
+         <br><br>
+         <input type="checkbox" id="newsletter" />Send me monthly newsletter
+         <br><br>
+         <span>What is your question?</span>
+         <br>
+         <textarea id="question" rows="4"></textarea>
+         <br><br>
+         <button onclick="sendContact();">Send contact</button>
+         <br><br>
+      </form>
+   </body>
 </html>
