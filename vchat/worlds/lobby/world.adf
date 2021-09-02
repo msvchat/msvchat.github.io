@@ -5,9 +5,9 @@ Source=https://msvchat.github.io/vchat/worlds/lobby/world.adf
 
 [Data]
 world.wdb=https://msvchat.github.io/vchat/worlds/lobby/data/world.wdb
-world.pal=https://msvchat.github.io/vchat/worlds/lobby/data/world.wdbworld.pal
-about.txt=https://msvchat.github.io/vchat/worlds/lobby/data/world.wdbabout.txt
-hotlinks.txt=https://msvchat.github.io/vchat/worlds/lobby/data/world.wdbhotlinks.txt
+world.pal=https://msvchat.github.io/vchat/worlds/lobby/data/world.pal
+about.txt=https://msvchat.github.io/vchat/worlds/lobby/data/about.txt
+hotlinks.txt=https://msvchat.github.io/vchat/worlds/lobby/data/hotlinks.txt
 
 [Images]
 floor.gif=https://msvchat.github.io/vchat/worlds/lobby/images/floor.gif, 512,512, 0, 76,94,100, 96,114,120
