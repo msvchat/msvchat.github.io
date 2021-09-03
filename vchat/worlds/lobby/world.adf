@@ -50,7 +50,7 @@ horizon.gif=horizon.gif, 128,64, 0, 113,105,96, 113,105,96
 traina.gif=traina.gif, 512,2048, 0, 73,91,98, 76,94,100
 
 [Sounds]
-collide.wav=https://msvchat.github.io/vchat/worlds/lobby/sounds/collide.wav
+collide.wav=../sounds/collide.wav
 enter.wav=enter.wav
 exit.wav=exit.wav
 song.wav=song.wav
