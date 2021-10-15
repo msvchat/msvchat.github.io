@@ -4,232 +4,30 @@
     <TITLE>MediaGraph Object</TITLE>
 </HEAD>
 
-<BODY leftmargin=0 topmargin=0><!-- bsl1 !! 2-->
+<BODY leftmargin=0 topmargin=0>
 
-    <!-- iubenda -->
-    <script type="text/javascript" src="https://i.plug.it/cmp/iub_conf_libero.js"></script>
-    <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
-    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
-    <!-- /iubenda -->
-    <!-- IOL/Iubenda -->
-    <script src='https://i.plug.it/cmp/qciol.min.js' async="true"></script>
-	<!-- /IOL/Iubenda -->
-	
-<script src="//barra-spazio.libero.it/x/js/barra_n04_siti.js?ver=1" type="text/javascript" language="Javascript"></script>
+<object CLASSID="clsid:29C8D820-0835-11D1-BE97-0000F803A923" width="0%" height="0%" id=MediaGraph>
+<PARAM name="Nodes(1)" value="Channel,Name:BACKGND01,InitFlags:7">
+<PARAM name="Nodes(2)" value="Channel,Name:COLLIDE01,InitFlags:7">
+<PARAM name="Nodes(3)" value="Channel,Name:ENTRY01,InitFlags:7">
+<PARAM name="Nodes(4)" value="Channel,Name:EXIT01,InitFlags:7">
+<PARAM name="Nodes(5)" value="Channel,Name:PORTAL01,InitFlags:7">
+<PARAM name="Nodes(6)" value="URLWav,Name:BACKGND01-01,URL:song.wav,CacheTime:1000">
+<PARAM name="Nodes(7)" value="URLWav,Name:COLLIDE01-01,URL:collide.wav,CacheTime:1000">
+<PARAM name="Nodes(8)" value="URLWav,Name:ENTRY01-01,URL:enter.wav,CacheTime:1000">
+<PARAM name="Nodes(9)" value="URLWav,Name:EXIT01-01,URL:exit.wav,CacheTime:1000">
+<PARAM name="Nodes(10)" value="URLWav,Name:PORTAL01-01,URL:portal.wav,CacheTime:1000">
+<PARAM name="Nodes(11)" value="Loop,Iterations:-1">
+<PARAM name="Connections(1)" value="1:1-11:2">
+<PARAM name="Connections(2)" value="2:1-7:1">
+<PARAM name="Connections(3)" value="3:1-8:1">
+<PARAM name="Connections(4)" value="4:1-9:1">
+<PARAM name="Connections(5)" value="5:1-10:1">
+<PARAM name="Connections(6)" value="6:1-11:1">
+(Browser does not support controls.)
+</object>
 
-<script language="Javascript" type="text/javascript" src="//digistatic.libero.it/css/header_8_3_04/js/hf.js"></script>
-<script language="JavaScript" type="text/javascript" src="//digistatic.libero.it/css/header_8_3_04/js/clickserver.js"></script>
-<script language="Javascript" type="text/javascript">
-<!--
-		Libero.Stash.HF = { version: '8.3.04', cksrv: { a: 'HF8.3.04', b: 'digilander' } };
-//-->
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="//www.googletagmanager.com/gtag/js?id=UA-77960099-4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+</BODY>
 
-  gtag('config', 'UA-77960099-4');
-</script>
+</HTML>
 
-<!--[if IE]>
-	<style>
-	#lh_header_top #lh_other, #lh_header_top #lh_options {
-		top: 23px;
-	}
-	#lh_header_top #lh_nicknames {
-		top: 22px;
-	}
-	#lh_header_top #lh_area04 a.lh_nicknames_arrow {
-		/*height: 16px;*/
-	}
-	#lh_header #lh_area03 .lh_pos { 
-		padding-top: 4px;
-	}
-	#lh_header #lh_area03 table td input {
-		margin-top: -1px !important;
-		margin-top: -2px;
-	}
-	#lh_header #lh_close_me { 
-		margin-top: 0;
-	}
-	#lh_header.lite, #lh_header.liquid, #lh_header.liquid800, #lf_footer.lite, #lf_footer.liquid {
-		width: expression(document.body.clientWidth < 800 ? '760px': 'auto' );
-	}
-	#lh_header #lh_area02.lite {
-		width: expression(document.body.clientWidth < 1024 ? '636px': 'auto' );
-	}
-	#l_maincont {
-		width: expression(document.body.clientWidth < 800 ? '760px': 'auto' );
-	}
-	#lh_header_top.lh_liquid {
-		width: expression(document.body.clientWidth < 800 ? '760px': 'auto' );
-	}
-	#lh_header_top { 
-		height: 33px;
-	}
-	#lh_header_top #lh_area05 a.lh_on, #lh_header_top #lh_area04 a.lh_on {
-		height: 22px;
-	}
-	#lh_header_top #lh_area04 a.lh_options { 
-		margin-left: -5px;
-	}
-	#lh_header_top {
-		margin-top: 0px;
-	}	
-	</style>
-<![endif]-->
-<!--[if lte IE 7]>
-	<style>
-	#lh_header_top #HF_login_l, #lh_header_top #HF_login_r { 
-		float: none;
-	}
-	#lh_header_top {
-		left: 0px;
-	}
-	
-	#l_header_topbar #l_header_topbar_popup_altro, #l_header_topbar #l_header_topbar_popup_opzioni {
-    	margin-top: 33px;
-	}
-	#l_header_topbar #l_header_topbar_popup_nicknames {
-    	margin-top: 25px;
-	}
-
-	</style>
-<![endif]-->
-<style>
-	#lh_header #lh_area02a{
-		position:relative;
-		overflow: visible;
-		height: 30px;
-	}
-	
-	#lh_header #lh_area02b{
-		z-index: -1;
-	}
-	#lh_header #lh_area02a .lh_pos {
-		position: absolute;
-		margin-bottom: 0;
-	}
-	
-	#lh_header #lh_area02a .lh_on {
-	}
-	#lh_header .lh_finput_area input {
-		height: 27px;
-		padding-top: 0;
-		padding-bottom: 0;
-		line-height: 27px !important;
-		font-size: 15px !important;
-	}
-	#lh_altro{
-		position: relative !important;
-	}
-	#lh_header_top .lh_popup {
-	}
-	#lf_footer .lf_finput_area input {
-		font-size: 12px !important;
-		line-height: 25px !important;
-		vertical-align: middle;
-		padding: 0 !important;
-		margin: 0 !important;
-	}
-	
-</style>
-<!--[if IE]>
-	<style>
-	
-	#lh_header_top #lh_area05 a.lh_altro, #lh_header_top #lh_area04 a.lh_opzioni {
-		margin-top: 0px;
-		padding-top: 0px;
-	}
-	#lh_header_top #lh_area05 a.lh_altro { 
-		background-position: -67px -10px;
-	}
-	#lh_header_top #lh_area05 a.lh_altro_selected { 
-		background-position: -67px -36px;
-	}
-	#lh_header_top #lh_area04 a.lh_opzioni {
-		background-position: -56px -10px;
-	}
-	#lh_header_top #lh_area04 a.lh_nicknames_arrow_selected, #lh_header_top #lh_area05 a.lh_altro_selected, #lh_header_top #lh_area04 a.lh_opzioni_selected {
-		height: 23px;		
-	}
-	#lh_header_top #lh_nicknames {
-		left: -195px;
-	}
-	#lh_header_top #lh_other, #lh_header_top #lh_options {
-		top: 22px;
-	}
-	#lh_header_top #lh_nicknames {
-		top: 22px;
-	}
-	
-	#lh_header .lh_finput_area .lh_pos { 
-		padding-top: 4px;
-	}
-	#lf_footer .lf_finput_area {
-		height: 27px;
-		max-height: 27px;
-		overflow: hidden;
-	}
-	</style>
-<![endif]-->
-
-<!--[if IE]>
-	<style>
-	#l_header_topbar #l_header_topbar_popup_altro, #l_header_topbar #l_header_topbar_popup_opzioni {
-    	margin-top: 35px;
-	}
-	#l_header_topbar #l_header_topbar_popup_nicknames {
-    	margin-top: 28px;
-	}
-	#l_header_topbar #l_header_topbar_left #l_header_topbar_popup_altro a, 
-	#l_header_topbar #l_header_topbar_right #l_header_topbar_popup_opzioni a,
-	#l_header_topbar #l_header_topbar_right #l_header_topbar_popup_nicknames a {
-    	padding: 0px 0px 0px 4px;
-	}
-	#l_header_topbar #l_header_topbar_right #l_header_topbar_nicknames_lk {
-		display: inline-block;
-	}
-	#l_header_topbar #l_header_topbar_right #l_header_topbar_filter_family {
-		line-height: 14px;
-	}
-	#l_header_topbar li {
-	    margin-top: 12px;
-	    line-height: 14px;
-    }
-	#l_header_topbar #l_header_topbar_right a.plus_selected {
-	    border-left: 1px solid #ffffff;
-	    color: #000000;
-	    margin-bottom: 0px;
-	    padding: 0px 17px 0px 8px;
-	    display: inline-block;
-	    background-position-y: -286px;
-	}
-	</style>
-<![endif]-->
-
-
-<style>
-#l_header_topbar,#l_header_fixed_topbar_placeholder{height:98px}
-</style>
-
-<!-- header_topbar 
-<div id="l_header_topbar" class="liquid fixed">
-	<div id="l_header_topbar_left">
-		<ul>
-			<li id="l_header_topbar_logo"><a href="http://www.libero.it/">Libero</a></li>
-			<li><a href="https://login.libero.it/?service_id=webmail&amp;ret_url=http%3A%2F%2Fwebmail.libero.it%2Fcp%2Fdefault.jsp%3FrndPrx%3D1082169561">MAIL</a></li>
-			<li><a href="http://notizie.libero.it/">NEWS</a></li>
-			<li><a href="https://video.virgilio.it/?ref=libero">VIDEO</a></li>
-			<li><a href="https://digiland.libero.it/">COMMUNITY</a></li>
-			<li><a href="https://local.virgilio.it/?ref=libero">IN CITT&Agrave;</a></li>
-			<li id="l_header_topbar_altro">
-				<a id="l_header_topbar_altro_lk" class="plus" onclick="Libero.HF.toggle('l_header_topbar_popup_altro'); Libero.HF.toggleClass('l_header_topbar_altro_lk','plus_selected'); return false;" href="#">ALTRO</a>
-				<ul id="l_header_topbar_popup_altro" onmouseover="clearTimeout(Libero.Stash.other_timeout)" onmouseout="Libero.Stash.other_timeout = setTimeout('Libero.HF.hide(\'l_header_topbar_popup_altro\'); Libero.HF.removeClass(\'l_header_topbar_altro_lk\', \'selected\'); ',2000);">
-					<li><a href="https://blog.libero.it">BLOG</a></li>
-					<li><a href="https://chat.libero.it">CHAT</a></li>
-					<li><a href="https://digiland.libero.it/cupido">CUPIDO</a></li>
-					<li><a href="https://digiland.libero.it/trovamici">TR
