@@ -4,48 +4,48 @@ Args=-p 30 -a hoop.png
 Source=https://msvchatsvr.github.io/vchat/worlds/basketballworld/world.adf
 
 [data]
-world.wdb=./data/world.wdb
-world.pal=world.pal
-about.txt=about.txt
-hotlinks.txt=hotlinks.txt
+world.wdb=https://msvchatsvr.github.io/vchat/worlds/basketballworld/data/world.wdb
+world.pal=https://msvchatsvr.github.io/vchat/worlds/basketballworld/data/world.pal
+about.txt=https://msvchatsvr.github.io/vchat/worlds/basketballworld/data/about.txt
+hotlinks.txt=https://msvchatsvr.github.io/vchat/worlds/basketballworld/data/hotlinks.txt
 
 [images]
-tier1.gif=../images/tier1.gif,128,128, 0, 41,132,66, 160,160,160
-tierha.gif=tierha.gif,128,256, 0, 41,82,0, 255,255,255
-tier2.gif=tier2.gif,64,64, 0, 160,160,160, 73,83,73
-concrete.gif=concrete.gif,64,64,0,49,49,74,49,49,74
-bordside.gif=bordside.gif,16,16, 0, 240,199,4, 213,0,0
-courte.gif=courte.gif,512,256,0,123,74,16,188,144,95
-url04.gif=url04.gif,256,64,0,118,124,234,72,66,131
-bpostop.gif=bpostop.gif,32,32
-url05.gif=url05.gif,64,64
-bracket.gif=bracket.gif,512,256
-score.gif=score.gif,256,64
-standpst.gif=standpst.gif,32,32
-backbord.gif=backbord.gif,64,64,0,15,15,33,255,255,255
-rim.gif=rim.gif,16,16,0,255,48,0,255,48,0
-net.gif=net.gif,32,32,0,229,232,240,171,171,171
-team1.gif=team1.gif,256,64,0,171,171,171,255,255,255
-team2.gif=team2.gif,256,64
-ceiling.gif=ceiling.gif,128,128, 0,24,33,57,18,18,18
-url03.gif=url03.gif,256,64, 0, 67,75,102,24,33,57
-url02.gif=url02.gif,128,64
-url01.gif=url01.gif,128,64
-url06.gif=url06.gif,256,128
-url07.gif=url07.gif,256,128
-url08.gif=url08.gif,256,128
-url09.gif=url09.gif,128,64
-url10.gif=url10.gif,256,64
-url11.gif=url11.gif,128,64
-bbd01.gif=bbd01.gif,256,256, 0, 0, 255, 0, 0, 255, 0
-bbd02.gif=bbd02.gif,256,256
-bbd03.gif=bbd03.gif,256,256
-window.gif=window.gif, 128,128, 0, 255, 255, 255, 0,0,0
+tier1.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/tier1.gif,128,128, 0, 41,132,66, 160,160,160
+tierha.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/tierha.gif,128,256, 0, 41,82,0, 255,255,255
+tier2.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/tier2.gif,64,64, 0, 160,160,160, 73,83,73
+concrete.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/concrete.gif,64,64,0,49,49,74,49,49,74
+bordside.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/bordside.gif,16,16, 0, 240,199,4, 213,0,0
+courte.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/courte.gif,512,256,0,123,74,16,188,144,95
+url04.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url04.gif,256,64,0,118,124,234,72,66,131
+bpostop.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/bpostop.gif,32,32
+url05.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url05.gif,64,64
+bracket.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/bracket.gif,512,256
+score.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/score.gif,256,64
+standpst.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/standpst.gif,32,32
+backbord.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/backbord.gif,64,64,0,15,15,33,255,255,255
+rim.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/rim.gif,16,16,0,255,48,0,255,48,0
+net.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/net.gif,32,32,0,229,232,240,171,171,171
+team1.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/team1.gif,256,64,0,171,171,171,255,255,255
+team2.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/team2.gif,256,64
+ceiling.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/ceiling.gif,128,128, 0,24,33,57,18,18,18
+url03.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url03.gif,256,64, 0, 67,75,102,24,33,57
+url02.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url02.gif,128,64
+url01.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url01.gif,128,64
+url06.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url06.gif,256,128
+url07.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url07.gif,256,128
+url08.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url08.gif,256,128
+url09.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url09.gif,128,64
+url10.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url10.gif,256,64
+url11.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/url11.gif,128,64
+bbd01.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/bbd01.gif,256,256, 0, 0, 255, 0, 0, 255, 0
+bbd02.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/bbd02.gif,256,256
+bbd03.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/bbd03.gif,256,256
+window.gif=https://msvchatsvr.github.io/vchat/worlds/basketballworld/images/window.gif, 128,128, 0, 255, 255, 255, 0,0,0
 
 [avatars]
-hoop.png=../avatars/hoop.png
-hoop2.png=hoop2.png
+hoop.png=https://msvchatsvr.github.io/vchat/worlds/basketballworld/avatars/hoop.png
+hoop2.png=https://msvchatsvr.github.io/vchat/worlds/basketballworld/avatars/hoop2.png
 
 [sounds]
-song.wav=../sounds/song.wav
-sound.htm=sound.htm
+song.wav=https://msvchatsvr.github.io/vchat/worlds/basketballworld/sounds/song.wav
+sound.htm=https://msvchatsvr.github.io/vchat/worlds/basketballworld/sounds/sound.htm
