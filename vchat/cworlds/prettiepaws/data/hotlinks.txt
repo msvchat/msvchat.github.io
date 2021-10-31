@@ -1,2 +1,0 @@
-"curtain1",URL,http://www.techin.net:8088/vchat.htm,"Link to BayKnights VChat Help Page"
-"curtain2",URL,http://www.techin.net:8088/vchat.htm,"Link to BayKnights VChat Help Page"
