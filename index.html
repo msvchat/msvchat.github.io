@@ -30,6 +30,38 @@
                 <hr>
                 <h1 style="text-align:center">MS V-Chat Museum</h1>
                 <h2 style="text-align:center">Hello and welcome!</h2>
+                <?php
+                include("inc/config.php");
+                $Status = ServerStatus();
+                /*
+                 * HTML Content (Edit what you wont)
+                 */
+                // Start HTML ?>
+
+                <table border="0">
+                  <tr>
+                    <td><?php echo $Str_Loginsrv; ?></td>
+                    <td><?php echo $Status[0]; ?></td>
+                  </tr>
+                  <tr>
+                      <td><?php echo $Str_onlinepl; ?></td>
+                      <td><?php echo PlayerCount(); ?></td>
+                  </tr>
+                </table>
+
+                <?php // End HTML
+                /*Functions*/
+                    /*Server Status (Return Array of Login,Char,Map State)*/
+                    function ServerStatus() {
+                        Global $Srv_Host, $Srv_Login, $Str_Online, $Str_Offline;
+                        // Disable Error Reporting (for this function)
+                        error_reporting(0);
+                        $Status = array();
+                        $LoginServer = fsockopen($Srv_Host, $Srv_Login, $errno, $errstr, 1);
+                        if(!$LoginServer){ $Status[0]= $Str_Offline;  } else { $Status[0] = $Str_Online; };
+                        return $Status;
+                    }
+                ?>
                 <h4 style="color:red">Red links denote that the guide is incomplete or needs to be rewritten.</h4>
                 <p>This site provides guides to Microsoft V-Chat and tools associated with it. I use <a href="https://www.officeirc.com">OfficeIRC</a> as my IRC daemon for the MS V-Chat Museum IRC server.</p>
                 <p>3/9/22 Rewrote the guide for customizing a room and hosting it online.</p>
