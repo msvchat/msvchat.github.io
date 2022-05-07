@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Microsoft V-Chat 2.0 Museum Internet Relay Chat Server Homepage</title>
+        <meta name="description" content="This website is the homepage of the MS V-Chat Museum IRC server and has guides for Microsoft V-Chat 2.0, the most important of which is getting V-Chat running on Windows 10/11!">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="vchat, v-chat, vchat for iphone, vchat for android, vchat mobile, microsoft v-chat, microsoft chat, vchat20, v-chat 2.0, microsoft v-chat 2.0, mschat, comic chat, irc, officeirc">
+        <link rel="canonical" href="https://msvchat.github.io/index.html">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+    </head>
+    <body>
+        <header id="header">
+          <div class="innertube">
+            <img style="border:0 solid #4485b8;border-radius:0" src="images/vchatmuseumlogo.png" alt="V-Chat Museum Logo" width="20" height="20">
+            <strong>MS V-Chat Museum</strong>
+          </div>
+        </header>
+        <main>
+            <div class="innertube">
+                <hr>
+                <h6 id="TOP" style="text-align:center">
+                    <img class="displayed" src="images/vchatmuseumlogo.png" alt="V-Chat Logo 2" width="128" height="128">
+                </h6>
+                <hr>
+                <h1 style="text-align:center">MS V-Chat Museum</h1>
+                <h2 style="text-align:center">Hello and welcome!</h2>
+                <h1><?php
+                include("inc/config.php");
+                $Status = ServerStatus();
+                /*
+                 * HTML Content (Edit what you wont)
+                 */
+                // Start HTML ?>
+
+                <table border="0">
+                  <tr>
+                    <td><?php echo $Str_Loginsrv; ?></td>
+                    <td><?php echo $Status[0]; ?></td>
+                  </tr>
+                  <tr>
+                      <td><?php echo $Str_onlinepl; ?></td>
+                      <td><?php echo PlayerCount(); ?></td>
+                  </tr>
+                </table>
+
+                <?php // End HTML
+                /*Functions*/
+                    /*Server Status (Return Array of Login,Char,Map State)*/
+                    function ServerStatus() {
+                        Global $Srv_Host, $Srv_Login, $Str_Online, $Str_Offline;
+                        // Disable Error Reporting (for this function)
+                        error_reporting(0);
+                        $Status = array();
+                        $LoginServer = fsockopen($Srv_Host, $Srv_Login, $errno, $errstr, 1);
+                        if(!$LoginServer){ $Status[0]= $Str_Offline;  } else { $Status[0] = $Str_Online; };
+                        return $Status;
+                    }
+                ?></h1>
+                <h4 style="color:red">Red links denote that the guide is incomplete or needs to be rewritten.</h4>
+                <p>This site provides guides to Microsoft V-Chat and tools associated with it. I use <a href="https://www.officeirc.com">OfficeIRC</a> as my IRC daemon for the MS V-Chat Museum IRC server.</p>
+                <p>3/9/22 Rewrote the guide for customizing a room and hosting it online.</p>
+                <p>10/30/2021 I decided to move the world files and avatars to a seperate web host that lets older systems visit the rooms on the IRC and be able to experience them while still working for Windows 10/11.
+                  (I Tested the rooms and avatars with Windows XP on a virtual machine)</p>
+                <p>10/15/2021 I got the audio working right finally.
+                  The issue was that some of the wav files were stereo and V-Chat did not like that.
+                  So using audacity I mixed stereo down to mono on the offending wav files.
+                  I also fixed a mistake I made with the room "#CWLovely" pointing to "#CWLordsCastle".</p>
+                  <p>The following rooms have corrupted audio files and are believed to be lost to time.</p>
+                <ul>
+                    <li>#CWButterflyDreams<ul><li>collide.wav</li></ul></li>
+                    <li>#CWAliciaJazsLilPlace<ul><li>collide.wav</li><li>enter.wav</li><li>exit.wav</li></ul></li>
+                    <li>#CWHall<ul><li>collide.wav</li><li>enter.wav</li><li>exit.wav</li><li>song.wav</li></ul></li>
+                </ul>
+                <p>10/12/2021-The MS V-Chat Museum Discord is Open!</p>
+				        <p>9/16/2021-I have added all the non-adult avatars and *.lst files for easy avatar download!</p>
+				        <p>8/15/2021-The IRC Server now has 43 custom worlds a long side the Microsoft worlds for a total of 71 graphical rooms to explore!</p>
+                <p>8/3/2021-The license for OfficeIRC was acquired!</p>
+
+                <p>If you have any questions, links to active websites on V-Chat I haven't listed, or have information (world files, avatars, active V-Chat servers) or solutions to issues im working on. PLEASE EMAIL ME. <a href="mailto:msvchatmuseum@outlook.com">msvchatmuseum@outlook.com</a> or join the discord server!</p>
+                <h4 id="TOP" style="text-align:center">
+                  If you would like to help me out or just are feeling generous.
+                  <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="hosted_button_id" value="JHTRQK5ZJ3VPE" />
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+                  </form>
+                </h4>
+                <h3 id="DISCORD" style="text-align:center">
+                  <p>Join the discord!</p>
+                  <iframe src="https://canary.discord.com/widget?id=870313552966201366&theme=dark" style="text-align:center" width="300" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                </h3>
+                <h3 id="TODO">List of things I need to do</h3>
+                <ul>
+                    <li>Build a better website with a friendlier navigation in mind.</li>
+                    <li>Write some of the easier guides</li>
+                    <li>Repackaging the V-Chat installer to work better and include the files required to work with windows 10/11.</li>
+                </ul> This means rewriting the vchat20.inf in the self extracting archive of the vchat2L.exe using the windows 95 resource kit as a guide, and then repackaging it with 64bit iExpress(located in C:/Windows/SysWOW64) or 32bit iExpress(located in C:/Windows/System32). The purpose of that is so I can package the required files and detailed instructions for setting up dgVoodoo to get V-Chat working [as close to as intended as possible] but for now follow the Install V-Chat guide I have made.
+                <p>This site has guides compiled from multiple sources, most of which are archived in the <a href="https://archive.org/web/">Wayback Machine</a>. </p>
+                <hr>
+                <hr>
+                <h2 id="ABOUT">About me</h2> My name is Benjamin Gray. I first played V-Chat at a friend of mines house back in 1998. I was 11 or 12 but I thought it was amazing at the time and it's been stuck in my mind ever since. I used to use the name Kolestan back then if you search hard enough on the Wayback Machine you might find references to that username with v-chatterbox. I joined that forum on Jan 7th, 2004 and moderated the IRC servers section.
+                <hr>
+                <hr>
+                <h2 id="LINKS">Credits & Links</h2>
+                <h3 id="HOWITBEGAN">How I got the idea to start this site.</h3>
+                <p>I was curious one day, and decided to look up Microsoft V-Chat on YouTube. I stumbled upon <a href="https://www.youtube.com/watch?v=AlqHG5A_xto">this</a> YouTube video. I discovered that Barra had successfully got Microsoft V-Chat running on Windows 10 but I did not understand (at first) how to get it working so I worked through the process of getting it running and decided to help others do so with more detailed instructions.</p>
+                <p>I was also aware of the <a href="https://archive.org/">Wayback Machine</a> and thought if I dug deep enough I might also find lost content for Microsoft V-Chat. And so I began the process of gathering what I could and linking up with other people who have sites or videos on Microsoft V-Chat.</p>
+                <p>It's all thanks to Barra that this site even exists!</p>
+                <p>Thank you Barra!</p>
+                <ul>
+                  <li>Barra's <a href="https://barrarchiverio.7m.pl/">website</a>
+                  <li>Barra's <a href="https://www.youtube.com/c/eduardobarra352/">YouTube</a></ul>
+                </ul>
+                <dl>
+                    <dt><a href="https://dykestowatchoutfor.com/more-dimensions/">Alison Bechdel</a></dt>
+                    <dt><a href="https://worlio.com/library/V-Chat/">Worlio</a></dt>
+                    <dt><a href="https://angelsociety.tripod.com/">The Angel Society</a></dt>
+                    <dt><a href="https://flatplaces.net/">Not Quite 3D</a></dt>
+                    <dt><a href="https://timigi.com/Stuff/Archive/vchat/vchat.html">Timigi's V-Chat Archive</a></dt>
+                    <dt><a href="http://www.varian.net/dreamfare/dreamavatars/index.html">Varian's Dreamfare</a></dt>
+					<dt><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/1999/09/The-Social-Life-of-Small-Graphical-Chat-Spaces.pdf">The Social Life of Small Graphical Chat Spaces</a></dt>
+                </dl>
+				<p>Thank you Timigi over at <a href="https://timigi.com/Stuff/Archive/vchat/vchat.html">Timigi.com</a> for providing the official V-Chat artwork that is hosted on the official IRC server.</p>
+				<p>Thank you to Paul Heinlein over at <a href="https://www.officeirc.com/">OfficeIRC</a> for providing some files thought to be long lost for V-Chat 1.0 rooms! Also for providing me with the opportunity to even have an IRC server.</p>
+                <p>Thank you to Phil over at <a href="https://flatplaces.net/">Not Quite 3D</a> for a zip file containting a treasure trove of custom rooms people made and, a huge trove of information regarding V-Chat.</p>
+                <hr>
+                <hr>
+                <h2 id="INFO">Information on V-Chat 2.0</h2>
+                <h3>Microsoft V-Chat ORIGINAL system requirements</h3>
+                <ul>
+                    <li>Direct X 3.0</li>
+                    <li>Win95 or better</li>
+                    <li>8MB Ram</li>
+                    <li>486 processor or better</li>
+                    <li>about 3MB initial space*</li>
+                </ul>
+                <dl>
+                  <dt>*V-Chat downloads worlds when you enter an IRC chat room with a graphical link in its description.</dt>
+                  <dt>For example: v:{-a https://msvchat.000webhostapp.com/vchat/worlds/lobby/world.adf}</dt>
+                </dl>
+				<h3>V-Chat features</h3>
+                <ul>
+                    <li>Both graphical and text based chat experiences</li>
+                    <li>Save chat histories.</li>
+                    <li>Using the Avatar Wizard you can make or customize an avatar.</li>
+                    <li>Password your private rooms</li>
+                    <li>kick out unwanted or obnoxious guests in your own rooms</li>
+                    <li>Emote through avatar action buttons, or the button beside your text box.</li>
+                </ul>
+                <p>V-Chat is a 3D chat program that involves the user with other users in rich 3D environments. MSN relinquished it as a service in 2001 and stopped developing the chat.</p>
+                <p>You control your avatar as you walk, fly, and look up and down through the 'rooms' using your <strong>arrow</strong> keys (up,down,left,right). You can also use your mouse to move around and click "portals" to navigate to different rooms. </p>
+                <h3>What is an Avatar?</h3>
+                <p>Avatars are 2d representations of yourself in V-Chat. With the Avatar Wizard you can make your own avatars.</p>
+                <h3>How to 'fly' in V-Chat.</h3>
+                <ul>
+                    <li>ctrl + up arrow key, 'fly' up</li>
+                    <li>ctrl + down arrow key, 'fly' down</li>
+                    <li>ctrl + left arrow key, 'sidestep' left</li>
+                    <li>ctrl + right arrow key, 'sidestep' right</li>
+                </ul>
+                <h3>How to look up and down in V-Chat.</h3>
+                <ul>
+                    <li>ctrl + alt + up arrow key, reset your veiw</li>
+                    <li>ctrl + alt + down arrow key, look down</li>
+                    <li>ctrl + alt + left arrow key, look left</li>
+                    <li>ctrl + alt + right arrow key, look right</li>
+                </ul>
+                <hr>
+                <hr>
+                <h2 id="SERVERS">Active Servers</h2>
+                <table style="margin:auto;box-shadow:3px 3px 10px #000">
+                    <tbody>
+                        <tr style="border-top:2px solid #555">
+                            <td>NAME</td>
+                            <td>ADDRESS</td>
+                            <td>PORT</td>
+                            <td>STATUS</td>
+                        </tr>
+                        <tr style="background-color:rgba(0,0,0,.1)">
+                            <td>MS V-Chat Museum Server</td>
+                            <td>
+                                <a href="vchat://msvchatsvr.webredirect.org/#V-ChatLobby">msvchatsvr.webredirect.org</a>
+                            </td>
+                            <td> 6667 </td>
+                            <td> ONLINE </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <ul>
+                    <li>
+                        <p>Clicking the link above will automatically open V-Chat and connect to the server and enter #V-ChatLobby if you have V-Chat installed.</p>
+                    </li>
+                </ul>
+                <hr>
+                <hr>
+                <h2 id="AVATARS">Avatars</h2>
+                <p>I will not be uploading the explicit avatars as they are inappropriate for GitHub. If you would like them please email me at <a href="mailto:msvchatmuseum@outlook.com">msvchatmuseum@outlook.com</a> </p>
+                <p>NOTE: avpluspk.lst has blank avatars for substitution and unverified avatar names.<br>
+                "http://msvchat.000webhostapp.com/vchat/avatars/avpluspk.lst" has 16 avatars.<br>
+        				"http://msvchat.000webhostapp.com/vchat/avatars/public.lst" has 228 avatars.<br>
+        				"http://msvchat.000webhostapp.com/vchat/avatars/breadsmacker.lst" has 5 avatars I myself actually made.<br>
+                "http://msvchat.000webhostapp.com/vchat/avatars/mv.lst" has 2 avatars <a href="https://github.com/mvoolt">mv</a> made and shared with me.
+        				</p>
+        				1. Open V-Chat and click "Avatar". Navigate to "Custom Avatar > Download..." and click on it. <br>
+        				<img src="images/downloadav.png" class="imageRight" alt="General Tab" width="423" height="312"> <br>
+        				2. Enter one of the three addresses above. EXACTLY like above minus the quotation marks. YOU MUST USE HTTP NOT HTTPS V-Chat is too primitive to use https properly. Press OK. <br>
+        				<img src="images/downloadcustomav.png" class="imageRight" alt="General Tab" width="283" height="188"> <br>
+        				3. It should open a little window "Download Custom Avatars" if it does not, repeat step 2. You may shift+click to select all the listed avatars. Press OK.<br>
+        				<img src="images/shiftclick.png" class="imageRight" alt="General Tab" width="281" height="385"> <br>
+        				4. It should now download all the avatars you have selected. <br>
+        				5. Now you can browse the avatars you have just downloaded by clicking "Avatar > Select Avatar...". They will be listed under the "Custom - Public" directory.
+
+                <hr>
+                <hr>
+                <h2 id="INSTALL">Installing Microsoft V-Chat 2.0 and how to get it working on Windows 10/11</h2>
+                <h3>Please note that if any of the files below trigger windows defender, allow them, defender is falsely identifying nonexistent trogens when it comes to some older 16 and 32 bit files.</h3>
+                <h3>Second note: because the installers are broken for later operating systems you will need something like <a href="https://geekuninstaller.com/">Geek Uninstaller</a> to forcefully uninstall V-Chat, I am sorry about this. I hope that by repackaging the installer(when I get around to it) I can remedy this issue. </h3>
+                <ul>
+                    <li>First you need to <a href="https://msvchat.github.io/vchat/downloads/vchat2L.zip">
+                            <span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a>
+                        <strong>Microsoft V-Chat 2.0</strong> extract it from the zip and install it (GitHub gives warnings for hosting executable files unless its a release so I zipped it to solve this issue)
+                    </li>
+                    <li>After you've done that, navigate to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong>
+                    </li>
+                    <li>Rename <strong>WORLDS</strong> to <strong>Worlds</strong> (this step isn't necessary. It just makes the folder look nicer not being all caps.)
+                    </li>
+                    <li>Rename <strong>NEWWOR</strong> to <strong>NewWorlds</strong>
+                    </li>
+                    <li>Open the <strong>Worlds</strong> folder and rename <strong>HOME</strong> to <strong>DefHomespace</strong>
+                    </li>
+                    <li>Next <a href="https://msvchat.github.io/vchat/downloads/dgvoodooandd3drm.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a> <strong>dgVoodoo2 & d3drm</strong> files.
+                    </li>
+                    <li>Extract the contents to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong>
+                    </li>
+                    <li>Now open <strong>dgVoodooCpl.exe</strong>
+                    </li>
+                    <li>Make your settings match these.(The Glide tab is unused by V-Chat in windows operating systems and the settings don't need to be set.)</li>
+                </ul>
+                <img src="images/screenshot1.png" class="imageRight" alt="General Tab" width="400" height="475">
+
+                <img src="images/screenshot3.png" class="imageLeft" alt="DirectX Tab" width="400" height="475">
+                <ul>
+                    <li>Right click on <strong>VCHAT20.EXE</strong> choose properties </li>
+                    <li>Click on the "Compatibility" tab, check the box next to "Run this program as administrator"</li>
+                    <li>Click Apply and then OK</li>
+                    <li>Now you can run V-Chat!</li>
+                </ul>
+                <img src="images/screenshot4.png" class="imageLeft" alt="V-Chat" width="866" height="568">
+                <h3 id="HELPFILE">IT IS HIGHLY RECOMMENDED...that you add the ability to see *.hlp files as they are meant to be seen!</h3>
+                <p>Why? Because most of V-Chat and its related utilities useful knowledge is locked away behind these files. Plus it is pretty cool to be able to use the help function like it was meant to be used.</p>
+                <p><a href="https://msvchat.github.io/vchat/downloads/Hlp32Fix_Win10.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a> and extract the zip file, then run install.cmd as administrator. Now you will be able to use the help files included in V-Chat!</p>
+                <img src="images/help.png" class="imageRight" alt="General Tab" width="430" height="435">
+                <h3>NOTE</h3>There is a bug with V-Chat on modern hardware that occurs when you have the "graphical window" selected and you begin to type. Often you will get a spam of the first key you hit after that the text box has been auto selected and you will begin to type normally.To avoid this just click the text box before you plan to type in chat. PLEASE CONTACT ME IF YOU HAVE A SOLUTION TO THIS ISSUE.
+                <hr>
+                <hr>
+                <h2 id="CREATEROOM">How to modify an existing world and host it online</h2>
+				        <dl>To have your own custom room in V-Chat, the first thing you  will need is web space to upload the files for people on V-Chat to download.
+                  If you do not have any web space, you can search "free webspace" and find one that suits your needs.</dl>
+                <dl>Once you have your web page you can start making your world. Below is the folder structure needed on your website.</dl>
+
+                <dl>
+                  <strong>FOLDER STRUCTURE</strong>
+                  <dt>"www.example.com/vchat/worlds/worldname/avatars/</dt>
+                  <dt>"www.example.com/vchat/worlds/worldname/data/</dt>
+                  <dt>"www.example.com/vchat/worlds/worldname/images/</dt>
+                  <dt>"www.example.com/vchat/worlds/worldname/sounds/</dt>
+                  <dt>"www.example.com/vchat/worlds/worldname/world.adf</dt>
+                </dl>
+
+                <strong>avatars</strong>
+                <ul>
+                  <li>This is where you put avatars, which can only be used, within the room.</li>
+                  <li>Those avatars will automatically show in the folder 'Room Avatars' in avatar selection menu.</li>
+                  <li>NOTE: you cannot use private avatars or *.vwp files.</li>
+                </ul>
+
+                <strong>data</strong>
+                <ul>
+                  <li><strong>about.txt</strong> = Text to be displayed in V-Chat, under 'About Microsoft V-Chat'.
+                  <li><strong>world.wdb</strong> = A 3D Studio MAX file which has been changed by Microsoft.
+                  <li><strong>world.pal</strong> = RIFF Pal data.
+                  <li><strong>hotlinks.txt</strong> = This file contains the data for portals and URLs.
+                    <dl>
+                      <strong>
+                        Some rooms have interactable portals you can either walk into or click on, as well as interactable links to websites.
+                        These are defined in the "hotlinks.txt" file.
+                      </strong>
+                      <dt>Portals are defined like this(I am unsure of the numbers following "ROOM DESCRIPTION"'s effect)</dt>
+                      <dt><strong>"NAME",VCHAT,IRC SERVER,#ROOMNAME,"ROOM DESCRIPTION",?,?,?,10000</strong></dt>
+                      <dt>"portal01",VCHAT,msvchatsvr.webredirect.org,#V-ChatLobby,"Portal to the V-Chat Lobby",0,1,1,10000</dt>
+                      <dt>URLS are defined like this</dt>
+                      <dt><strong>"NAME",URL,URL LINK,"URL DESCRIPTION"</strong></dt>
+                      <dt>"url02",URL,http://www.microsoft.com/ie,"Shortcut to the Microsoft Internet Explorer Web Page"</dt>
+                    </dl>
+                </ul>
+                <strong>images</strong>
+                <ul>
+                  <p>
+                    NOTE: Depending on which room you chose to modify the number of images varies greatly from room to room.
+                    When you modify an image it has to be the same dimensions as the image you are replacing.
+                    V-Chat uses (RGB 0,255,0) as a transparent color, so if you want to make an image invisible just paint it all green.
+                  </p>
+                </ul>
+                <strong>sounds</strong>
+                <ul>
+                  <li><strong>collide.wav</strong> = plays when hit wall/floor.</li>
+                  <li><strong>enter.wav</strong> = plays when someone enters the channel.</li>
+                  <li><strong>exit.wav</strong> = plays when someone leaves the channel.</li>
+                  <li><strong>song.mid</strong> = Loops(in my experience it does not work.)</li>
+                  <li><strong>song.wav</strong> = Loops, often its background music.</li>
+                  <li><strong>song2.wav</strong> = Loops, some rooms have two looping sounds.</li>
+                  <li><strong>portal.wav</strong> = plays when someone clicks into a portal.</li>
+                  <li><strong>sound.htm</strong> = Contains information about how sounds should be played</li>
+                </ul>
+                <h3>NOTE:sound.htm is required for rooms to have sound.</h3>
+                    If you would like your room to have two "song" files look inside your "C:\Program Files (x86)\Microsoft V-Chat\Worlds" folder & copy its sound.htm file and put it in your custom rooms sound folder.
+                    The only sound.htm containing information on a midi file is from the "Microsoft Gallery" room, and it does not seem to work properly.
+                    <dl><strong>Finally when you have a room on an IRC server the topic needs to be set
+                      <dt>For example: v:{-a http://msvchat.000webhostapp.com/vchat/worlds/paradiseisland/world.adf}</dt>
+                    </strong></dl>
+                    <h3>EXAMPLE OF A WORLD.ADF FILE</h3>
+                    <table style="margin:auto;box-shadow:0px 0px 0px #000">
+                        <tbody>
+                            <tr style="background-color:rgba(0,0,0,.1)">
+                                <td>
+                                  <ul>
+                                    <dl>[General]
+                                      <dt>Name=The V-Chat Paradise Island</dt>
+                                      <dt>Args=-p 30 -a cluck.png</dt>
+                                      <dl><strong>
+                                        What are ARGS?
+                                        <dt>Arguments are a way of setting additional options for a room.</dt>
+                                        <dt>-p 30 = how far away a person must be before distant members are ignored</dt>
+                                        <dt>-a peppie.png is the default avatar which V-Chat will use when it's on no custom avatar mode.</dt>
+                                        <dt>-f will disable 'FIND' option in the room.</dt>
+                                      </strong>
+                                      </dl>
+                                      <dt>Source=http://msvchat.000webhostapp.com/vchat/worlds/paradiseisland/world.adf</dt>
+                                    </dl>
+                                  </ul>
+                                  <ul>
+                                    <dl>[data]
+                                      <dt>world.wdb=./data/world.wdb</dt>
+                                      <dt>world.pal=world.pal</dt>
+                                      <dt>about.txt=about.txt</dt>
+                                    </dl>
+                                  </ul>
+                                  <ul>
+                                    <dl>[images]
+                                      <dt>barisle.gif=../images/barisle.gif, 64,64, 0, 198, 154, 106, 210, 149, 66</dt>
+                                      <dt>barman.gif=barman.gif, 128,512, 0, 216, 142, 73, 119, 121, 229</dt>
+                                      <dt>barmanbk.gif=barmanbk.gif, 128,512</dt>
+                                      <dt>bartop.gif=bartop.gif, 8,8, 0, 128, 128, 128, 128, 128, 128</dt>
+                                      <dt>bird.gif=bird.gif, 128,1024, 0, 0,0,0, 0,0,0</dt>
+                                      <dt>boat1.gif=boat1.gif, 128,256, 0, 255, 225, 0, 255, 0, 0</dt>
+                                      <dt>boat2.gif=boat2.gif, 128,256, 0, 255, 255, 173, 171, 171, 171</dt>
+                                      <dt>booze.gif=booze.gif, 128,64, 0, 178, 166, 255, 202, 202, 74</dt>
+                                      <dt>bubbles1.gif=bubbles1.gif, 64,1536, 0, 44, 44, 44, 44, 44, 44</dt>
+                                      <dt>clam.gif=clam.gif, 128,256, 0, 102, 102, 102, 255, 255, 173</dt>
+                                      <dt>clrred.gif=clrred.gif, 64,64, 0, 204, 0, 51, 204, 0, 51</dt>
+                                      <dt>cobalt1.gif=cobalt1.gif, 512,256, 0, 24, 24, 189, 255, 255, 255</dt>
+                                      <dt>cobalt2.gif=cobalt2.gif, 512,256</dt>
+                                      <dt>cobalt3.gif=cobalt3.gif, 512,256</dt>
+                                      <dt>cobalt4.gif=cobalt4.gif, 512,256</dt>
+                                      <dt>cobalt5.gif=cobalt5.gif, 512,256</dt>
+                                      <dt>coral1.gif=coral1.gif, 256,128, 0, 96, 14, 90, 177, 14, 96</dt>
+                                      <dt>fish1.gif=fish1.gif, 128,128, 0, 255, 0, 255, 255, 225, 0</dt>
+                                      <dt>fish2.gif=fish2.gif, 256,256, 0, 198, 200, 255, 255, 225, 0</dt>
+                                      <dt>fish3.gif=fish3.gif, 256,128, 0, 255, 0, 0, 0,0,255</dt>
+                                      <dt>fish4.gif=fish4.gif, 256,128, 0, 0, 0, 255, 255, 225, 0</dt>
+                                      <dt>fruit.gif=fruit.gif, 128,128, 0, 255, 225, 0, 24, 31, 67</dt>
+                                      <dt>fufu.gif=fufu.gif, 64,64, 0, 139, 39, 151, 177, 138, 3</dt>
+                                      <dt>islesign.gif=islesign.gif, 256,128, 0, 153, 102, 255, 255, 255, 0</dt>
+                                      <dt>leaf.gif=leaf.gif, 128,64, 0, 37, 83, 23, 37, 83, 23</dt>
+                                      <dt>lounge.gif=lounge.gif, 64,64, 0, 0, 0, 255, 249, 249, 249</dt>
+                                      <dt>nothing.gif=nothing.gif, 4,4, 0, 0, 255, 0, 0, 255, 0</dt>
+                                      <dt>sandy.gif=sandy.gif, 256,256, 0, 135, 118, 45, 237, 204, 115</dt>
+                                      <dt>seaweed.gif=seaweed.gif, 64,128, 0, 155, 155, 53, 37, 83, 23</dt>
+                                      <dt>tilewave.gif=tilewave.gif, 256,1024, 0, 74, 82, 247, 66, 66, 231</dt>
+                                      <dt>tree.gif=tree.gif, 32,128, 0, 214, 165, 140, 50, 23, 7</dt>
+                                      <dt>umbrell.gif=umbrell.gif, 32,32, 0, 198, 0, 0, 57, 82, 156</dt>
+                                      <dt>undernew.gif=undernew.gif, 256,256, 0, 57, 57, 16, 66, 66, 41</dt>
+                                      <dt>watwall.gif=watwall.gif, 256,128, 0, 0, 0, 128, 33, 16, 8</dt>
+                                      <dt>wv.gif=wv.gif, 256,1024, 0, 66, 66, 231, 165, 173, 255</dt>
+                                    </dl>
+                                    <dl><strong>
+                                      <dt>NAME=LOCATION+NAME, size of dimension y, size of dimension z, 0, 73,91,98, 76,94,100</dt>
+                                      <dt>"73,91,98, 76,94,100" are the colors to be displayed before it's downloaded.</dt>
+                                    </strong></dl>
+                                  </ul>
+                                  <ul>
+                                    <dl>[avatars]
+                                      <dt>hanabi.png=../avatars/hanabi.png</dt>
+                                      <dt>jonny.png=jonny.png</dt>
+                                      <dt>lily.png=lily.png</dt>
+                                      <dt>mermaid.png=mermaid.png</dt>
+                                      <dt>muscles.png=muscles.png</dt>
+                                      <dt>osama.png=osama.png</dt>
+                                      <dt>surfer.png=surfer.png</dt>
+                                    </dl>
+                                  </ul>
+                                  <ul>
+                                    <dl>[sounds]
+                                      <dt>enter.wav=../sounds/enter.wav</dt>
+                                      <dt>song.wav=song.wav</dt>
+                                      <dt>sound.htm=sound.htm</dt>
+                                    </dl>
+                                  </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                <hr>
+                <hr>
+                <h2 id="AVWIZARD">Installing Microsoft V-Chat Avatar Wizard 2.0 and getting it to work on Windows 10/11</h2>
+                <ul>
+                    <li>First <a href="#INSTALL">Install V-Chat</a>
+                    </li>
+                    <li>Then <a href="https://msvchat.github.io/vchat/downloads/avawiz.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a>
+                        <strong>Microsoft V-Chat Avatar Wizard 2.0</strong> extract it from the zip and install it (GitHub gives warnings for hosting an executable file unless its a release so I zipped it to solve this issue)
+                    </li>
+                    <li>After you've done that, navigate to <strong>C:\Program Files (x86)\Microsoft V-Chat\Avatar Wizard 2.0</strong>
+                    </li>
+                    <li>Right click on <strong>AvaWiz2.EXE</strong> choose properties </li>
+                    <li>Click on the "Compatibility" tab, check the box next to "Run this program as administrator"</li>
+                    <li>Click Apply and then OK</li>
+                    <li>Now you can run the V-Chat Avatar Wizard!</li>
+                </ul>
+                <hr>
+                <hr>
+                <h2 id="CREATEAV">How to create an avatar and host it online</h2>
+                <hr>
+                <hr>
+                <h2 id="AUTHOR">Installing Microsoft Author and getting it to work on Windows 10/11</h2>
+                <ul>
+                    <li>First <a href="#INSTALL">Install V-Chat</a>
+                    </li>
+                    <li>Then <a href="https://msvchat.github.io/vchat/downloads/MSAUTH11.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a>
+                        <strong>Microsoft V-Chat Author 1.1</strong> extract it from the zip and begin the installation, except you need to make sure it installs to "C:\Program Files (x86)\Microsoft V-Chat"
+                    </li>
+                    <li>After you've done that, navigate to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong>
+                    </li>
+                    <li>Right click on <strong>AUTHOR11.EXE</strong> choose properties </li>
+                    <li>Click on the "Compatibility" tab, check the box next to "Run this program as administrator"</li>
+                    <li>Click Apply and then OK</li>
+                    <li>Now you can run the Microsoft V-Chat Author!</li>
+                </ul>
+                <hr>
+                <hr>
+                <h2 id="CREATEWORLD">How to create your own world</h2>
+                <h4 style="color:red">WARNING! This guide is untested on todays hardware so the outcomes might be different.</h4>
+                <h4>Please note that this wall of text below is copy and pasted directly from the archived site. I will rewrite the guides when I finally decide to explore a way to do what they describe.</h4>
+                <h4>https://web.archive.org/web/20060117035229/https://v-chatterbox.net:80/polygons.htm</h4> Polygon Counts Working with Author and 3dStudioMax R3 I did say that as soon as I figured it out I would get that information out to you. I can tell you Author can safely load around 3000 polygons total. Anything above that and it starts to bog down (loading slow and possibly getting errors when trying to load). You might get away with a few more than that but not very many more. It will load huge 3ds files but when you save the file as a world and try to reload it, there will be error messages… anything from textures not found that are not picture textures of any kind but lighting, texture changes in space to getting no error messages at all but the world does not load. Some can even crash the program altogether and you will have to delete that world, or uninstall , then reinstall Author to get it to work properly because that program always saves the last thing in its cache that was loaded into it. I have had to reinstall the program a few times myself, attempting to load *.wdb files that have been mucked with after they were built in Author. My rule of thumb, however, is if it crashes Author, it will probably crash about 50% of the computers that try to load that world in the V-Chat program itself, which is why I cautioned before about changing things in the *.wdb for animations. These are problems that you can’t fix in the hex editor, at least not at the ASCII text level. It’s best to stay in the 3000 polygon range. Before you get all happy about the 3000 polygons, let’s look at the math of it. In 3d work, one polygon is not one object. Some objects can be as few as 8 polygons, others can be as large as 10000 polygons…. Just to make that one object. The world I will give the link for after this tutorial started out being almost 100000 polygons and at the time I thought it was still a fairly simple room. However, Author was having none of it and I lost 2 weeks worth of working with a nice little room that I was making for a very special lady who has shown a lot of dedication and determination in the face of adversity. At first when I realized what the problem was, I tried to reduce polygons inside the program using my already built world, but the only way to do that with a made object is to delete meshes… I could not do that because each piece was made to fit exactly as it was made. Some I could reduce but not nearly enough to save the world as it was designed. I’m still learning to work with Max myself and what I’ve learned so far is only the smallest of what the program is capable of. But where there’s a will, there’s a way. Before I get into the how of polygon frugality I suppose I should explain what I mean by polygon count. Each object in Max has planes and faces, these planes and faces; it is the number of planes and faces that make up the plane that determine the polygon count. When you create a simple box with the box command, you can determine how many height segments, width segments, and length segments it will have. A box can have as low as 1 of each and still be a box, but as you count up the planes and faces that make the box, you are counting up the number of polygons you use to make it. The fewer segments you have the less polygons you spend to make that object. For a simple box to be used as a wall, this is the best thing to do. It saves polygons for use in objects that need to look different for special effects in your worlds. A sphere, even a simple one, takes at least 36 polygons to still look like a ball. See where the math of it comes in? But there is a way to keep tabs on it so that it is only a matter of keeping track of how many you have used and how many more you might need before you hit the maximum number you can use and have it work with Author. Create an object, any object. This is just an example to get you to where you can keep count, okay? If you haven’t changed your user interface from the default, on the right hand side of your screen will be a window that shows the objects pane. There are some other tabs there for use in different parts of your working with max. In the first tutorial, I walked you through some of the tools you would use for creating your world, such as the morph tool, transform, scale, etc. Now you will look at another tool, called the utilities tool. Under this tool, there are options for a lot of things, plus a more button. For the purposes of this tutorial, the more button is the one we want. Select that and a list will pop up. In this list there is an option called polygon counter…… and there you have it, a quick way to keep tabs on how many you have used so far. In the polygon counter window, there are 2 graphs and options to change the numbers showing in your budgets. The first number will be your selected object and it will show the number of polygons that object needed to make it look like it does. The bottom number is the number of polygons that the whole scene has used so far. These numbers show in black in the right hand corners. The graphs are color coded and when it starts reaching the red part, you are very close to spending your budgets per object and per scene. The size in xyz measurements does not seem to matter much as long as the polygon count does not go too high. Budget your polygon use in objects that you just need to scale to fit and save the rest for the stuff you might need or want to morph to make a certain object look like it should. In the world I had to ‘throw away’ I had a chandelier that was beautifully done but guess what? That little chandelier cost over 3000 polygons all by itself. Your morphing capabilities will be limited with such restrictions but you can still do some pretty neat things with experimentation. Many of the old V-Chat worlds used flat planes and boxes coupled with illusionary graphics arranged in space to make the world look interesting and have more depth. What I mean my illusionary graphics is the use of transparencies. Any one who has edited one of the old V-Chat worlds is well familiar with that true green color mucking up some of their best textures. For some morphing tools an object has to have height, length, and width segments to be able to reshape it into something that actually looks like something besides a blob… for example, to bend a box in a curve, it has to have at least 3 segments to bend it, in either height, width, or length, depending on which direction you want to bend it. 3 segments in the height direction will net you a structure something like this: , regardless of which direction you want to bend it. If you want more curve, you have to add segments and that’s where budgeting comes in. Adding 3 segments in just one direction, changes your box polygon count from 8 to 18, if you add 3 segments to each direction, it nets a cube and your polygon count goes up accordingly, 3 x 3 x 3 = 27, so it can add up fast depending on the complexities of the objects you want to use. I’m not a mathematician so that polygon counter comes in handy until I refresh my memory on the basics of 3d math. It also keeps you from having to have a calculator handy while designing your worlds. It’s been a long while since I’ve dealt with math in that regard, so I’m quite rusty. I used a lattice morph in the Ring, but it did not overtax the polygon use too much because I used it sparingly there and the settings that were used kept that to a minimum. But the lattice tool was also used on that chandelier I made that I had to ‘throw out’. I did not really throw it out as in deleted because I’ll find a use for it somewhere later in something else I might be doing, but for the V-Chat world it was useless. There are other morph tools that don’t require as much polygon use to make something interesting, but you also want to think about download time, file sizes of textures, and other assorted things that make up the entire scene. Not every one has cable internet or any other type of broadband access so download times can be long for some of us and we need to consider that when putting everything together. It’s largely a matter of where do you want to spend your space. For most V-Chat rooms, at the maximum, I would recommend staying under 2MB total for not only the objects that make up the world, but the images, sounds, and all the files that are needed to make it look the way you want it to look. The largest of the original rooms is 1.91MB and it is a long download for some of us. Lastly, here is the link to the world I just finished for Sapphire_Child. She is one of the nicest people I know, hence it is called Sapphire_Church in her honor. She was the last As-Angel on V-Chat when they pulled the plug. She showed up at her hosting time even when nobody else was coming and long after everyone else had quit. I believe she was there the day they pulled the last plug on the V-Chat program. That is true dedication and determination that I have not seen since. Being such an angel herself, I thought it was an appropriate name for this world. http://www.v-chatterbox.net/world/church/world.adf This world is the property of v-chatterbox.net and the v-chatterbox server, so I would recommend you ask permission from Emerald Prince before using the world anywhere else because he has proprietary rights to it…. Thank you and I hope you found this information helpful. This world used a total of 1370 polygons and I hope you enjoy using it as much as I did making it. Again if there are questions you can email me at stephc@jc-hosting.net or stephc@designers-edge.com . <h4>https://web.archive.org/web/20060117033127/https://v-chatterbox.net:80/speedup.htm</h4> TRICKS TO SPEED UP THE CREATION PROCESS USING 3D STUDIO MAX AND AUTHOR Well I did say it’s still a learning process and I was still learning… I bet some of you will wonder why this was not figured out in the beginning…. Well, with Max sometimes the simplest things are the hardest to find when you are thinking in the mind framework of applications as old as Author 1.1. You can make your own textures or save your own *.gif textures and apply them directly in Max before exporting your 3ds file to use in Author 1.1. If done right, the 3ds file will load into Author without ever using a hex editor at all. Isn’t that great news? I just know that hex editor thing gave everybody the ‘willies’… or some were just so put off by it they did not even want to try making their own world. Now don't go throwing out the old tutorial in favor of this one because it's still handy if you don't know what you want ahead of time if you know what I mean. I do that quite often, start out making something without any idea how I want it to look until it starts taking on its own personality. The hardest part for me was deciding what kinds of textures I was going to need, such as wood, stone, metal, glass, cloth, etc... Then making those textures in a regular graphics editing program for use in the new room. From the graphics editing program you can save those textures as *.gif from the start without all the conversions that we went through before. Save these into a folder all by themselves, name the folder whatever room you are planning to build. I will caution you that sometimes the limitations of Author 1.1 will limit the colors of your textures and that’s an experimental thing… I had at least one texture that Author 1.1 did not like at all so I had to find one it did like that I liked just as well. If you’re anything like me and not quite sure how you are going to put your idea together until you start, you’ll have more textures than you need and that can be a plus, although you’ll remove the unused textures from that folder later. You build your whole room, *.wdb file and all from that folder. I won’t go thru the steps of doing that in this tutorial. You can refer back to the first one on how to do that, okay? Are we all set? Got your textures ready to use? Well, let’s get started. I apologize for the length of this page and the screenshots which I know are going to make it lengthy to load but I had a choice to make here.... thumb nailing which meant that you would have to click on an image to get a proper view or leave it as is with all the information right at hand. By now you should be pretty familiar with this window if you have been working in 3d Studio Max during these tutorials. This is a first view of the material editor before any textures have been applied to your objects that you have created. Each colored tile has a material number. You can change the name of these to reflect the name or a property of the texture you are going to use. It really does help keep track of all of them, especially if your room becomes complex.Material and the number beside it are how Max keeps track of the different textures. Notice that the button beside the material number says standard. For this session you'll be ignoring that button entirely. For 3d Studio Max purposes, you can go that route for saving your own textures to be reused in Max for other projects and even V-Chat but it's much more time consuming than the way I'm going to show you. In addition, Author does not intuitively look in max map files for the textures it's looking for, it looks in the folder where your 3ds file is saved. You would still have to copy those textures over to the folder from which you will be working with the 3ds file. I have the arrow pointing to maps in this shot. This is where your work will be for this session. Click on the map button and it opens up a host of different options. I'm sure some of you curious people already looked at this area and have wondered what to do with it. Notice the little lock button on the right side positioned between the ambient color and the diffuse color. These are your two main maps for applying textures. For V-Chat and Author 1.1 purposes, these two will be the only ones you are concerned with, although with some of the darker textures you might want to apply the chosen texture to the self illumination map to get the true look of the texture. With some of the lighter colors it just whites it completely out so this is an area of experimentation for you. The other maps can create some pretty cool effects in Max, etc., but Author 1.1 does not read them well, or sometimes not at all. Notice that ambient color has the map button disabled. That's where the lock comes in. Hit that button to unlock it in order to use it for loading your own textures. As you can see from this shot, you now have that map button active. Go ahead and click on it. This window pops up. Notice that bitmap is highlighted. Max uses the term bitmap as a general term for all image files rather than specifically an image file format (that was part of why it took me so long to figure this out, lol). You can use any standard image file format such as *.jpg, *.gif, *.png, and others. Double click on bitmap and it opens up a file folder. Max saves the history of where you last looked for a particular image and mine has been set since before I took this screen shot. I forget which folder it starts with but the screen in front of you should look something like this: Notice where it says Look in: in this window. That's where you will direct Max to go look for your images. Navigating that is just like navigating folders and files that you do on a daily basis if you are like me, lol. Also, since Max saves the history of where you last looked, having all your image files in one place really keeps the search time down. Choose your image file that you want to apply. Once you have chosen your image, there will be some options, UV coordinates, etc. You can leave these at the default settings because Author 1.1 does not interpret them very well. Sometimes it does and sometimes it does not but if you are happy with your image as is, then there is no reason to change these settings. Notice that the path to your image is listed in the Bitmap parameters. One thing you might notice here is a check mark beside an option that says Show Map on Back... that's basically a replacement for the the 2 sided option in the initial material editor window. Notice also, near the top where your texture tiles is, that your image file has been assigned a map number. You must also apply this same texture to the diffuse map in the maps section of the material editor. This was confusing at first because once I applied it to the ambient map, I lost that section in the window. You must first go back to your original material number. From there, your maps section will be available again. Just repeat the process for the diffuse color and remember for darker images you can also set the self illumination map. Once you have gotten your textures loaded into the maps section that part of the window should look something like this: Since all your textures are in one folder and already in *.gif file format, these steps greatly decrease the time it takes to make your new room. Not only do you not spend time searching out textures to use, then have to replace with *.gif images in the hex editor, you eliminate the need for the hex editor and you see what it will look like before you ever export it to a 3ds file. Remember when you get to that point you are finished with your room and are ready to export to a 3ds file to save it in the same folder where your used images are stored. When you load the 3ds file into Author 1.1 the textures will load with it unless it's a texture that Author 1.1 can't interpret very well. You'll know right away if this happens because it will be dark and flat colored, :-). Don't panic if that happens. It just simply means that Author 1.1 won't use that particular texture and you must use another instead that it likes better. To do that is as easy as editing textures in the original V-Chat worlds. Find a new texture that you think will work and save it as the other texture you tried to use that did not work. Lastly, naming your textures. Do you see how some of the tiles have little triangles in them? These are the active textures in your current 3d Studio Max project. Scroll back up this page to one of the previous screenshots. See how they are named material + a number? That's where you name your textures.. by changing that material number. Highlight Material#whatever, type in your chosen name for that texture. It can reflect the filename or the object name. That's up to you. Whatever helps you keep track of them best. Notice how the texture name in this screenshot reflects the filename of the texture used. You can see that if you scroll back to the screenshot that shows the image files used for this tutorial and subsequent room made from them. The named texture has an added white border to reflect it's chosen status for the purposes of this screenshot. That way you'll always know which texture is being applied at that particular time. All but one of the textures used in this room, I made beforehand. The one that was not, was the *.gif I used for the floor, called marbl1, it was an adaptation of a texture I already had in Max but I used it differently (This was the texture I had to redo, lol, and I wanted something fast at that point). All of these textures will eventually go up in the textures section for download but for now, copy away to your heart's content. The link for this world is nonexistent right now as there have been a lot of changes made recently but I'll add it as soon as I can. The name of the world created here is Galaxy Ballroom and it's huge in size.
+                <hr>
+                <hr>
+            </div>
+        </main>
+        <nav id="left">
+            <div class="innertube">
+                <h4>MS V-Chat 2.0</h4>
+                <ul>
+                    <h5>
+                        <li><a href="#TOP">Home</a></li>
+                        <hr><li><a href="#DISCORD">Discord</a></li>
+                        <hr><li><a href="#ABOUT">About</a></li>
+                        <hr><li><a href="#LINKS">Credits & Links</a></li>
+                        <hr><li><a href="#INFO">Information</a></li>
+                        <hr><li><a href="#SERVERS">Servers</a></li>
+                        <hr><li><a href="#AVATARS">Avatars</a></li>
+                    </h5>
+                </ul>
+                <h3>Tutorials</h3>
+                <h5>
+                    <ul>
+                        <li><a href="#INSTALL">Install V-Chat</a></li>
+                        <hr><li><a href="#HELPFILE">Re-Enable *.hlp files</a></li>
+                        <hr><li><a href="#CREATEROOM">Customizing a room</a></li>
+                        <hr><li><a href="#AVWIZARD">Install Avatar Wizard</a></li>
+                        <hr><li><a style="color:red" href="#CREATEAV">Creating an avatar</a></li>
+                        <hr><li><a href="#AUTHOR">Install Author</a></li>
+                        <hr><li><a style="color:red" href="#CREATEWORLD">Creating a world</a></li>
+                    </ul>
+                </h5>
+            </div>
+        </nav>
+        <div id="right">
+            <div class="innertube">
+
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="innertube">
+                <p>
+                    <em>&copy;2022 MS V-Chat Museum</em>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
