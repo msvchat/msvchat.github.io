@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+        <title>Microsoft V-Chat 2.0 Museum Internet Relay Chat Server Homepage</title>
+        <meta name="description" content="This website is the homepage of the MS V-Chat Museum IRC server and has guides for Microsoft V-Chat 2.0, the most important of which is getting V-Chat running on Windows 10/11!">
+        <meta name="robots" content="index, follow">
+		<meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no" />
+        <meta charset="utf-8">
+        <meta name="keywords" content="vchat, v-chat, vchat for iphone, vchat for android, vchat mobile, microsoft v-chat, microsoft chat, vchat20, v-chat 2.0, microsoft v-chat 2.0, mschat, comic chat, irc, officeirc, avatars, avatar, room, rooms, metaverse, meta-verse">
+        <link rel="canonical" href="https://msvchat.github.io/index.html">
+		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+    </head>
+	<body class="is-preload">
+		<!-- Content -->
+		<div id="content">
+			<div class="inner">
+				<!-- Post -->
+				<article class="box post post-excerpt">
+					<header id="header">
+						<div class="innertube">
+							<h6 style="text-align:center">
+								<img class="displayed" src="images/vchatmuseumlogo.png" alt="V-Chat Logo 2" width="128" height="128">
+							</h6>
+							<h6 style="text-align:right">MS V-Chat Museum IRC Server is: <iframe src="https://msvchat.000webhostapp.com/status.php" style="border:0px #ffffff none;" name="status" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="14px" width="75px" allowfullscreen></iframe></h6>
+							<hr>
+						</div>
+                <h2 id="CREATEROOM">How to modify an existing world and host it online</h2>
+				        <dl>To have your own custom room in V-Chat, the first thing you  will need is web space to upload the files for people on V-Chat to download.
+                  If you do not have any web space, you can search "free webspace" and find one that suits your needs.</dl>
+                <dl>Once you have your web page you can start making your world. Below is the folder structure needed on your website.</dl>
+
+                <dl>
+                  <strong>FOLDER STRUCTURE</strong>
+                  <dt>"www.example.com/vchat/worlds/worldname/avatars/</dt>
+                  <dt>"www.example.com/vchat/worlds/worldname/data/</dt>
+                  <dt>"www.example.com/vchat/worlds/worldname/images/</dt>
+                  <dt>"www.example.com/vchat/worlds/worldname/sounds/</dt>
+                  <dt>"www.example.com/vchat/worlds/worldname/world.adf</dt>
+                </dl>
+
+                <strong>avatars</strong>
+                <ul>
+                  <li>This is where you put avatars, which can only be used, within the room.</li>
+                  <li>Those avatars will automatically show in the folder 'Room Avatars' in avatar selection menu.</li>
+                  <li>NOTE: you cannot use private avatars or *.vwp files.</li>
+                </ul>
+
+                <strong>data</strong>
+                <ul>
+                  <li><strong>about.txt</strong> = Text to be displayed in V-Chat, under 'About Microsoft V-Chat'.
+                  <li><strong>world.wdb</strong> = A 3D Studio MAX file which has been changed by Microsoft.
+                  <li><strong>world.pal</strong> = RIFF Pal data.
+                  <li><strong>hotlinks.txt</strong> = This file contains the data for portals and URLs.
+                    <dl>
+                      <strong>
+                        Some rooms have interactable portals you can either walk into or click on, as well as interactable links to websites.
+                        These are defined in the "hotlinks.txt" file.
+                      </strong>
+                      <dt>Portals are defined like this(I am unsure of the numbers following "ROOM DESCRIPTION"'s effect)</dt>
+                      <dt><strong>"NAME",VCHAT,IRC SERVER,#ROOMNAME,"ROOM DESCRIPTION",?,?,?,10000</strong></dt>
+                      <dt>"portal01",VCHAT,msvchatsvr.webredirect.org,#V-ChatLobby,"Portal to the V-Chat Lobby",0,1,1,10000</dt>
+                      <dt>URLS are defined like this</dt>
+                      <dt><strong>"NAME",URL,URL LINK,"URL DESCRIPTION"</strong></dt>
+                      <dt>"url02",URL,http://www.microsoft.com/ie,"Shortcut to the Microsoft Internet Explorer Web Page"</dt>
+                    </dl>
+                </ul>
+                <strong>images</strong>
+                <ul>
+                  <p>
+                    NOTE: Depending on which room you chose to modify the number of images varies greatly from room to room.
+                    When you modify an image it has to be the same dimensions as the image you are replacing.
+                    V-Chat uses (RGB 0,255,0) as a transparent color, so if you want to make an image invisible just paint it all green.
+                  </p>
+                </ul>
+                <strong>sounds</strong>
+                <ul>
+                  <li><strong>collide.wav</strong> = plays when hit wall/floor.</li>
+                  <li><strong>enter.wav</strong> = plays when someone enters the channel.</li>
+                  <li><strong>exit.wav</strong> = plays when someone leaves the channel.</li>
+                  <li><strong>song.mid</strong> = Loops(in my experience it does not work.)</li>
+                  <li><strong>song.wav</strong> = Loops, often its background music.</li>
+                  <li><strong>song2.wav</strong> = Loops, some rooms have two looping sounds.</li>
+                  <li><strong>portal.wav</strong> = plays when someone clicks into a portal.</li>
+                  <li><strong>sound.htm</strong> = Contains information about how sounds should be played</li>
+                </ul>
+                <h3>NOTE:sound.htm is required for rooms to have sound.</h3>
+                    If you would like your room to have two "song" files look inside your "C:\Program Files (x86)\Microsoft V-Chat\Worlds" folder & copy its sound.htm file and put it in your custom rooms sound folder.
+                    The only sound.htm containing information on a midi file is from the "Microsoft Gallery" room, and it does not seem to work properly.
+                    <dl><strong>Finally when you have a room on an IRC server the topic needs to be set
+                      <dt>For example: v:{-a http://msvchat.000webhostapp.com/vchat/worlds/paradiseisland/world.adf}</dt>
+                    </strong></dl>
+                    <h3>EXAMPLE OF A WORLD.ADF FILE</h3>
+                    <table style="margin:auto;box-shadow:0px 0px 0px #000">
+                        <tbody>
+                            <tr style="background-color:rgba(0,0,0,.1)">
+                                <td>
+                                  <ul>
+                                    <dl>[General]
+                                      <dt>Name=The V-Chat Paradise Island</dt>
+                                      <dt>Args=-p 30 -a cluck.png</dt>
+                                      <dl><strong>
+                                        What are ARGS?
+                                        <dt>Arguments are a way of setting additional options for a room.</dt>
+                                        <dt>-p 30 = how far away a person must be before distant members are ignored</dt>
+                                        <dt>-a peppie.png is the default avatar which V-Chat will use when it's on no custom avatar mode.</dt>
+                                        <dt>-f will disable 'FIND' option in the room.</dt>
+                                      </strong>
+                                      </dl>
+                                      <dt>Source=http://msvchat.000webhostapp.com/vchat/worlds/paradiseisland/world.adf</dt>
+                                    </dl>
+                                  </ul>
+                                  <ul>
+                                    <dl>[data]
+                                      <dt>world.wdb=./data/world.wdb</dt>
+                                      <dt>world.pal=world.pal</dt>
+                                      <dt>about.txt=about.txt</dt>
+                                    </dl>
+                                  </ul>
+                                  <ul>
+                                    <dl>[images]
+                                      <dt>barisle.gif=../images/barisle.gif, 64,64, 0, 198, 154, 106, 210, 149, 66</dt>
+                                      <dt>barman.gif=barman.gif, 128,512, 0, 216, 142, 73, 119, 121, 229</dt>
+                                      <dt>barmanbk.gif=barmanbk.gif, 128,512</dt>
+                                      <dt>bartop.gif=bartop.gif, 8,8, 0, 128, 128, 128, 128, 128, 128</dt>
+                                      <dt>bird.gif=bird.gif, 128,1024, 0, 0,0,0, 0,0,0</dt>
+                                      <dt>boat1.gif=boat1.gif, 128,256, 0, 255, 225, 0, 255, 0, 0</dt>
+                                      <dt>boat2.gif=boat2.gif, 128,256, 0, 255, 255, 173, 171, 171, 171</dt>
+                                      <dt>booze.gif=booze.gif, 128,64, 0, 178, 166, 255, 202, 202, 74</dt>
+                                      <dt>bubbles1.gif=bubbles1.gif, 64,1536, 0, 44, 44, 44, 44, 44, 44</dt>
+                                      <dt>clam.gif=clam.gif, 128,256, 0, 102, 102, 102, 255, 255, 173</dt>
+                                      <dt>clrred.gif=clrred.gif, 64,64, 0, 204, 0, 51, 204, 0, 51</dt>
+                                      <dt>cobalt1.gif=cobalt1.gif, 512,256, 0, 24, 24, 189, 255, 255, 255</dt>
+                                      <dt>cobalt2.gif=cobalt2.gif, 512,256</dt>
+                                      <dt>cobalt3.gif=cobalt3.gif, 512,256</dt>
+                                      <dt>cobalt4.gif=cobalt4.gif, 512,256</dt>
+                                      <dt>cobalt5.gif=cobalt5.gif, 512,256</dt>
+                                      <dt>coral1.gif=coral1.gif, 256,128, 0, 96, 14, 90, 177, 14, 96</dt>
+                                      <dt>fish1.gif=fish1.gif, 128,128, 0, 255, 0, 255, 255, 225, 0</dt>
+                                      <dt>fish2.gif=fish2.gif, 256,256, 0, 198, 200, 255, 255, 225, 0</dt>
+                                      <dt>fish3.gif=fish3.gif, 256,128, 0, 255, 0, 0, 0,0,255</dt>
+                                      <dt>fish4.gif=fish4.gif, 256,128, 0, 0, 0, 255, 255, 225, 0</dt>
+                                      <dt>fruit.gif=fruit.gif, 128,128, 0, 255, 225, 0, 24, 31, 67</dt>
+                                      <dt>fufu.gif=fufu.gif, 64,64, 0, 139, 39, 151, 177, 138, 3</dt>
+                                      <dt>islesign.gif=islesign.gif, 256,128, 0, 153, 102, 255, 255, 255, 0</dt>
+                                      <dt>leaf.gif=leaf.gif, 128,64, 0, 37, 83, 23, 37, 83, 23</dt>
+                                      <dt>lounge.gif=lounge.gif, 64,64, 0, 0, 0, 255, 249, 249, 249</dt>
+                                      <dt>nothing.gif=nothing.gif, 4,4, 0, 0, 255, 0, 0, 255, 0</dt>
+                                      <dt>sandy.gif=sandy.gif, 256,256, 0, 135, 118, 45, 237, 204, 115</dt>
+                                      <dt>seaweed.gif=seaweed.gif, 64,128, 0, 155, 155, 53, 37, 83, 23</dt>
+                                      <dt>tilewave.gif=tilewave.gif, 256,1024, 0, 74, 82, 247, 66, 66, 231</dt>
+                                      <dt>tree.gif=tree.gif, 32,128, 0, 214, 165, 140, 50, 23, 7</dt>
+                                      <dt>umbrell.gif=umbrell.gif, 32,32, 0, 198, 0, 0, 57, 82, 156</dt>
+                                      <dt>undernew.gif=undernew.gif, 256,256, 0, 57, 57, 16, 66, 66, 41</dt>
+                                      <dt>watwall.gif=watwall.gif, 256,128, 0, 0, 0, 128, 33, 16, 8</dt>
+                                      <dt>wv.gif=wv.gif, 256,1024, 0, 66, 66, 231, 165, 173, 255</dt>
+                                    </dl>
+                                    <dl><strong>
+                                      <dt>NAME=LOCATION+NAME, size of dimension y, size of dimension z, 0, 73,91,98, 76,94,100</dt>
+                                      <dt>"73,91,98, 76,94,100" are the colors to be displayed before it's downloaded.</dt>
+                                    </strong></dl>
+                                  </ul>
+                                  <ul>
+                                    <dl>[avatars]
+                                      <dt>hanabi.png=../avatars/hanabi.png</dt>
+                                      <dt>jonny.png=jonny.png</dt>
+                                      <dt>lily.png=lily.png</dt>
+                                      <dt>mermaid.png=mermaid.png</dt>
+                                      <dt>muscles.png=muscles.png</dt>
+                                      <dt>osama.png=osama.png</dt>
+                                      <dt>surfer.png=surfer.png</dt>
+                                    </dl>
+                                  </ul>
+                                  <ul>
+                                    <dl>[sounds]
+                                      <dt>enter.wav=../sounds/enter.wav</dt>
+                                      <dt>song.wav=song.wav</dt>
+                                      <dt>sound.htm=sound.htm</dt>
+                                    </dl>
+                                  </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                <hr>
+                <hr>
+					</header>
+				</article>
+			</div>		
+		</div>
+		<!-- Sidebar -->
+		<div id="sidebar">
+			<!-- Logo -->
+			<h1 id="logo"><a href="#"><img class="displayed" src="images/vchatmuseumlogo.png" alt="V-Chat Logo 2" width="32" height="32"></a></h1>
+			<!-- Nav -->
+			<nav id="nav">
+				<header>
+					<h2>Information</h2>
+				</header>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="gettingstarted.html">Getting Started</a></li>
+					<li><a href="contactme.html">Contact Me</a></li>
+				</ul>
+			</nav>
+			<!-- nav2 -->
+			<nav id="nav">
+				<header>
+					<h2>Installation</h2>
+				</header>
+				<ul>
+					<li><a href="ivchat.html">Install V-Chat</a></li>
+					<li><a href="iavawiz.html">Install Avatar Wizard</a></li>
+					<li><a href="iauthor.html">Install Author</a></li>
+				</ul>
+			</nav>
+			<nav id="nav">
+				<header>
+					<h2>Creation</h2>
+				</header>
+				<ul>
+					<li class="current"><a href="customroom.html">Customizing a room</a></li>
+					<li><a style="color:red" href="customav.html">Creating an avatar</a></li>
+					<li><a style="color:red" href="customworld.html">Creating a world</a></li>
+				</ul>
+			</nav>
+			<!-- Copyright -->
+			<ul id="copyright">
+				<li>&copy;2022 MS V-Chat Museum</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
