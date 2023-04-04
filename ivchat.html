@@ -31,7 +31,7 @@
                 <h3>Please note that if any of the files below trigger windows defender, allow them, defender is falsely identifying nonexistent trogens when it comes to some older 16 and 32 bit files.</h3>
                 <h3>Second note: because the installers are broken for later operating systems you will need something like <a href="https://geekuninstaller.com/">Geek Uninstaller</a> to forcefully uninstall V-Chat, I am sorry about this. I hope that by repackaging the installer(when I get around to it) I can remedy this issue. </h3>
                 <ul>
-                    <li>First you need to <a href="https://msvchat.github.io/vchat/downloads/2.0.0.220vchat2L.zip">
+                    <li>First you need to <a href="https://msvchat.github.io/vchat/downloads/2.0.0.217vchat2.zip">
                             <span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a>
                         <strong>Microsoft V-Chat 2.0</strong> and install it.
                     </li>
@@ -43,28 +43,33 @@
                     </li>
                     <li>Open the <strong>Worlds</strong> folder and rename <strong>HOME</strong> to <strong>DefHomespace</strong>
                     </li>
-                    <li>Next <a href="https://msvchat.github.io/vchat/downloads/dgvoodooandd3drm.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a> <strong>dgVoodoo2(2.79.3) & d3drm</strong> files.
+                    <li>Next <a href="https://msvchat.github.io/vchat/downloads/dgvoodoo2.8&d3drm.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a> <strong>dgVoodoo2(2.8) & d3drm</strong> files.
                     </li>
                     <li>Extract the contents to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong>
                     </li>
-                    <li>Now open <strong>dgVoodooCpl.exe</strong>
+                    <li>Now open <strong>dgVoodooCplx86.exe</strong> or <strong>dgVodooCplx64.exe</strong> if you are using a 64bit operating system.
                     </li>
                     <li>Make your settings match these.(The Glide tab is unused by V-Chat in windows operating systems and the settings don't need to be set.)</li>
                 </ul>
                 <img src="images/generaltab.png" class="imageRight" alt="General Tab" width="400" height="475">
 
                 <img src="images/directxtab.png" class="imageLeft" alt="DirectX Tab" width="400" height="475">
-                <ul>
+				<ul>
+					<li>Now do you see in the images where it says <strong>C:\Users\kusag\AppData\Roaming\dgVoodoo</strong>? Your's will be different but you need to navigate to that folder and edit the file named <strong>dgVoodoo.conf</strong> (you can use notepad to open the file)</li>
+					<li>Find the line <strong>FPSLimit=</strong> in <strong>dgVoodoo.conf</strong> and after the <strong>=</strong> put <strong>60</strong>. This will limit V-Chat to a max of 60fps and as a result slow down the animated graphics to more normal levels. Save the file and close it.</li>
+					<li>Navigate back to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong></li>
                     <li>Right click on <strong>VCHAT20.EXE</strong> choose properties </li>
-                    <li>Click on the "Compatibility" tab, check the box next to "Run this program as administrator"</li>
+                    <li>Click on the <strong>Compatibility</strong> tab, check the box next to <strong>Run this program as administrator</strong></li>
                     <li>Click Apply and then OK</li>
                     <li>Now you can run V-Chat!</li>
                 </ul>
                 <img src="images/screenshot4.png" class="imageLeft" alt="V-Chat" width="866" height="568">
                 <h3 id="HELPFILE">IT IS HIGHLY RECOMMENDED...that you add the ability to see *.hlp files as they are meant to be seen!</h3>
-                <p>Why? Because most of V-Chat and its related utilities useful knowledge is locked away behind these files. Plus it is pretty cool to be able to use the help function like it was meant to be used.</p>
-                <p><a href="https://msvchat.github.io/vchat/downloads/Hlp32Fix_Win10.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a> and extract the zip file, then run install.cmd as administrator. Now you will be able to use the help files included in V-Chat!</p>
-                <img src="images/help.png" class="imageRight" alt="General Tab" width="430" height="435">
+                <ul>
+					<li>Why? Because most of V-Chat and its related utilities useful knowledge is locked away behind these files. Plus it is pretty cool to be able to use the help function like it was meant to be used.</li>
+                	<li><a href="https://msvchat.github.io/vchat/downloads/Hlp32Fix_Win10.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a> and extract the zip file, then run install.cmd as administrator. Now you will be able to use the help files included in V-Chat!</li>
+                </ul>
+				<img src="images/help.png" class="imageRight" alt="General Tab" width="430" height="435">
                 <h3>NOTE</h3>There is a bug with V-Chat on modern hardware that occurs when you have the "graphical window" selected and you begin to type. Often you will get a spam of the first key you hit after that the text box has been auto selected and you will begin to type normally.To avoid this just click the text box before you plan to type in chat. PLEASE CONTACT ME IF YOU HAVE A SOLUTION TO THIS ISSUE.
                 <hr>
                 <hr>
