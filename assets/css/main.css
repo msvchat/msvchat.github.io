@@ -22,15 +22,6 @@ section, summary, time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;}
-iframe.noScrolling {
-	margin-top: 0;
-	margin-left: 0;
-	margin-bottom: 0;
-	margin-right: 0;
-	border: 0;
-	width: 75px;
-	height: 140px;
-	overflow: hidden;}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
