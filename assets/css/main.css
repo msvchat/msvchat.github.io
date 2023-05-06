@@ -28,6 +28,14 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+iframe {
+	background-color: #ffffff;
+	margin: 0;
+    width: 75px;
+    height: 14px;
+    border-radius: 0px;
+    overflow: hidden;
+}
 ol, ul {
 	list-style: none;
 }
