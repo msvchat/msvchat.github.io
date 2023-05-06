@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-iframe.isonline {
+#isonline {
 	background-color: #fff;
 	margin: 0;
 	padding: 0;
