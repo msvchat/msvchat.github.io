@@ -28,16 +28,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-#isonline {
-	background-color: #fff;
-	margin: 0;
-	padding: 0;
-	border: 0;
-    width: 75px;
-    height: 14px;
-    border-radius: 0px;
-    overflow: hidden;
-}
 ol, ul {
 	list-style: none;
 }
