@@ -58,41 +58,23 @@
 							</h6>
 							<hr>
 						</div>
- <h2 id="INSTALL">Installing Microsoft V-Chat 2.0 and how to get it working on Windows 10/11</h2>
-                <h3>Please note that if any of the files below trigger windows defender, allow them, defender is falsely identifying nonexistent trogens when it comes to some older 16 and 32 bit files.</h3>
-                <h3>Second note: because the installers are broken for later operating systems you will need something like <a href="https://geekuninstaller.com/">Geek Uninstaller</a> to forcefully uninstall V-Chat, I am sorry about this. I hope that by repackaging the installer(when I get around to it) I can remedy this issue. </h3>
+ <h2 id="INSTALL">Installing Microsoft V-Chat Suite</h2>
+                <h3>ITS HERE</h3>
+                <h3>I finally created a new installer using <a href="https://jrsoftware.org/isdl.php">Inno setup compiler</a>. It installs V-Chat, the Avatar Wizard, and the Author tool. It also installs all the official artwork!(the old installer only installed the lobby). You can now uninstall the program successfully. dgVoodoo2 conf files are automatically installed so there is no longer a need to set it up yourself! </h3>
                 <ul>
-                    <li>First you need to <a href="https://msvchat.github.io/vchat/downloads/2.0.0.217vchat2.zip">
-                            <span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a>
-                        <strong>Microsoft V-Chat 2.0</strong> and install it.
-                    </li>
-                    <li>After you've done that, navigate to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong>
-                    </li>
-                    <li>Rename <strong>WORLDS</strong> to <strong>Worlds</strong> (this step isn't necessary. It just makes the folder look nicer not being all caps.)
-                    </li>
-                    <li>Rename <strong>NEWWOR</strong> to <strong>NewWorlds</strong>
-                    </li>
-                    <li>Open the <strong>Worlds</strong> folder and rename <strong>HOME</strong> to <strong>DefHomespace</strong>
-                    </li>
-                    <li>Next <a href="https://msvchat.github.io/vchat/downloads/dgvoodoo2.81.3&d3drm.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a> <strong>dgVoodoo2(2.81.3) & d3drm</strong> files.
-                    </li>
-                    <li>Extract the contents to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong>
-                    </li>
-                    <li>Now open <strong>dgVoodooCplx86.exe</strong> or <strong>dgVodooCplx64.exe</strong> if you are using a 64bit operating system.
-                    </li>
-                    <li>Make your settings match these.(The Glide tab is unused by V-Chat in windows operating systems and the settings don't need to be set.)</li>
-                </ul>
-                <img src="images/generaltab.png" class="imageRight" alt="General Tab" width="400" height="475">
-
-                <img src="images/directxtab.png" class="imageLeft" alt="DirectX Tab" width="400" height="475">
-				<ul>
-					<li>Now do you see in the images where it says <strong>C:\Users\kusag\AppData\Roaming\dgVoodoo</strong>? Your's will be different but you need to navigate to that folder and edit the file named <strong>dgVoodoo.conf</strong> (you can use notepad to open the file)</li>
-					<li>Find the line <strong>FPSLimit=</strong> in <strong>dgVoodoo.conf</strong> and after the <strong>=</strong> put <strong>60</strong> if you want it at 60fps or <strong>24</strong> if you want it at 24fps (which is more accurate). This will limit V-Chat to a maximum framerate you specify and as a result can slow down the animated graphics to more normal levels. Save the file and close it.</li>
+                    <li>First you need to download <a href="https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Microsoft V-Chat Suite</span></a> and extract it.</li>
+                    <li>Navigate to were you extracted it and run it.</li>
+                    <li>The installer creates shortcuts in the start menu for each program.</li>
+                    <li>Alway run V-Chat as administrator</li>
 					<li>Navigate back to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong></li>
                     <li>Right click on <strong>VCHAT20.EXE</strong> choose properties </li>
                     <li>Click on the <strong>Compatibility</strong> tab, check the box next to <strong>Run this program as administrator</strong></li>
                     <li>Click Apply and then OK</li>
-                    <li>Now you can run V-Chat! If you would like to use a different avatar, besides the default ones. <a href="https://msvchat.github.io/gettingstarted.html">Getting Started</a> go here and scroll down.</li>
+                    <li>If you wish to change the FPS of V-Chat</li>
+                    <li>Navigate to <strong>C:\Users\NAME\AppData\Roaming\dgVoodoo</strong> Where NAME is unique to your computer.</li>
+                    <li>Edit the file named <strong>dgVoodoo.conf</strong> (you can use notepad to open the file)</li>
+                    <li>Find the line <strong>FPSLimit=</strong> in <strong>dgVoodoo.conf</strong> and after the <strong>=</strong> put <strong>60</strong> if you want it at 60fps or <strong>24</strong> if you want it at 24fps (which is more accurate). This will limit V-Chat to a maximum framerate you specify and as a result can slow down the animated graphics to more normal levels. Save the file and close it.</li>
+					<li>Now you can run V-Chat (the portals work again cause they are linked to msvchatsvr.webredirect.org)! If you would like to use a different avatar, besides the default ones. <a href="https://msvchat.github.io/gettingstarted.html">Getting Started</a> go here and scroll down.</li>
                 </ul>
                 <img src="images/screenshot4.png" class="imageLeft" alt="V-Chat" width="866" height="568">
                 <h3 id="HELPFILE">IT IS HIGHLY RECOMMENDED...that you add the ability to see *.hlp files as they are meant to be seen!</h3>
@@ -127,9 +109,7 @@
 					<h2>Installation</h2>
 				</header>
 				<ul>
-					<li class="current"><a href="ivchat.html">Install V-Chat</a></li>
-					<li><a href="iavawiz.html">Install Avatar Wizard</a></li>
-					<li><a href="iauthor.html">Install Author</a></li>
+					<li class="current"><a href="ivchat.html">Install V-Chat Suite</a></li>
 				</ul>
 				<hr>
 				<header>
