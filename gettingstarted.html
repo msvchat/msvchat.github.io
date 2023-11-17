@@ -81,7 +81,23 @@
 						</td>
 						<td> 6667 </td>
 						<td>
-							<a href="https://msvchatmuseum.rf.gd/status.php"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Click to see</span></a>
+							<div id="status"></div>
+							<script>
+							AbortSignal.timeout ??= function timeout(ms) {
+							  const ctrl = new AbortController();
+							  setTimeout(() => ctrl.abort(), ms);
+							  return ctrl.signal;
+							};
+							fetch("https://msvchatsvr.webredirect.org", { signal: AbortSignal.timeout(2000), mode: "no-cors" })
+							  .then((r) => {
+								//console.log("ONLINE");
+								document.getElementById("status").innerHTML = "<a style=color:green>ONLINE</a>";
+							  })
+							  .catch((e) => {
+								//console.log("OFFLINE");
+								document.getElementById("status").innerHTML = "<a style=color:red>OFFLINE</a>";
+							  });
+							</script>
 						</td>
 					</tr>
 					<tr style="background-color:rgba(0,0,0,.1)">
@@ -90,7 +106,24 @@
 							<a href="vchat://irc.worlio.com/#welcome">irc.worlio.com</a>
 						</td>
 						<td> 6667 </td>
-						<td>24/7</td>
+						<td>							<div id="status2"></div>
+							<script>
+							AbortSignal.timeout ??= function timeout(ms) {
+							  const ctrl = new AbortController();
+							  setTimeout(() => ctrl.abort(), ms);
+							  return ctrl.signal;
+							};
+							fetch("https://irc.worlio.com", { signal: AbortSignal.timeout(2000), mode: "no-cors" })
+							  .then((r) => {
+								//console.log("ONLINE");
+								document.getElementById("status2").innerHTML = "<a style=color:green>ONLINE</a>";
+							  })
+							  .catch((e) => {
+								//console.log("OFFLINE");
+								document.getElementById("status2").innerHTML = "<a style=color:red>OFFLINE</a>";
+							  });
+							</script>
+						</td>
 					</tr>
 				</tbody>
 			</table>
