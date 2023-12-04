@@ -77,26 +77,40 @@
 							<li>dgVoodoo2 conf files are automatically placed in the Appdata/Roaming/dgVoodoo folder</li>
 							<li>Microsoft V-Chat SDK 1.0 BETA(.pdf format)</li>
 						</ul>
+						<h3>Features</h3>
+						<ul>
+							<li>Shortcuts are created in the start menu for each program.</li>
+							<li>Portals work again because they are linked to msvchatsvr.webredirect.org.</li>
+							<li>"Connect" button now has msvchatsvr.webredirect.org as the default server to connect to.</li>
+						</ul>
 						<strong>NOTE: that these installers are showing <a style="color:red">FALSE POSITIVES</a> for malware. Specifically Trojan.GandCrab!8.F3DC (CLOUD) which shows up as Trojan:Win32/GandCrab.GD!MTB in Windows Defender. Below are the Virus Total results.</strong>
 						<a style="color:red" href="https://www.virustotal.com/gui/file/98b8bbd5b6dfa23127adb4a6bcdc5056a699a1b1b55d8494430a4fa64809668b">https://www.virustotal.com/gui/file/98b8bbd5b6dfa23127adb4a6bcdc5056a699a1b1b55d8494430a4fa64809668b</a> for the XP installer
 						<a style="color:red" href="https://www.virustotal.com/gui/file/7c144683ad512414b6442c58d62b6bf47c9a59d6b05fe116b48227eb4522e757">https://www.virustotal.com/gui/file/7c144683ad512414b6442c58d62b6bf47c9a59d6b05fe116b48227eb4522e757</a> for the regular installer
 						<p style="text-align:center; font-size: 28px"><strong>These installers are safe to use!</strong></p>
+						<h3>To Install:</h3>
 						<ul>
-                    		<li>First you need to download <a href="https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Microsoft V-Chat Suite</span></a> or <a href="https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite(for XP).zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Microsoft V-Chat Suite(for XP)</span></a> and extract it.</li>
-                    		<li>Navigate to were you extracted it and run it.</li>
-                    		<li>The installer creates shortcuts in the start menu for each program.</li>
-                    		<li>Always run V-Chat as administrator</li>
-							<li>Navigate back to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong> or <strong>C:\Program Files\Microsoft V-Chat</strong> if you are using Windows XP</li>
+                    		<li>First you need to download <a href="https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite.zip">
+								<span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Microsoft V-Chat Suite</span></a> 
+								or <a href="https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite(for XP).zip">
+								<span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Microsoft V-Chat Suite(for XP)</span></a> and extract it.</li>
+                    		<li>Navigate to were you extracted it and run the installer.</li>
+						</ul>
+						<h3>Before running V-Chat it should always be ran as administrator(unless you are using Windows XP you won't need to run as administrator) so it can read and write files, to set it to run as admin every time do this:</h3>
+                    	<ul>
+							<li>Navigate back to <strong>C:\Program Files (x86)\Microsoft V-Chat</strong>.</li>
                     		<li>Right click on <strong>VCHAT20.EXE</strong> choose properties </li>
                     		<li>Click on the <strong>Compatibility</strong> tab, check the box next to <strong>Run this program as administrator</strong></li>
                     		<li>Click Apply and then OK</li>
-                    		<li>If you wish to change the FPS of V-Chat (You can't do this in XP)</li>
+						</ul>
+                    	<h3>If you wish to change the FPS of V-Chat (You can't do this in XP):</h3>
+						<ul>
                     		<li>Navigate to <strong>C:\Users\NAME\AppData\Roaming\dgVoodoo</strong> Where NAME is unique to your computer.</li>
                     		<li>Edit the file named <strong>dgVoodoo.conf</strong> (you can use notepad to open the file)</li>
                     		<li>Find the line <strong>FPSLimit=</strong> in <strong>dgVoodoo.conf</strong> and after the <strong>=</strong> put <strong>60</strong> if you want it at 60fps or <strong>24</strong> if you want it at 24fps (which is more accurate). This will limit V-Chat to a maximum framerate you specify and as a result can slow down the animated graphics to more normal levels. Save the file and close it.</li>
-							<li>Now you can run V-Chat (the portals work again cause they are linked to msvchatsvr.webredirect.org)! If you would like to use a different avatar, besides the default ones. <a href="https://msvchat.github.io/gettingstarted.html">Getting Started</a> go here and scroll down.</li>
+							<li>Now you can run V-Chat!</li>
                 		</ul>
-                		<img src="images/screenshot4.png" class="imageLeft" alt="V-Chat" width="866" height="568">
+						<h3>If you would like to use a different avatar, besides the default ones. Go to <a href="https://msvchat.github.io/gettingstarted.html">Getting Started</a> and scroll down.</h3>
+                		<img src="images/screenshot4.png" class="imageLeft" alt="V-Chat" width="433" height="284">
                 		<h3 id="HELPFILE">IT IS HIGHLY RECOMMENDED...that you add the ability to see *.hlp files as they are meant to be seen!</h3>
                 		<ul>
 							<li>Why? Because most of V-Chat and its related utilities useful knowledge is locked away behind these files. Plus it is pretty cool to be able to use the help function like it was meant to be used.</li>
