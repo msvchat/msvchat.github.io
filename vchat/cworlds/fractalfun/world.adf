@@ -1,0 +1,72 @@
+[General]
+Name=Fractal Fun
+Args=-p 30 -a v_smile.png
+Source=http://msvchat.github.io/vchat/cworlds/fractalfun/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+
+[avatars]
+v_smile.png=../avatars/v_smile.png
+
+[images]
+tv4.gif=../images/tv4.gif, 128,512, 0, 10, 97, 62, 232, 66, 66
+tvhi.gif=tvhi.gif, 8,8, 0, 86, 78, 129, 86, 78, 129
+tvlo.gif=tvlo.gif, 8,8, 0, 23, 23, 47, 23, 23, 47
+tvtop.gif=tvtop.gif, 8,8, 0, 149, 149, 166, 149, 149, 166
+window.gif=window.gif, 8,8, 0, 251, 217, 57, 251, 217, 57
+winlow.gif=winlow.gif, 8,8, 0, 250, 121, 27, 250, 121, 27
+bottom.gif=bottom.gif, 8,8, 0, 27, 27, 54, 27, 27, 54
+brick.gif=brick.gif, 128,128, 0, 203, 57, 43, 232, 149, 85
+swirl.gif=swirl.gif, 256,256, 0, 177, 114, 66, 232, 177, 96
+brown.gif=brown.gif, 8,8, 0, 146, 61, 3, 146, 61, 3
+city.gif=city.gif, 512,256, 0, 73, 166, 47, 221, 140, 82
+cliffsmall.gif=cliffsmall.gif, 128,128, 0, 141, 24, 12, 56, 11, 10
+face.gif=face.gif, 64,128
+floor.gif=floor.gif, 512,512, 0, 34, 49, 72, 129, 55, 96
+clockhi.gif=clockhi.gif, 8,8, 0, 72, 189, 156, 72, 189, 156
+clocklo.gif=clocklo.gif, 8,8
+pendulum.gif=pendulum.gif, 64,256
+cloud1.gif=cloud1.gif, 128,64, 0, 128, 0, 128, 255, 255, 255
+cloud2.gif=cloud2.gif, 128,128
+grass.gif=grass.gif, 32,32, 0, 202, 202, 74, 102, 203, 73
+green.gif=green.gif, 32,32, 0, 16, 156, 43, 16, 156, 43
+f1.gif=f1.gif, 256,256, 0, 0, 255, 0, 0, 255, 0
+f2.gif=f2.gif, 256,256
+f3.gif=f3.gif, 256,256
+moon.gif=moon.gif, 64,64, 0, 232, 208, 112, 250, 121, 27
+planet.gif=planet.gif, 64,64
+planet2.gif=planet2.gif, 128,128
+plant1.gif=plant1.gif, 128,256, 0, 187, 78, 4, 35, 10, 15
+plant2.gif=plant2.gif, 128,256
+plant3.gif=plant3.gif, 256,256
+plant4.gif=plant4.gif, 128,256
+plant5.gif=plant5.gif, 256,256
+purple.gif=purple.gif, 8,8, 0, 118, 31, 139, 118, 31, 139
+red.gif=red.gif, 8,8, 0, 194, 13, 14, 194, 13, 14
+roof.gif=roof.gif, 256,256, 0, 167, 69, 3, 164, 10, 0
+roof2.gif=roof2.gif, 256,256
+sky.gif=sky.gif, 8,8, 0, 128, 0, 128, 128, 0, 128
+skyline.gif=skyline.gif, 256,512, 0, 128, 0, 128, 27, 27, 54
+skyline2.gif=skyline2.gif, 256,256
+skyline3.gif=skyline3.gif, 256,128
+stars.gif=stars.gif, 128,128, 0, 251, 217, 57, 232, 149, 85
+statiky.gif=statiky.gif, 32,512
+stripe.gif=stripe.gif, 8,32, 0, 186, 176, 253, 10, 23, 227
+strobe16.gif=strobe16.gif, 32,512, 0, 226, 15, 1, 243, 175, 2
+town.gif=town.gif, 512,256, 0, 73, 166, 47, 221, 140, 82
+wood.gif=wood.gif, 128,128, 0, 217, 17, 117, 129, 55, 96
+art1.gif=art1.gif, 128,128, 0, 255, 0, 255, 102, 203, 73
+art2.gif=art2.gif, 128,128, 0, 169, 45, 200, 27, 27, 54
+art3.gif=art3.gif, 128,256, 0, 250, 210, 27, 250, 121, 27
+art4.gif=art4.gif, 128,256, 0, 3, 49, 50, 18, 123, 114
+
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+song2.wav=song2.wav
+sound.htm=sound.htm

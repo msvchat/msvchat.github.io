@@ -1,0 +1,2 @@
+"curtain1",URL,http://www.techin.net/vchat.htm,"Link To BayKnight's VChat Help Page"
+"curtain2",URL,http://www.geocities.com/Paris/Metro/3380/foxtail.html,"Link to #Foxtail_Lodge Homepage"

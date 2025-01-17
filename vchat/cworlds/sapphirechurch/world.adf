@@ -1,0 +1,31 @@
+[General]
+Name=Sapphire Church
+Args=-p 30 -a peppie.png
+Source=http://msvchat.github.io/vchat/cworlds/sapphirechurch/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+hotlinks.txt=hotlinks.txt
+
+[images]
+carptblu.gif=../images/carptblu.gif, 256,256, 0, 76,94,100, 96,114,120
+metal7.gif=metal7.gif, 32,32, 0, 0,255,0, 0,255,0
+walnut3.gif=walnut3.gif, 256,256, 0, 76,76,76, 0,255,0
+grass2.gif=grass2.gif, 512,512,
+stucco.gif=stucco.gif, 128,128, 0, 86,86,92, 134,123,134
+stucco4.gif=stucco4.gif, 128,128, 0, 50,50,50, 100,100,100
+oldwood.gif=oldwood.gif, 256,128, 0, 76,94,100, 0,255,0
+brkwea.gif=brkwea.gif, 256,256,0,0,0,0,0,0,0
+tutshngl.gif=tutshngl.gif, 512,256,0,0,0,0,0,0,0
+brkweab.gif=brkweab.gif, 256,256,0,0,0,0,0,0,0
+jstndgl.gif=jstndgl.gif, 512,512,0,0,0,0,0,0,0
+
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+song2.wav=song2.wav
+sound.htm=sound.htm

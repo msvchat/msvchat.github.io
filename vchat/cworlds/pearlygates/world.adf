@@ -1,0 +1,58 @@
+[General]
+Name=Pearly Gates
+Args=-p 30 -a v_pearly.png
+Source=http://msvchat.github.io/vchat/cworlds/pearlygates/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+
+[avatars]
+v_pearly.png=../avatars/v_pearly.png
+
+[images]
+tree.gif=../images/tree.gif, 32,128, 0, 214, 165, 140, 50, 23, 7
+umbrell.gif=umbrell.gif, 32,32, 0, 198, 0, 0, 57, 82, 156
+islesign.gif=islesign.gif, 256,128, 0, 153, 102, 255, 255, 255, 0
+leaf.gif=leaf.gif, 128,64, 0, 37, 83, 23, 37, 83, 23
+lounge.gif=lounge.gif, 64,64, 0, 0, 0, 255, 249, 249, 249
+nothing.gif=nothing.gif, 4,4, 0, 0, 255, 0, 0, 255, 0
+barisle.gif=barisle.gif, 64,64, 0, 198, 154, 106, 210, 149, 66
+booze.gif=booze.gif, 128,64, 0, 178, 166, 255, 202, 202, 74
+fruit.gif=fruit.gif, 128,128, 0, 255, 225, 0, 24, 31, 67
+barman.gif=barman.gif, 128,512, 0, 216, 142, 73, 119, 121, 229
+barmanbk.gif=barmanbk.gif, 128,512
+bartop.gif=bartop.gif, 8,8, 0, 128, 128, 128, 128, 128, 128
+sandy.gif=sandy.gif, 256,256, 0, 135, 118, 45, 237, 204, 115
+wv.gif=wv.gif, 256,1024, 0, 66, 66, 231, 165, 173, 255
+tilewave.gif=tilewave.gif, 256,1024, 0, 74, 82, 247, 66, 66, 231
+cobalt1.gif=cobalt1.gif, 512,256, 0, 24, 24, 189, 255, 255, 255
+cobalt2.gif=cobalt1.gif, 512,256
+cobalt3.gif=cobalt1.gif, 512,256
+cobalt4.gif=cobalt1.gif, 512,256
+cobalt5.gif=cobalt1.gif, 512,256
+bird.gif=bird.gif, 128,1024, 0, 0,0,0, 0,0,0
+boat1.gif=boat1.gif, 128,256, 0, 255, 225, 0, 255, 0, 0
+boat2.gif=boat2.gif, 128,256, 0, 255, 255, 173, 171, 171, 171
+undernew.gif=undernew.gif, 256,256, 0, 57, 57, 16, 66, 66, 41
+watwall.gif=watwall.gif, 256,128, 0, 0, 0, 128, 33, 16, 8
+seaweed.gif=seaweed.gif, 64,128, 0, 155, 155, 53, 37, 83, 23
+bubbles1.gif=bubbles1.gif, 64,1536, 0, 44, 44, 44, 44, 44, 44
+clam.gif=clam.gif, 128,256, 0, 102, 102, 102, 255, 255, 173
+clrred.gif=clrred.gif, 64,64, 0, 204, 0, 51, 204, 0, 51
+coral1.gif=coral1.gif, 256,128, 0, 96, 14, 90, 177, 14, 96
+fish1.gif=fish1.gif, 128,128, 0, 255, 0, 255, 255, 225, 0
+fish2.gif=fish2.gif, 256,256, 0, 198, 200, 255, 255, 225, 0
+fish3.gif=fish3.gif, 256,128, 0, 255, 0, 0, 0,0,255
+fish4.gif=fish4.gif, 256,128, 0, 0, 0, 255, 255, 225, 0
+fufu.gif=fufu.gif, 64,64, 0, 139, 39, 151, 177, 138, 3
+
+[sounds]
+enter.wav=../sounds/enter.wav
+collide.wav=collide.wav
+song.wav=song.wav
+song2.wav=song2.wav
+exit.wav=exit.wav
+portal.wav=portal.wav
+sound.htm=sound.htm

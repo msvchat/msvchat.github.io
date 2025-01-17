@@ -1,0 +1,2 @@
+"curtain1",VCHAT,msvchatsvr.webredirect.org,#V-ChatLobby,"Portal to the V-Chat Lobby",0,0,1,10000
+"curtain2",VCHAT,msvchatsvr.webredirect.org,#V-ChatLobby,"Portal to the V-Chat Lobby",0,0,1,10000

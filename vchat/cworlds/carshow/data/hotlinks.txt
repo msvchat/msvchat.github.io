@@ -1,0 +1,17 @@
+"Portal01",VCHAT,,#V-ChatLobby,"Portal to the V-Chat Lobby",1,1,1,10000
+"Portal02",VCHAT,,#V-ChatTreeTops,"Portal to LostMom's TreeTop Bungalo by Kippy",1,1,1,10000
+"portal03",VCHAT,,#Vm-Chat_The_Vchat_Lodge,"Portal to the V-Chat Lodge",1,1,1,10000
+"portal04",VCHAT,,#Vx-ChatAbsolutLove,"Portal to AbsolutLove by Absolut",1,1,1,10000
+"portal05",VCHAT,,#Vx-ChatHeavenlyEyes,"Portal to HeavenlyEyes' Room",1,1,1,10000
+"portal06",VCHAT,,#Vx-ChatLMsButterflyDreams,"Portal to LostMom's Butterfly Dreams",1,1,1,1000
+"portal07",VCHAT,,#Vx-ChatLMsPurpleHouse,"Portal to LostMom's Purple House",1,1,1,1000
+"url01",URL,http://mar8.8m.com/,"Shortcut to Mar's V-Chat Web Page"
+"url02",URL,http://www.cybernosis.com/vchat/,"Shortcut to the V-Chat World Designers Website"
+"url03",URL,http://likensnest.homestead.com/LikensNest.html,"Shortcut to the LikensNest Webpage"
+"url04",URL,http://www.v-chatterbox.net/~LostMom/,"Shortcut to LostMom's V-Chat Page"
+"url05",URL,http://www.cybertown.com,"Shortcut to Cybertown"
+"url06",URL,,"LostMom will think of something to put here soon"
+"url07",URL,,"LostMom will think of something to put here soon"
+"url08",URL,,"LostMom will think of something to put here soon"
+"url09",URL,,"LostMom will think of something to put here soon"
+"url10",URL,,"LostMom will think of something to put here soon"

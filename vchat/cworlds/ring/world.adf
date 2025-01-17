@@ -1,0 +1,25 @@
+[General]
+Name=The Ring
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/cworlds/ring/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+
+[images]
+black.gif=../images/black.gif,512,512,0,210,157,159,210,170,168
+carptblu.gif=carptblu.gif,256,256,0,224,194,194,224,200,187
+lakerem2.gif=lakerem2.gif,16,16,0,219,207,173,219,192,172
+gold_001.gif=gold_001.gif,256,256
+gryplank.gif=gryplank.gif,256,256
+multi_01.gif=multi_01.gif,256,256
+
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+song2.wav=song2.wav
+sound.htm=sound.htm

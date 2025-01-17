@@ -1,0 +1,37 @@
+[General]
+Name=The V-Chat Theater Chat
+Args=-p 30 -a cluck.png
+Source=http://msvchat.github.io/vchat/worlds/theaterchat/world.adf
+
+[data]
+world.wdb=./data/world.wdb
+about.txt=about.txt
+hotlinks.txt=hotlinks.txt
+
+[images]
+b0.gif= ../images/b0.gif, 256,256
+b1.gif= b1.gif, 256,256
+b2.gif= b2.gif, 256,256
+b3.gif= b3.gif, 256,256
+b4.gif= b4.gif, 256,256
+g0.gif= g0.gif, 256,256
+g1.gif= g1.gif, 256,256
+g2.gif= g2.gif, 256,256
+g5.gif= g5.gif, 256,256
+ground.gif= ground.gif, 256,256, 0, 58, 58, 58, 16, 16, 16
+m0.gif= m0.gif, 256,256, 0, 102, 102, 153, 34, 34, 34
+m1.gif= m1.gif, 256,256
+m2.gif= m2.gif, 256,256
+m3.gif= m3.gif, 256,256
+m4.gif= m4.gif, 256,256
+m5.gif= m5.gif, 256,256
+r0.gif= r0.gif, 256,256, 0, 0, 0, 0, 255, 255, 255
+r1.gif= r1.gif, 256,256
+r2.gif= r2.gif, 256,256
+
+[sounds]
+collide.wav=../sounds/collide.wav
+entry.wav=entry.wav
+exit.wav=exit.wav
+song.wav=song.wav
+sound.htm=sound.htm
