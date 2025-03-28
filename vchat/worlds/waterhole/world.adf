@@ -2,12 +2,10 @@
 Name=The V-Chat Waterhole
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/waterhole/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [images]
 water2.gif=../images/water2.gif, 128,128, 0 ,86,189,233, 79,116,223
 sand.gif=sand.gif, 64,64, 0, 228,189,144, 234,211,181
@@ -27,7 +25,6 @@ raftside.gif=raftside.gif, 64,1024, 0, 160,250,181, 250,229,168
 raftfrnt.gif=raftfrnt.gif, 128,1024
 anim0435.gif=anim0435.gif, 256,256
 horizon.gif=horizon.gif, 512,128, 0, 233,250,247, 182,250,230
-
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav

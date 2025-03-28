@@ -1,0 +1,54 @@
+[General]
+Name=The V-Chat Beta Lobby
+Args=-p 30 -a peppie.png
+Source=http://msvchat.github.io/vchat/worlds/lobbybeta/world.adf
+[data]
+world.wdb=./data/world.wdb
+world.pal=world.pal
+about.txt=about.txt
+hotlinks.txt=hotlinks.txt
+[images]
+floor.gif=../images/floor.gif, 512,512, 0, 76,94,100, 96,114,120
+arch.gif=arch.gif, 128,32,0, 65,70,97, 60,75,102
+girder.gif=girder.gif, 16,128
+g255.gif=g255.gif, 32,32, 0, 0,255,0, 0,255,0
+marble.gif=marble.gif, 256,256, 0, 90,86,72, 96,86,70
+window.gif=window.gif, 128,128, 0, 76,76,76, 0,255,0
+window3.gif=window3.gif, 256,256,
+flr_txt1.gif=flr_txt1.gif, 128,64, 0, 86,86,92, 134,123,134
+gate.gif=gate.gif, 16,32, 0, 50,50,50, 100,100,100
+gate1.gif=gate1.gif, 256,128, 0, 76,94,100, 0,255,0
+portgate.gif=portgate.gif, 256,128
+tunnel.gif=tunnel.gif, 256,512, 0, 117,99,89, 65,74,83
+tunnltop.gif=tunnltop.gif, 256,256
+tunnlwal.gif=tunnlwal.gif, 128,256
+tunlflor.gif=tunlflor.gif, 256,128
+vchat.gif=vchat.gif, 256,256, 0, 73,91,98, 76,94,100
+url01.gif=url01.gif, 256,256, 0, 60,86,92, 62,88,94
+url02.gif=url02.gif, 256,256, 0, 73,91,98, 76,94,100
+url03.gif=url03.gif, 256,256, 0, 60,86,92, 62,88,94
+url04.gif=url04.gif, 256,256, 0, 73,91,98, 76,94,100
+url05.gif=url05.gif, 256,256, 0, 73,91,98, 76,94,100
+url06.gif=url06.gif, 256,256, 0, 73,91,98, 76,94,100
+url07.gif=url07.gif, 256,256, 0, 60,86,92, 62,88,94
+url08.gif=url08.gif, 256,256, 0, 73,91,98, 76,94,100
+url09.gif=url09.gif, 256,256
+url10.gif=url10.gif, 256,256
+portal01.gif=portal01.gif, 256,128
+portal02.gif=portal02.gif, 256,128
+portal03.gif=portal03.gif, 256,256
+portal04.gif=portal04.gif, 256,256
+portal05.gif=portal05.gif, 256,128
+info.gif=info.gif, 128,256, 0, 60,86,92, 62,88,94
+pattern.gif=pattern.gif, 64,256, 0, 66,60,113, 66,60,113
+grass.gif=grass.gif, 128,128, 0, 134,153,111, 134,153,111
+horizon.gif=horizon.gif, 128,64, 0, 113,105,96, 113,105,96
+port-sym.gif=port-sym.gif, 32,32, 0, 60,86,92, 62,88,94
+traina.gif=traina.gif, 512,2048, 0, 73,91,98, 76,94,100
+[sounds]
+collide.wav=../sounds/collide.wav
+enter.wav=enter.wav
+exit.wav=exit.wav
+song.wav=song.wav
+song2.wav=song2.wav
+sound.htm=sound.htm

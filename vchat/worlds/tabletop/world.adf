@@ -2,12 +2,10 @@
 Name=The V-Chat TableTop
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/tabletop/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 about.txt=about.txt
 world.pal=world.pal
-
 [images]
 bowlpct1.gif=../images/bowlpct1.gif, 128,128, 0, 184, 10, 5, 224, 15, 31
 bowlpct2.gif=bowlpct2.gif, 128,128, 0, 132, 29, 203, 62, 4, 109
@@ -19,7 +17,7 @@ frame.gif=frame.gif, 128,256, 0, 156, 115, 115, 165, 156, 141
 gum.gif=gum.gif, 128,128, 0, 215, 54, 214, 232, 112, 215
 match.gif=match.gif, 8,64, 0, 128, 128, 128, 213, 0, 0
 matchpct.gif=matchpct.gif, 64,64
-pencil.gif=pencil.gif, 64,256, 
+pencil.gif=pencil.gif, 64,256,
 picture1.gif=picture1.gif, 128,128, 0, 213, 0, 0, 109, 178, 6
 picture2.gif=picture2.gif, 128,128, 0, 57, 66, 81, 224, 15, 31
 picture3.gif=picture3.gif, 128,128, 0, 136, 18, 0, 166, 202, 240
@@ -29,8 +27,6 @@ snopict.gif=snopict.gif, 128,128, 0, 11, 59, 16, 0, 0, 0
 strike.gif=strike.gif, 2,8
 tabletop.gif=tabletop.gif, 256,256, 0, 156, 58, 0, 105, 24, 5
 vase.gif=vase.gif, 64,256, 0, 30, 93, 45, 55, 79, 117
-
-
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav

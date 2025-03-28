@@ -1,0 +1,14 @@
+"Portal02",VCHAT,vchatsrv.microsoft.com,#V-ChatBeach,"Portal to the V-Chat Beach",1,1,1,10000
+"portal03",VCHAT,vchatsrv.microsoft.com,#V-ChatRedden,"Portal to the V-Chat RedDen",1,1,1,10000
+"portal04",VCHAT,vchatsrv.microsoft.com,#V-ChatCompass,"Portal to the V-Chat Compass",1,1,1,10000
+"portal05",VCHAT,vchatsrv.microsoft.com,#V-ChatLodge,"Portal to the V-Chat Lodge",1,1,1,10000
+"url01",URL,http://vchat.microsoft.com,"Shortcut to Microsoft V-Chat Web Page"
+"url02",URL,http://www.microsoft.com/netmeeting,"Shortcut to Microsoft NetMeeting Web Page"
+"url03",URL,http://www.microsoft.com/ie,"Shortcut to Microsoft Internet Explorer Web Page"
+"url04",URL,http://www.microsoft.com,"Shortcut to Microsoft Web Page"
+"url05",URL,http://home.microsoft.com,"Shortcut to Microsoft Home Web Page"
+"url06",URL,http://vchat.microsoft.com,"Shortcut to Microsoft V-Chat Web Page"
+"url07",URL,http://www.microsoft.com/netmeeting,"Shortcut to Microsoft NetMeeting Web Page"
+"url08",URL,http://www.microsoft.com/ie,"Shortcut to Microsoft Internet Explorer Web Page"
+"url09",URL,http://www.microsoft.com,"Shortcut to Microsoft Web Page"
+"url10",URL,http://home.microsoft.com,"Shortcut to Microsoft Home Web Page"

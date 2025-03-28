@@ -2,13 +2,11 @@
 Name=The V-Chat Basketball World
 Args=-p 30 -a hoop.png
 Source=http://msvchat.github.io/vchat/worlds/basketballworld/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
 hotlinks.txt=hotlinks.txt
-
 [images]
 tier1.gif=../images/tier1.gif,128,128, 0, 41,132,66, 160,160,160
 tierha.gif=tierha.gif,128,256, 0, 41,82,0, 255,255,255
@@ -41,11 +39,9 @@ bbd01.gif=bbd01.gif,256,256, 0, 0, 255, 0, 0, 255, 0
 bbd02.gif=bbd02.gif,256,256
 bbd03.gif=bbd03.gif,256,256
 window.gif=window.gif, 128,128, 0, 255, 255, 255, 0,0,0
-
 [avatars]
 hoop.png=../avatars/hoop.png
 hoop2.png=hoop2.png
-
 [sounds]
 song.wav=../sounds/song.wav
 sound.htm=sound.htm

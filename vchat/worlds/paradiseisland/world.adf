@@ -2,12 +2,10 @@
 Name=The V-Chat Paradise Island
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/paradiseisland/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [images]
 barisle.gif=../images/barisle.gif, 64,64, 0, 198, 154, 106, 210, 149, 66
 barman.gif=barman.gif, 128,512, 0, 216, 142, 73, 119, 121, 229
@@ -44,7 +42,6 @@ umbrell.gif=umbrell.gif, 32,32, 0, 198, 0, 0, 57, 82, 156
 undernew.gif=undernew.gif, 256,256, 0, 57, 57, 16, 66, 66, 41
 watwall.gif=watwall.gif, 256,128, 0, 0, 0, 128, 33, 16, 8
 wv.gif=wv.gif, 256,1024, 0, 66, 66, 231, 165, 173, 255
-
 [avatars]
 hanabi.png=../avatars/hanabi.png
 jonny.png=jonny.png
@@ -53,7 +50,6 @@ mermaid.png=mermaid.png
 muscles.png=muscles.png
 osama.png=osama.png
 surfer.png=surfer.png
-
 [sounds]
 enter.wav=../sounds/enter.wav
 song.wav=song.wav

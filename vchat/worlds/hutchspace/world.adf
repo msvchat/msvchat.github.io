@@ -2,17 +2,15 @@
 Name=The Hutch Space
 Args=-p 30 -a Cluck.png
 Source=http://msvchat.github.io/vchat/worlds/hutchspace/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 hotlinks.txt=hotlinks.txt
-
 [images]
 carpet1.gif=../images/carpet1.gif, 64,64, 0, 76,94,100, 96,114,120
 carpet2.gif=carpet2.gif, 64, 64
 carpet3.gif=carpet3.gif, 64,64
-carpet4.gif=carpet4.gif, 64,64 
+carpet4.gif=carpet4.gif, 64,64
 carpet5.gif=carpet5.gif, 64,64
 carpetlt.gif=carpetlt.gif, 64,64
 ceiling.gif=ceiling.gif, 64,64
@@ -148,7 +146,6 @@ index205.gif=index205.gif, 16,16
 index206.gif=index206.gif, 16,16
 color1.gif=color1.gif, 16,16
 color2.gif=color2.gif,16,16
-
 [avatars]
 tully.png=../avatars/tully.png
 carol.png=carol.png
@@ -164,5 +161,4 @@ roach.png=roach.png
 rocky.png=rocky.png
 shadow.png=shadow.png
 butch.png=butch.png
-
 [sounds]

@@ -1,0 +1,15 @@
+"portal01",VCHAT,msvchatsvr.webredirect.org,#V-ChatLobby,"Portal to The V-Chat Lobby",0,1,1,10000
+"portal02",VCHAT,msvchatsvr.webredirect.org,#V-ChatCompass,"Portal to The V-Chat Compass",1,1,1,10000
+"portal03",VCHAT,msvchatsvr.webredirect.org,#V-ChatBeach,"Portal to The V-Chat Beach",1,1,1,10000
+"portal04",VCHAT,msvchatsvr.webredirect.org,#V-ChatLodge,"Portal to The V-Chat Lodge",1,1,1,10000
+"portal05",VCHAT,msvchatsvr.webredirect.org,#V-ChatRedden,"Portal to The V-Chat Red Den",1,1,1,10000
+"url02",URL,http://www.microsoft.com/ie,"Shortcut to Microsoft Internet Explorer Web Page"
+"url03",URL,"","Custom Hotlink"
+"url04",URL,http://www.msn.com,"Shortcut to Microsoft Network Web Page"
+"url05",URL,http://www.microsoft.com,"Shortcut to Microsoft Web Page"
+"url06",URL,http://vchat.microsoft.com,"Shortcut to Microsoft V-Chat Web Page"
+"url07",URL,mailto:vchatsug@microsoft.com,"Shortcut to the Microsoft V-Chat Suggestion E-mail Alias"
+"url08",URL,"","Custom Hotlink"
+"url09",URL,http://home.microsoft.com,"Shortcut to Microsoft Home Web Page"
+"url10",URL,http://vchat.microsoft.com/vchat/help.htm,"Shortcut to Microsoft V-Chat Help Web Page"
+"url01",URL,http://vchat.microsoft.com,"Shortcut to Microsoft V-Chat Web Page"

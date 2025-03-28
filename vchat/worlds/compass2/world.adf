@@ -1,14 +1,12 @@
 [General]
-Name=The V-Chat Compass v2
+Name=The V-Chat Compass
 Args=-p 30 -a cluck.png
-Source=http://msvchat.github.io/vchat/worlds/compass2/world.adf
-
+Source=http://msvchat.github.io/vchat/worlds/compass/world.adf
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
 hotlinks.txt=hotlinks.txt
-
 [images]
 compass.gif=../images/compass.gif,512,512,0,210,157,159,210,170,168
 grad_b.gif=grad_b.gif,16,64,0,224,194,194,224,200,187
@@ -25,7 +23,6 @@ miro5.gif=miro5.gif,32,16
 fish.gif=fish.gif,128,512
 carving.gif=carving.gif,256,128
 bird.gif=bird.gif,32,16, 0, 0,0,0, 0,0,0
-
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav

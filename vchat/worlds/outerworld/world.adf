@@ -2,12 +2,10 @@
 Name=The V-Chat OuterWorld
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/outerworld/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [images]
 frntintr.gif=../images/frntintr.gif, 256,256, 0, 0,255,0, 97,60,111
 tarmak.gif=tarmak.gif, 256,256, 0, 0,255,0, 64,67,74
@@ -32,7 +30,6 @@ circuits.gif=circuits.gif,128,512, 0, 0,255,0, 160,160,164
 figures.gif=figures.gif,256,512, 0, 0,255,0, 0,255,0
 heat1.gif=heat1.gif, 32,128, 0, 255,53,0, 0,255,0
 heat2.gif=heat2.gif, 32,128
-
 [sounds]
 song.wav=../sounds/song.wav
 exit.wav=exit.wav
