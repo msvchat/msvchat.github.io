@@ -6,7 +6,7 @@ Url_Pic_03, URL, "http://www.nativeweb.org/", "Shortcut to the Native Web Intern
 Url_Pic_04, URL, "http://www.ecst.csuchico.edu/~adamw/tribal/history.html", "Shortcut to the History Of Mechoopda Indian Tribe Web Page"
 Url_Pic_05, URL, "http://net.indra.com/~doak/rockart.html", "Shortcut to the Southwestern Rock Art Gallery Web Page"
 Url_Pic_06, URL, "http://hanksville.phast.umass.edu/misc/indices/NAarch.html", "Shortcut to the Native American Archaeology & Anthropology Web Page"
-Url_Pic_07, URL, "http://www.mesaverde.org/smvf/p1.html", "Shortcut to the Story Of Mesa Verde Web Page" 
+Url_Pic_07, URL, "http://www.mesaverde.org/smvf/p1.html", "Shortcut to the Story Of Mesa Verde Web Page"
 Url_Pic_08, URL, "http://hanksville.phast.umass.edu/defs/independent/PCC/PCC.html#toc", "Shortcut to the Anasazi Archaeology Web Page"
 Url_Pic_09, URL, "http://www.chickasaw.com/~cnation/", "Shortcut to the Chickasaw Nation Web Page"
 Url_Pic_10, URL, "http://maple.lemoyne.edu/~bucko/indian.html", "Shortcut to the Native American Research Web Page"
