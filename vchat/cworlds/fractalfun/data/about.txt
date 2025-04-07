@@ -1,5 +1,4 @@
 ©Microsoft Corporation
-
 --
 FractalFun world re-design by Varian, April 1999.
 --

@@ -2,15 +2,12 @@
 Name=Fractal Fun
 Args=-p 30 -a v_smile.png
 Source=http://msvchat.github.io/vchat/cworlds/fractalfun/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [avatars]
 v_smile.png=../avatars/v_smile.png
-
 [images]
 tv4.gif=../images/tv4.gif, 128,512, 0, 10, 97, 62, 232, 66, 66
 tvhi.gif=tvhi.gif, 8,8, 0, 86, 78, 129, 86, 78, 129
@@ -62,7 +59,6 @@ art1.gif=art1.gif, 128,128, 0, 255, 0, 255, 102, 203, 73
 art2.gif=art2.gif, 128,128, 0, 169, 45, 200, 27, 27, 54
 art3.gif=art3.gif, 128,256, 0, 250, 210, 27, 250, 121, 27
 art4.gif=art4.gif, 128,256, 0, 3, 49, 50, 18, 123, 114
-
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav

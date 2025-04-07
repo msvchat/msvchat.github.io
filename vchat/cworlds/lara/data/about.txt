@@ -1,50 +1,7 @@
 Room Name : Lara
 Room graphics: Scorpyo - May 1999
-
-Room layout: 
+Room layout:
 The V-Chat Standing Stone - Microsoft
-
 Sounds partially re-edited by Scorpyo
-
-
 Theme:
-
-Lara Croft & friends<!-- saved from url=(0022)http://internet.e-mail -->
-<!-- START Digilander F -->
-<SCRIPT LANGUAGE="Javascript">
-<!--
-rs_DLR=1;
-//-->
-</SCRIPT>
-<SCRIPT LANGUAGE="Javascript" SRC="/_ad/digi_ad_11.js">
-</SCRIPT>
-<!-- END Digilander F -->
-<!-- START RedMeasure V4 - CGI v1.1 $Revision: 1.2 $ -->
-<!-- COPYRIGHT 2000 Red Sheriff Limited --> 
-
-<script language="JavaScript"><!--
-var pCid="it_Libero-it_0";
-var w0=1;
-var refR=escape(document.referrer);
-if (refR.length>=252) refR=refR.substring(0,252)+"...";
-//--></script>
-<script language="JavaScript1.1"><!--
-var w0=0;
-if (rs_DLR) document.write("<script language='JavaScript1.1' src='http://server-it.imrworldwide.com/c1.js'></script>");
-
-//--></script>
-
-<script language="JavaScript"><!--
-if(w0&&rs_DLR){
-	document.write('<img src="http://server-it.imrworldwide.com/cgi-bin/count?ref='+
-		refR+'&cid='+pCid+'" width=1 height=1>');
-}
-document.write("<COMMENT>");
-//-->
-</script>
-<noscript>
-<img src="http://server-it.imrworldwide.com/cgi-bin/count?cid=it_Libero-it_0" width=1 height=1>
-</noscript>
-</COMMENT>
-
-<!-- END RedMeasure V4 -->
+Lara Croft & friends

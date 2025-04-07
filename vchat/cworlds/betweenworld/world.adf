@@ -2,16 +2,13 @@
 Name=Between-World
 Args=-p 30 -a ha2.png
 Source=http://msvchat.github.io/vchat/cworlds/betweenworld/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [avatars]
 ha2.png=../avatars/ha2.png
 xauc.png=xauc.png
-
 [images]
 shadowmap.gif=../images/shadowmap.gif, 32,32, 0, 36,58,93, 29,48,76
 shadowtile.gif=shadowtile.gif, 32,32
@@ -45,7 +42,6 @@ woodedge.gif=woodedge.gif, 128,64, 0, 125,85,82, 38,26,25
 tabletop.gif=tabletop.gif, 256,256, 0, 129,179,184, 113,196,212
 fireanim.gif=fireanim.gif, 256,1024, 0, 143,11,8, 176,75,1
 stonetile.gif=stonetile.gif, 256,256, 129,143,156, 96,128,156
-
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav

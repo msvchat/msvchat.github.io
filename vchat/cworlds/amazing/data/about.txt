@@ -1,11 +1,7 @@
-
 Room Graphics designed by Ghostly_Vision
 Song "I'm Like A Bird" by Nelli Fritato
-
 May 2001
-
 Maze by Marti
-
 Well this is the first room created from
  scratch using the recently hacked World
  Database file data structure. It uses a
@@ -16,12 +12,11 @@ Well this is the first room created from
  range from -50 to 50 in x & z, this was
  exported as a dxf file and errata
  removed using a simple macro in 'Word',
- values were then entered directly into 
+ values were then entered directly into
 the WDB file using 'Hexpert', block
  copies, duplication and fills were done
  using 'Code Genie'. This version is
  public domain and all are welcome to
  add their graphics, a mention of the
  author would be appreciated.
-
 Marti(pants)
