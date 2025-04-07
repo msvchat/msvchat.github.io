@@ -66,7 +66,7 @@
                 <dl>Once you have your web page you can start uploading your world. Below is the folder structure needed on your website.</dl>
 
                 <dl>
-                  <strong>FOLDER STRUCTURE</strong>
+                  <b>FOLDER STRUCTURE</b>
                   <dt>"www.example.com/vchat/worlds/worldname/avatars/</dt>
                   <dt>"www.example.com/vchat/worlds/worldname/data/</dt>
                   <dt>"www.example.com/vchat/worlds/worldname/images/</dt>
@@ -74,56 +74,56 @@
                   <dt>"www.example.com/vchat/worlds/worldname/world.adf</dt>
                 </dl>
 
-                <strong>avatars</strong>
+                <b>avatars</b>
                 <ul>
                   <li>This is where you put avatars, which can only be used, within the room.</li>
                   <li>Those avatars will automatically show in the folder 'Room Avatars' in avatar selection menu.</li>
                   <li>NOTE: you cannot use private avatars or *.vwp files.</li>
                 </ul>
 
-                <strong>data</strong>
+                <b>data</b>
                 <ul>
-                  <li><strong>about.txt</strong> = Text to be displayed in V-Chat, under 'About Microsoft V-Chat'.
-                  <li><strong>world.wdb</strong> = A 3D Studio MAX file which has been changed by Microsoft.
-                  <li><strong>world.pal</strong> = RIFF Pal data.
-                  <li><strong>hotlinks.txt</strong> = This file contains the data for portals and URLs.
+                  <li><b>about.txt</b> = Text to be displayed in V-Chat, under 'About Microsoft V-Chat'.
+                  <li><b>world.wdb</b> = A 3D Studio MAX file which has been changed by Microsoft.
+                  <li><b>world.pal</b> = RIFF Pal data.
+                  <li><b>hotlinks.txt</b> = This file contains the data for portals and URLs.
                     <dl>
-                      <strong>
+                      <b>
                         Some rooms have interactable portals you can either walk into or click on, as well as interactable links to websites.
                         These are defined in the "hotlinks.txt" file.
-                      </strong>
+                      </b>
                       <dt>Portals are defined like this(I am unsure of the numbers following "ROOM DESCRIPTION"'s effect)</dt>
-                      <dt><strong>"NAME",VCHAT,IRC SERVER,#ROOMNAME,"ROOM DESCRIPTION",?,?,?,10000</strong></dt>
+                      <dt><b>"NAME",VCHAT,IRC SERVER,#ROOMNAME,"ROOM DESCRIPTION",?,?,?,10000</b></dt>
                       <dt>"portal01",VCHAT,msvchatsvr.webredirect.org,#V-ChatLobby,"Portal to the V-Chat Lobby",0,1,1,10000</dt>
                       <dt>URLS are defined like this</dt>
-                      <dt><strong>"NAME",URL,URL LINK,"URL DESCRIPTION"</strong></dt>
+                      <dt><b>"NAME",URL,URL LINK,"URL DESCRIPTION"</b></dt>
                       <dt>"url02",URL,http://www.microsoft.com/ie,"Shortcut to the Microsoft Internet Explorer Web Page"</dt>
                     </dl>
                 </ul>
-                <strong>images</strong>
+                <b>images</b>
                 <ul>
                   <p>
                     NOTE: Depending on which room you chose to modify the number of images varies greatly from room to room.
                     When you modify an image it has to be the same dimensions as the image you are replacing. V-Chat uses (RGB 0,255,0) as a transparent color, so if you want to make an image invisible just paint it all green.
                   </p>
                 </ul>
-                <strong>sounds</strong>
+                <b>sounds</b>
                 <ul>
-                  <li><strong>collide.wav</strong> = plays when hit wall/floor.</li>
-                  <li><strong>enter.wav</strong> = plays when someone enters the channel.</li>
-                  <li><strong>exit.wav</strong> = plays when someone leaves the channel.</li>
-                  <li><strong>song.mid</strong> = Loops(in my experience it does not work.)</li>
-                  <li><strong>song.wav</strong> = Loops, often its background music.</li>
-                  <li><strong>song2.wav</strong> = Loops, some rooms have two looping sounds.</li>
-                  <li><strong>portal.wav</strong> = plays when someone clicks into a portal.</li>
-                  <li><strong>sound.htm</strong> = Contains information about how sounds should be played</li>
+                  <li><b>collide.wav</b> = plays when hit wall/floor.</li>
+                  <li><b>enter.wav</b> = plays when someone enters the channel.</li>
+                  <li><b>exit.wav</b> = plays when someone leaves the channel.</li>
+                  <li><b>song.mid</b> = Loops(in my experience it does not work.)</li>
+                  <li><b>song.wav</b> = Loops, often its background music.</li>
+                  <li><b>song2.wav</b> = Loops, some rooms have two looping sounds.</li>
+                  <li><b>portal.wav</b> = plays when someone clicks into a portal.</li>
+                  <li><b>sound.htm</b> = Contains information about how sounds should be played</li>
                 </ul>
                 <h3>NOTE:sound.htm is required for rooms to have sound.</h3>
                     If you would like your room to have two "song" files look inside your "C:\Program Files (x86)\Microsoft V-Chat\Worlds" folder & copy its sound.htm file and put it in your custom rooms sound folder.
                     The only sound.htm containing information on a midi file is from the "Microsoft Gallery" room, and it does not seem to work properly.
-                    <dl><strong>Finally when you have a room on an IRC server the topic needs to be set
+                    <dl><b>Finally when you have a room on an IRC server the topic needs to be set
                       <dt>For example: v:{-a http://msvchat.github.io/vchat/worlds/paradiseisland/world.adf}</dt>
-                    </strong></dl>
+                    </b></dl>
                     <h3>EXAMPLE OF A WORLD.ADF FILE</h3>
                     <table style="margin:auto;box-shadow:0px 0px 0px #000">
                         <tbody>
@@ -133,13 +133,13 @@
                                     <dl>[General]
                                       <dt>Name=The V-Chat Paradise Island</dt>
                                       <dt>Args=-p 30 -a cluck.png</dt>
-                                      <dl><strong>
+                                      <dl><b>
                                         What are ARGS?
                                         <dt>Arguments are a way of setting additional options for a room.</dt>
                                         <dt>-p 30 = how far away a person must be before distant members are ignored</dt>
                                         <dt>-a peppie.png is the default avatar which V-Chat will use when it's on no custom avatar mode.</dt>
                                         <dt>-f will disable 'FIND' option in the room.</dt>
-                                      </strong>
+                                      </b>
                                       </dl>
                                       <dt>Source=http://msvchat.github.io/vchat/worlds/paradiseisland/world.adf</dt>
                                     </dl>
@@ -189,10 +189,10 @@
                                       <dt>watwall.gif=watwall.gif, 256,128, 0, 0, 0, 128, 33, 16, 8</dt>
                                       <dt>wv.gif=wv.gif, 256,1024, 0, 66, 66, 231, 165, 173, 255</dt>
                                     </dl>
-                                    <dl><strong>
+                                    <dl><b>
                                       <dt>NAME=LOCATION+NAME, size of dimension y, size of dimension z, 0, 73,91,98, 76,94,100</dt>
                                       <dt>"73,91,98, 76,94,100" are the colors to be displayed before it's downloaded.</dt>
-                                    </strong></dl>
+                                    </b></dl>
                                   </ul>
                                   <ul>
                                     <dl>[avatars]
@@ -206,9 +206,9 @@
                                     </dl>
                                   </ul>
                                   <ul>
-                                    <strong>
+                                    <b>
                                       <dt>I am not exactly sure of the limits but for wav files: <br>mono, 22Khz, 8 bit .WAV files is a safe bet.</dt>
-                                    </strong>
+                                    </b>
                                     <dl>[sounds]
                                       <dt>enter.wav=../sounds/enter.wav</dt>
                                       <dt>song.wav=song.wav</dt>
@@ -259,7 +259,7 @@
 			</nav>
 			<!-- Copyright -->
 			<ul id="copyright">
-				<li>&copy;2023 MS V-Chat Museum</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				<li>&copy;2021-2025<br>MS V-Chat Museum</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			</ul>
 		</div>
 		<!-- Scripts -->
