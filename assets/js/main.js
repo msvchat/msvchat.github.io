@@ -1,15 +1,7 @@
-/*
-	Striped by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function($) {
-
 	var	$window = $(window),
 		$body = $('body'),
 		$document = $(document);
-
 	// Breakpoints.
 		breakpoints({
 			desktop:   [ '737px',   null     ],
@@ -18,20 +10,16 @@
 			narrower:  [ '737px',   '1000px' ],
 			mobile:    [ null,      '736px'  ]
 		});
-
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
 		});
-
 	// Nav.
-
 		// Height hack.
 		/*
 			var $sc = $('#sidebar, #content'), tid;
-
 			$window
 				.on('resize', function() {
 					window.clearTimeout(tid);
@@ -44,7 +32,6 @@
 				})
 				.trigger('resize');
 		*/
-
 		// Title Bar.
 			$(
 				'<div id="titleBar">' +
@@ -53,7 +40,6 @@
 				'</div>'
 			)
 				.appendTo($body);
-
 		// Sidebar
 			$('#sidebar')
 				.panel({
@@ -66,5 +52,4 @@
 					target: $body,
 					visibleClass: 'sidebar-visible'
 				});
-
 })(jQuery);
