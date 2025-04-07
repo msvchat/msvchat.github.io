@@ -2,13 +2,11 @@
 Name=The V-Chat Gallery
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/gallery/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
 hotlinks.txt=hotlinks.txt
-
 [images]
 compass.gif=../images/compass.gif, 256,256, 0, 76,94,100, 96,114,120
 fishbowl.gif=fishbowl.gif, 256,256,0, 65,70,97, 60,75,102
@@ -25,7 +23,6 @@ stone.gif=stone.gif, 256,256, 0, 117,99,89, 65,74,83
 theater.gif=theater.gif, 256,256, 0, 117,99,89, 65,74,83
 t-top.gif=t-top.gif, 256,256
 ground.gif=ground.gif,256,256
-
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav

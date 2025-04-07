@@ -1,13 +1,6 @@
 ©Microsoft Corporation
-
-
 --
 Pearly Gates re-design by Varian, April 1999
-
-
 --
 Interested in modifying your own V-Chat world?
 Helpful info:  http://www.rimke.nl/vhelp1.htm
-
-
-

@@ -1,27 +1,21 @@
 Microsoft Corporation Copyright (c) 1996-1997
 This space has been provided by TOONED IN.
-
-The design of this environment is based loosely on the 
-Chetro Ketl Great Kiva located at Chaco Canyon, in New 
-Mexico.  Our depiction captures the spirit of the 
-location, but does not accurately portray the 
-architectural or environmental details of the site.  
-
-For accurate archaeological information about Chetro 
-Ketl, see the site provided by the Humanities and 
-Social Sciences Department at the University of 
+The design of this environment is based loosely on the
+Chetro Ketl Great Kiva located at Chaco Canyon, in New
+Mexico.  Our depiction captures the spirit of the
+location, but does not accurately portray the
+architectural or environmental details of the site.
+For accurate archaeological information about Chetro
+Ketl, see the site provided by the Humanities and
+Social Sciences Department at the University of
 Santa Barbara:
-
 http://alishaw.sscf.ucsb.edu/anth/projects/great.kiva/
-
-The images and links contained in this environment are 
-intended to provide a cross-sectional view of American 
-Indian culture, without representing any particular 
-religious beliefs or practices.  
-
-We welcome your comments for making this space more 
-enjoyable. 
-
+The images and links contained in this environment are
+intended to provide a cross-sectional view of American
+Indian culture, without representing any particular
+religious beliefs or practices.
+We welcome your comments for making this space more
+enjoyable.
 Contact:
 	Cindy Ball  (email: cindy@ToonedIn.com)
 	Tooned In
@@ -29,15 +23,12 @@ Contact:
 	Pasadena, CA  91106
 	voice: (626) 405-1960, fax: (626) 405-1895
         URL:  www.ToonedIn.com
-
 Partners:  Cindy Ball, Tim Hunkapiller, James Mahoney
-
 Design:        Cindy Ball, Tim Hunkapiller
 Art Direction: Cindy Ball
 3D Modeling:   Jason Cervantes, Richard Matsushita
 Textures:      Jason Cervantes, Craig Monson
 Avatars:       Barb Meier, Cindy Ball
-
 Music:         Mesa Music Consort, "Spirit Feathers",
                P.O. Box 781211
                San Antonio, TX  78278

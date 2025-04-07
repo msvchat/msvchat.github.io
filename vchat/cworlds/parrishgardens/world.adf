@@ -2,15 +2,12 @@
 Name=Parrish Gardens
 Args=-p 30 -a gardens-shadow.png
 Source=http://msvchat.github.io/vchat/cworlds/parrishgardens/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [avatars]
 gardens-shadow.png=../avatars/gardens-shadow.png
-
 [images]
 cloud.gif=../images/cloud.gif, 512,64
 cloud2.gif=cloud2.gif, 512,64
@@ -44,7 +41,6 @@ fireanim.gif=fireanim.gif, 256,1024, 0, 143,11,8, 176,75,1
 frame.gif=frame.gif, 128,128, 0, 194,149,113
 ornament.gif=ornament.gif, 128,256
 snowshoes.gif=snowshoes.gif, 128,64, 0, 108,81,47, 156,120,51
-
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav

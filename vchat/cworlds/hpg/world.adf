@@ -2,20 +2,17 @@
 Name=Happy Place Gallery
 Args=-p 30 -a v_smile.png
 Source=http://msvchat.github.io/vchat/cworlds/hpg/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
 hotlinks.txt=hotlinks.txt
-
 [avatars]
 v_smile.png=../avatars/v_smile.png
-
 [images]
 g255.gif=../images/g255.gif,32,32, 0, 0,255,0, 0,255,0
 window.gif=g255.gif,128,128, 0, 63,48,65, 0,255,0
-foot.gif=g255.gif,128,256, 0, 19,101,116, 7,99,116 
+foot.gif=g255.gif,128,256, 0, 19,101,116, 7,99,116
 portal02.gif=portal02.gif,256,256, 0, 255,200,200, 179,159,159
 portal01.gif=g255.gif,256,128
 portal03.gif=g255.gif,256,256
@@ -44,9 +41,8 @@ url09.gif=g255.gif,256,128
 url10.gif=g255.gif,256,128
 horizon.gif=horizon.gif,128,64, 0, 175,234,230, 175,234,230
 lamp1.gif=lamp1.gif,128,256, 0, 123,165,162, 145,159,206
-tree1.gif=tree1.gif,128,128, 0, 57,113,54, 118,142,36 
+tree1.gif=tree1.gif,128,128, 0, 57,113,54, 118,142,36
 url01.gif=url01.gif,256,256, 0, 57,79,57, 77,59,79
-
 [sounds]
 collide.wav=../sounds/collide.wav
 song.wav=song.wav

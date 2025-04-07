@@ -1,3 +1,2 @@
 Microsoft Corporation
-
 Moondancer's 4th attempt at making a world from scratch, using Author 1.1 and a Hex Editor. Not for the faint of heart, for sure.

@@ -2,12 +2,10 @@
 Name=Lord's Castle
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/cworlds/lordscastle/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [images]
 birch.gif=../images/birch.gif, 256,256, 0, 0,255,0, 0,255,0
 blimp.gif= blimp.gif, 256,256, 0, 164, 160, 160, 0, 0, 0
@@ -36,11 +34,10 @@ soc-pic2.gif= soc-pic2.gif, 512,256
 strip2.gif= strip2.gif, 64,1600, 0, 255, 213, 128, 213, 128, 0
 towerbtm.gif= towerbtm.gif, 256,128, 0, 128, 128, 128, 170, 170, 191
 towertp.gif= towertp.gif, 256,256
-tv-scr1.gif= tv-scr1.gif, 64,64, 
+tv-scr1.gif= tv-scr1.gif, 64,64,
 tv-scrn.gif= tv-scrn.gif, 64,64
 wembmap.gif= wembmap.gif, 512,512
 wht-top.gif= wht-top.gif, 64,64
-
 [sounds]
 song.wav=../sounds/song.wav
 sound.htm=sound.htm

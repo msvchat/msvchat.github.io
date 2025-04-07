@@ -1,5 +1,4 @@
 Microsoft Corporation
-
 --
 TrippyTable world re-design by Varian, April 1999.
 --

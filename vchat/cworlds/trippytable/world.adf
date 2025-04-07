@@ -2,15 +2,12 @@
 Name=TrippyTable
 Args=-p 30 -a blueeye.png
 Source=http://msvchat.github.io/vchat/cworlds/trippytable/world.adf
-
 [avatars]
 blueeye.png=./avatars/blueeye.png
-
 [data]
 world.wdb=../data/world.wdb
 about.txt=about.txt
 world.pal=world.pal
-
 [images]
 match.gif=../images/match.gif, 8,64, 0, 128, 128, 128, 213, 0, 0
 matchpct.gif=matchpct.gif, 64,64
@@ -31,8 +28,7 @@ snopict.gif=snopict.gif, 128,128, 0, 11, 59, 16, 0, 0, 0
 floor.gif=floor.gif, 64,64, 0, 140, 82, 66, 115, 167, 190
 coin1.gif=coin1.gif, 128,128, 0, 140, 140, 140, 231, 231, 231
 gum.gif=gum.gif, 128,128, 0, 215, 54, 214, 232, 112, 215
-pencil.gif=pencil.gif, 64,256, 
-
+pencil.gif=pencil.gif, 64,256,
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav

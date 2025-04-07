@@ -2,15 +2,12 @@
 Name=Pearly Gates
 Args=-p 30 -a v_pearly.png
 Source=http://msvchat.github.io/vchat/cworlds/pearlygates/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [avatars]
 v_pearly.png=../avatars/v_pearly.png
-
 [images]
 tree.gif=../images/tree.gif, 32,128, 0, 214, 165, 140, 50, 23, 7
 umbrell.gif=umbrell.gif, 32,32, 0, 198, 0, 0, 57, 82, 156
@@ -47,7 +44,6 @@ fish2.gif=fish2.gif, 256,256, 0, 198, 200, 255, 255, 225, 0
 fish3.gif=fish3.gif, 256,128, 0, 255, 0, 0, 0,0,255
 fish4.gif=fish4.gif, 256,128, 0, 0, 0, 255, 255, 225, 0
 fufu.gif=fufu.gif, 64,64, 0, 139, 39, 151, 177, 138, 3
-
 [sounds]
 enter.wav=../sounds/enter.wav
 collide.wav=collide.wav

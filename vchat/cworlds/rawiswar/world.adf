@@ -2,12 +2,10 @@
 Name=Raw Is War Museum
 Args=-p 30 -a peppie.png
 Source=http://msvchat.github.io/vchat/cworlds/rawiswar/world.adf
-
 [data]
 world.wdb=./data/world.wdb
 world.pal=world.pal
 about.txt=about.txt
-
 [images]
 floor.gif=../images/floor.gif, 512,512, 0, 76,94,100, 96,114,120
 arch.gif=arch.gif, 128,32,0, 65,70,97, 60,75,102
@@ -47,7 +45,6 @@ pattern.gif=pattern.gif, 64,256, 0, 66,60,113, 66,60,113
 grass.gif=grass.gif, 128,128, 0, 134,153,111, 134,153,111
 horizon.gif=horizon.gif, 128,64, 0, 113,105,96, 113,105,96
 traina.gif=traina.gif, 512,2048, 0, 73,91,98, 76,94,100
-
 [sounds]
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav
