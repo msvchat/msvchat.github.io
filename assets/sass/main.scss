@@ -211,7 +211,6 @@
 		textarea {
 			display: block;
 			border-radius: 0.4em;
-			-webkit-appearance: none;
 			border: solid 1px #ddd;
 			padding: 0.5em 0.75em;
 			width: 100%;
@@ -288,7 +287,7 @@
 	button,
 	.button {
 		cursor: pointer;
-		background-color: #c94663;
+   		background-color: #4485b8;
 		background-image: url('images/bg01.png');
 		border-radius: 0.4em;
 		text-align: center;
