@@ -83,10 +83,11 @@
 						<p style="text-align:center; font-size: 28px"><b>These installers are safe to use!</b></p>
 						<h3>To Install:</h3>
 						<ul>
-                    		<li>First you need to download <a href="https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite.zip">
-								<span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Microsoft V-Chat Suite</span></a>
-								or <a href="https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite(for XP).zip">
-								<span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Microsoft V-Chat Suite (for XP)</span></a>, and extract it.</li>
+                    		<li>First you need to download 
+								<button onclick="downloadFile()">Microsoft V-Chat Suite</button><script>function downloadFile() {const link = document.createElement('a');link.href = 'https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite.zip';link.download = 'Microsoft V-Chat Suite.zip';document.body.appendChild(link);link.click();document.body.removeChild(link);}</script>
+								or 
+								<button onclick="downloadFile()">Microsoft V-Chat Suite (for XP)</button><script>function downloadFile() {const link = document.createElement('a');link.href = 'https://msvchat.github.io/vchat/downloads/Microsoft V-Chat Suite(for XP).zip';link.download = 'Microsoft V-Chat Suite(for XP).zip';document.body.appendChild(link);link.click();document.body.removeChild(link);}</script>
+								, and extract it.</li>
                     		<li>Navigate to where you extracted it and run the installer.</li>
 						</ul>
 						<h3>Before running V-Chat it should be run as administrator (unless you are using Windows XP you won't need to run as administrator) so it can read and write files. To set it to run as admin every time do this:</h3>

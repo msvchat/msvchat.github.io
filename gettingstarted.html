@@ -143,14 +143,18 @@
 				<li>ctrl + alt + right arrow key, look right</li>
 			</ul>
 <h2 id="AVATARS">Avatars you can download</h2>
-			<p><a href="https://msvchat.github.io/vchat/avatars/adult.zip"><span style="background-color:#4485b8;color:#fff;display:inline-block;padding:2px 8px;font-weight:700;border-radius:5px">Download</span></a>
+			<button onclick="downloadFile()">Download</button><script>function downloadFile() {const link = document.createElement('a');link.href = 'https://msvchat.github.io/vchat/avatars/adult.zip';link.download = 'adult.zip';document.body.appendChild(link);link.click();document.body.removeChild(link);}</script>
 			<b>Adult Avatars (If you want to use these you will have to host them yourself)</b></p>
 			<p>You can download multiple avatars using .lst files, or you can link directly to your avatar from inside V-Chat </p>
 			<p><b>NOTE: avpluspk.lst has blank avatars for substitution and unverified avatar names.</b><br>
-			"http://msvchat.github.io/vchat/avatars/avpluspk.lst" has 16 avatars.<br>
-			"http://msvchat.github.io/vchat/avatars/public.lst" has 232 avatars.<br>
-			"http://msvchat.github.io/vchat/avatars/kusagai.lst" has 7 avatars I made or modified.<br>
-			"http://msvchat.github.io/vchat/avatars/mv.lst" has 2 avatars <a href="https://github.com/mvoolt">mv</a> made and shared with me.
+			<button onclick="copyToClipboard()">Copy to Clipboard</button><script>function copyToClipboard() {var text = "http://msvchat.github.io/vchat/avatars/avpluspk.lst";navigator.clipboard.writeText(text).then(_ => {console.log('copied successfully!');});}</script>
+			<b>"http://msvchat.github.io/vchat/avatars/avpluspk.lst"</b> has 16 avatars.<br>
+			<button onclick="copyToClipboard2()">Copy to Clipboard</button><script>function copyToClipboard2() {var text = "http://msvchat.github.io/vchat/avatars/public.lst";navigator.clipboard.writeText(text).then(_ => {console.log('copied successfully!');});}</script>
+			<b>"http://msvchat.github.io/vchat/avatars/public.lst"</b> has 232 avatars.<br>
+			<button onclick="copyToClipboard3()">Copy to Clipboard</button><script>function copyToClipboard3() {var text = "http://msvchat.github.io/vchat/avatars/kusagai.lst";navigator.clipboard.writeText(text).then(_ => {console.log('copied successfully!');});}</script>
+			<b>"http://msvchat.github.io/vchat/avatars/kusagai.lst"</b> has 7 avatars I made or modified.<br>
+			<button onclick="copyToClipboard4()">Copy to Clipboard</button><script>function copyToClipboard4() {var text = "http://msvchat.github.io/vchat/avatars/mv.lst";navigator.clipboard.writeText(text).then(_ => {console.log('copied successfully!');});}</script>
+			<b>"http://msvchat.github.io/vchat/avatars/mv.lst"</b> has 2 avatars <a href="https://github.com/mvoolt">mv</a> made and shared with me.
 					</p>
 					1. Open V-Chat and click <b>'Avatar'</b>. Navigate to <b>'Custom Avatar > Download...'</b> and click on it. <br>
 					<img src="images/downloadav.png" class="imageRight" alt="General Tab" width="423" height="312"> <br>
