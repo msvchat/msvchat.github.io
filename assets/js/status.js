@@ -8,7 +8,7 @@ fetch("https://msvchatsvr.webredirect.org:42422", {
 })
 .then((r) => {
 	//console.log("ONLINE");
-	document.getElementById("status").innerHTML = "<a style=color:green>ONLINE</a>";
+	document.getElementById("status").innerHTML = "<a style=color:#4485b8 href=vchat://msvchatsvr.webredirect.org/#V-ChatLobby>ONLINE</a>";
 })
 .catch((e) => {
 	//console.log("OFFLINE");
