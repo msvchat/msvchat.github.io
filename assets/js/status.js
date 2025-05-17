@@ -1,3 +1,4 @@
+(function($) {
 AbortSignal.timeout ??= function timeout(ms) {
 	const ctrl = new AbortController();
 	setTimeout(() => ctrl.abort(), ms);
@@ -13,4 +14,4 @@ fetch("https://msvchatsvr.webredirect.org:24855", {
 .catch((e) => {
 	//console.log("OFFLINE");
 	document.getElementById("status").innerHTML = "<a style=color:red>OFFLINE</a>";
-});
+});}((jQuery);
