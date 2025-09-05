@@ -3,7 +3,7 @@ AbortSignal.timeout ??= function timeout(ms) {
 	setTimeout(() => ctrl.abort(), ms);
 	return ctrl.signal;
 };
-fetch("https://msvchatsvr.webredirect.org:12443", {
+fetch("https://msvchatsvr.webredirect.org", {
 	signal: AbortSignal.timeout(2000), mode: "no-cors"
 })
 .then((r) => {
