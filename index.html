@@ -50,24 +50,7 @@
 							<h1 style="text-align:center"><img class="center" src="images/vchatmuseumlogo.png" alt="V-Chat Logo 2" width="128" height="128"></h1>
 							<h2 style="text-align:center">Welcome to MS V-Chat Museum</h2>
 							<h3 style="text-align:center">IRC Server is:
-								<a id="status"><script async>
-									AbortSignal.timeout ??= function timeout(ms) {
-	const ctrl = new AbortController();
-	setTimeout(() => ctrl.abort(), ms);
-	return ctrl.signal;
-};
-fetch("https://msvchatsvr.webredirect.org:12443", {
-	signal: AbortSignal.timeout(2000), mode: "no-cors"
-})
-.then((r) => {
-	//console.log("ONLINE");
-	document.getElementById("status").innerHTML = "<a style=color:#4485b8>ONLINE</a>";
-})
-.catch((e) => {
-	//console.log("OFFLINE");
-	document.getElementById("status").innerHTML = "<a style=color:red>OFFLINE</a>";
-});
-								</script></a>
+								<a id="status"><script src="./assets/js/status.js" async></script></a>
 							</h3>
 							<hr>
 							<h3 style="text-align: center"><img class="center" src="images/DAWaving.png" alt="Default Avatar" width="128" height="128"></h3>
