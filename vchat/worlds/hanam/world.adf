@@ -1,7 +1,7 @@
 [General]
-Name=The V-chat Hanami
+Name=The V-Chat Hanami
 Args=-p 30 -a cluck.png
-Source=http://msvchat.github.io/vchat/worlds/hanami/world.adf
+Source=http://msvchat.github.io/vchat/worlds/hanam/world.adf
 [Data]
 world.wdb=./data/world.wdb
 about.txt=about.txt
