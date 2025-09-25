@@ -3,7 +3,7 @@ Name=The V-chat Hanami
 Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/hanami/world.adf
 [Data]
-world.wdb=./data/world.wdb
+world.wdb=http://msvchat.github.io/vchat/worlds/hanami/data/world.wdb
 about.txt=about.txt
 [Images]
 hana.gif=../images/hana.gif, 256,256, 0, 255, 213, 255, 255, 128, 191
