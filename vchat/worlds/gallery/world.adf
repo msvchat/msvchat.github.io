@@ -27,5 +27,5 @@ ground.gif=ground.gif,256,256
 collide.wav=../sounds/collide.wav
 enter.wav=enter.wav
 exit.wav=exit.wav
-song.mid=song.wav
+song.wav=song.wav
 sound.htm=sound.htm
