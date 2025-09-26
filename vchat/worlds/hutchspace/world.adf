@@ -147,18 +147,18 @@ index206.gif=index206.gif, 16,16
 color1.gif=color1.gif, 16,16
 color2.gif=color2.gif,16,16
 [avatars]
-tully.png=../avatars/tully.png
+tully.png=../avatars/tully-unverified.png
 carol.png=carol.png
 clip.png=clip.png
-damian.png=damian.png
-dave.png=dave.png
-gash.png=gash.png
+damian.png=damian-unverified.png
+dave.png=dave-unverified.png
+gash.png=gash-unverified.png
 guy.png=guy.png
 lady.png=lady.png
-lump.png=lump.png
-mark.png=mark.png
-roach.png=roach.png
-rocky.png=rocky.png
+lump.png=lump-unverified.png
+mark.png=mark-unverified.png
+roach.png=roach-unverified.png
+rocky.png=rocky-unverified.png
 shadow.png=shadow.png
 butch.png=butch.png
 [sounds]
