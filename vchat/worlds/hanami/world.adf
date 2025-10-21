@@ -5,6 +5,7 @@ source=http://msvchat.github.io/vchat/worlds/hanami/world.adf
 [data]
 world.wdb=data/world.wdb
 about.txt=about.txt
+world.pal=world.pal
 [images]
 hana.gif=../images/hana.gif, 256,256, 0, 255, 213, 255, 255, 128, 191
 kanji.gif=kanji.gif, 240,120, 0, 255, 255, 255, 0,0,0
