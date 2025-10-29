@@ -4,6 +4,7 @@ Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/help/world.adf
 [data]
 world.wdb=./data/world.wdb
+world.pal=world.pal
 about.txt=about.txt
 [images]
 glow.gif=../images/glow.gif, 256,256, 0, 47, 89, 151, 148, 160, 188
