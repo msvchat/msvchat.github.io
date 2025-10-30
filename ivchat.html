@@ -52,23 +52,50 @@
 						<hr>
 					</div>
 					<h2 style="text-align:center" id="INSTALL">Installing Microsoft V-Chat Suite</h2>
-					<h3 style="text-align:center">IT'S HERE I finally created new installers using <a href="https://jrsoftware.org/isdl.php">Inno setup compiler</a>. You can now uninstall the program successfully.</h3>
-					<h3>V-Chat Suite for XP Installer Includes</h3>
+					<h3 style="text-align:center">I created these using <a href="https://jrsoftware.org/isdl.php">Inno setup compiler</a>. Ive included the links to the scripts below.</h3>
+					<p style="text-align:center; font-size: 28px"><b>These installers are safe to use!</b></p>
+					<h3>V-Chat Suite for XP Installer Includes</h3> Here is the script file for <a href="vchat/downloads/microsoft v-chat 2.0 suite(for xp).iss">microsoft v-chat 2.0 suite(for xp).iss</a><br>
+					<b>NOTE: This installer is showing as CLEAN. I have included Virus Total results.</b>
+					<p>SHA 256=9E8F24979829064E21EC74E1E18C6D08873E2299AA5EC4BB4768F8B30F51C492</p>
+					<a style="color:red" href="https://www.virustotal.com/gui/file/9e8f24979829064e21ec74e1e18c6d08873e2299aa5ec4bb4768f8b30f51c492">https://www.virustotal.com/gui/file/9e8f24979829064e21ec74e1e18c6d08873e2299aa5ec4bb4768f8b30f51c492</a>
 					<ul>
-						<li>Microsoft V-Chat 2.0 (2.0.0217)</li>
+						<li>Microsoft V-Chat 2.0 (2.0.220)</li>
 						<li>Microsoft V-Chat Avatar Wizard 2.0 (2.0.0.218)</li>
 						<li>Microsoft V-Chat Author 1.1 (1.10.0005.0)</li>
 						<li>Official room artwork (there are a few missing files)</li>
-						<li>Microsoft V-Chat SDK 1.0 BETA (document ONLY in .pdf format)</li>
+						<li>Microsoft V-Chat SDK 1.0 BETA (document ONLY in .rtf format)</li>
+						<li><button onclick="downloadFile2()">Microsoft V-Chat 2.0 Suite Setup(for XP)</button>
+							<script>function downloadFile2() {
+									const link = document.createElement('a');
+									link.href = 'vchat/downloads/Microsoft V-Chat 2.0 Suite Setup(for XP).zip';
+									link.download = 'Microsoft V-Chat 2.0 Suite Setup(for XP).zip';
+									document.body.appendChild(link);
+									link.click();
+									document.body.removeChild(link);
+								}</script>
+						</li>
 					</ul>
-					<h3>V-Chat Suite Installer Includes</h3>
+					<h3>V-Chat Suite Installer Includes </h3> Here is the script file for <a href="vchat/downloads/microsoft v-chat 2.0 suite.iss">microsoft v-chat 2.0 suite.iss</a><br>
+					<b>NOTE: This installer is showing <a style="color:red">FALSE POSITIVES</a> from "DeepInstinct" and "SecureAge" as Malicious. I have included Virus Total results.</b>
+					<p>SHA 256=4A8F36DE151EB20FAF9B19BFCE8D0B40473F84AE42F857CCC9DC1C2316599EF7</p>
+					<a style="color:red" href="https://www.virustotal.com/gui/file/4a8f36de151eb20faf9b19bfce8d0b40473f84ae42f857ccc9dc1c2316599ef7">https://www.virustotal.com/gui/file/4a8f36de151eb20faf9b19bfce8d0b40473f84ae42f857ccc9dc1c2316599ef7</a>
 					<ul>
-						<li>Microsoft V-Chat 2.0 (2.0.0217)</li>
+						<li>Microsoft V-Chat 2.0 (2.0.220)</li>
 						<li>Microsoft V-Chat Avatar Wizard 2.0 (2.0.0.218)</li>
 						<li>Microsoft V-Chat Author 1.1 (1.10.0005.0)</li>
 						<li>Official room artwork (there are a few missing files)</li>
-						<li><a href="https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/">dgVoodoo2</a> conf files are automatically placed in the Appdata/Roaming/dgVoodoo folder</li>
+						<li><a href="https://dege.freeweb.hu/dgVoodoo2/dgVoodoo2/">dgVoodoo2</a> v2.86.3. The conf file is now located in the V-Chat installation folder </li>
 						<li>Microsoft V-Chat SDK 1.0 BETA (document ONLY in .pdf format)</li>
+						<li><button onclick="downloadFile()">Microsoft V-Chat 2.0 Suite Setup</button>
+							<script>function downloadFile() {
+									const link = document.createElement('a');
+									link.href = 'vchat/downloads/Microsoft V-Chat 2.0 Suite Setup.zip';
+									link.download = 'Microsoft V-Chat 2.0 Suite Setup.zip';
+									document.body.appendChild(link);
+									link.click();
+									document.body.removeChild(link);
+								}</script>
+						</li>
 					</ul>
 					<h3>Features</h3>
 					<ul>
@@ -76,42 +103,21 @@
 						<li>Portals work again because they are linked to msvchatsvr.webredirect.org.</li>
 						<li>"Connect" button now has msvchatsvr.webredirect.org as the default server to connect to.</li>
 					</ul>
-					<b>NOTE: that these installers are showing <a style="color:red">FALSE POSITIVES</a> for malware. Specifically Trojan.GandCrab!8.F3DC (CLOUD) which shows up as Trojan:Win32/GandCrab.GD!MTB in Windows Defender. Below are the Virus Total results.</b>
-					<a style="color:red" href="https://www.virustotal.com/gui/file/98b8bbd5b6dfa23127adb4a6bcdc5056a699a1b1b55d8494430a4fa64809668b">https://www.virustotal.com/gui/file/98b8bbd5b6dfa23127adb4a6bcdc5056a699a1b1b55d8494430a4fa64809668b</a>, for the XP installer <a style="color:red"
-						href="https://www.virustotal.com/gui/file/7c144683ad512414b6442c58d62b6bf47c9a59d6b05fe116b48227eb4522e757">https://www.virustotal.com/gui/file/7c144683ad512414b6442c58d62b6bf47c9a59d6b05fe116b48227eb4522e757</a>, for the regular installer <p style="text-align:center; font-size: 28px"><b>These installers are safe to use!</b></p>
 					<h3>To Install:</h3>
 					<ul>
-						<li>First you need to download <button onclick="downloadFile()">Microsoft V-Chat Suite</button>
-							<script>function downloadFile() {
-									const link = document.createElement('a');
-									link.href = 'vchat/downloads/MicrosoftV-ChatSuite.zip';
-									link.download = 'MicrosoftV-ChatSuite.zip';
-									document.body.appendChild(link);
-									link.click();
-									document.body.removeChild(link);
-								}</script><br> or <br>
-							<button onclick="downloadFile2()">Microsoft V-Chat Suite (for XP)</button>
-							<script>function downloadFile2() {
-									const link = document.createElement('a');
-									link.href = 'vchat/downloads/MicrosoftV-ChatSuite(forXP).zip';
-									link.download = 'MicrosoftV-ChatSuite(forXP).zip';
-									document.body.appendChild(link);
-									link.click();
-									document.body.removeChild(link);
-								}</script> , and extract it.
-						</li>
+						<li>First you need to download <b>Microsoft V-Chat 2.0 Suite Setup.zip</b> or <b>Microsoft V-Chat 2.0 Suite Setup(for XP).zip</b> above, and extract it. </li>
 						<li>Navigate to where you extracted it and run the installer.</li>
 					</ul>
 					<h3>Before running V-Chat it should be run as administrator (unless you are using Windows XP you won't need to run as administrator) so it can read and write files. To set it to run as admin every time do this:</h3>
 					<ul>
-						<li>Navigate back to <b>'C:\Program Files (x86)\Microsoft V-Chat'</b>.</li>
+						<li>Navigate back to <b>'C:\Program Files (x86)\Microsoft V-Chat 2.0\'</b>.</li>
 						<li>Right click on <b>'VCHAT20.EXE'</b>, choose properties </li>
 						<li>Click on the <b>'Compatibility'</b> tab, check the box next to <b>'Run this program as administrator'</b></li>
 						<li>Click Apply and then OK</li>
 					</ul>
 					<h3>If you wish to change the FPS of V-Chat (Not applicable for XP users):</h3>
 					<ul>
-						<li>Navigate to <b>'C:\Users\NAME\AppData\Roaming\dgVoodoo'</b> Where NAME is unique to your computer.</li>
+						<li>Navigate to <b>'C:\Program Files (x86)\Microsoft V-Chat 2.0\'</b>.</li>
 						<li>Edit the file named <b>'dgVoodoo.conf' (you can use notepad to open the file)</b></li>
 						<li>Find the line <b>'FPSLimit='</b> in <b>'dgVoodoo.conf'</b>, and after the <b>'='</b> put <b>'60'</b> if you want it at 60fps or <b>'24'</b> if you want it at 24fps (which is more accurate to V-Chat's original frame rate). This will limit V-Chat to a maximum frame rate you specify and as a result can slow down the animated graphics. Save the file and close it.</li>
 						<li>Now you can run V-Chat!</li>
