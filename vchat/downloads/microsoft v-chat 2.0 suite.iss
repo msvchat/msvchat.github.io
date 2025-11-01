@@ -17,8 +17,7 @@
 #define AvAppVersion "2.0.0.108"
 #define AvAppExeName "AvaWiz2.exe"
 [Setup]
-; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
-; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
+ArchitecturesAllowed=x64
 AppId={{CDCEE35E-EA55-4A24-AE1D-8867455169B3}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
@@ -27,14 +26,13 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={commonpf}\{#VCAppName}
+DefaultDirName={pf}\{#VCAppName}
 DisableDirPage=yes
 UninstallDisplayIcon={app}\{#MyAppExeName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 LicenseFile=E:\source\V-Chat\doc\License.txt
 InfoBeforeFile=E:\source\V-Chat\doc\Readme.txt
-; Uncomment the following line to run in non administrative install mode (install for current user only).
 PrivilegesRequired=admin
 OutputDir=E:\output
 OutputBaseFilename=Microsoft V-Chat 2.0 Suite Setup
@@ -43,34 +41,29 @@ Compression=lzma2
 SolidCompression=yes
 WizardStyle=modern
 UninstallDisplayName={#MyAppUnName}
-
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
-
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
-
 [Dirs]
-;Name: "{commonstartmenu}\{#VCAppName}"
+Name: "{commonstartmenu}\{#MyAppName}"
 Name: "{app}\Avatar Wizard 2.0"
 Name: "{app}\Cache"
 Name: "{app}\NewWorlds"
-;x86
-;Name: "{app}\NewWorlds\Lobby"
-;Name: "{app}\NewWorlds\Lobby\Data"
-;Name: "{app}\NewWorlds\Lobby\Images"
-;Name: "{app}\NewWorlds\Lobby\Sounds"
-;Name: "{app}\NewWorlds\Lobby\Avatars"
+Name: "{app}\NewWorlds\Lobby"
+Name: "{app}\NewWorlds\Lobby\Data"
+Name: "{app}\NewWorlds\Lobby\Images"
+Name: "{app}\NewWorlds\Lobby\Sounds"
+Name: "{app}\NewWorlds\Lobby\Avatars"
 Name: "{app}\Shared\Avatars"
 Name: "{app}\Shared\Images"
 Name: "{app}\Shared\Sounds"
 Name: "{app}\Worlds"
-;x86
-;Name: "{app}\Worlds\DefHomespace"
-;Name: "{app}\Worlds\DefHomespace\Data"
-;Name: "{app}\Worlds\DefHomespace\Images"
-;Name: "{app}\Worlds\DefHomespace\Sounds"
-;Name: "{app}\Worlds\DefHomespace\Avatars"
+Name: "{app}\Worlds\DefHomespace"
+Name: "{app}\Worlds\DefHomespace\Data"
+Name: "{app}\Worlds\DefHomespace\Images"
+Name: "{app}\Worlds\DefHomespace\Sounds"
+Name: "{app}\Worlds\DefHomespace\Avatars"
 [Files]
 Source: "E:\source\V-Chat\{#VCAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\source\Author\{#AuAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
@@ -109,8 +102,6 @@ Source: "E:\source\V-Chat\dgvoodoo\d3drm.dll"; DestDir: "{app}"; Flags: ignoreve
 Source: "E:\source\V-Chat\dgvoodoo\DDraw.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\source\V-Chat\dgvoodoo\dgVoodoo.conf"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\source\V-Chat\dgvoodoo\dgVoodooCpl.exe"; DestDir: "{app}"; Flags: ignoreversion
-;;Source: "E:\source\V-Chat\dgVoodoo\dgVoodoo.conf"; DestDir: "{userappdata}\dgVoodoo"; Flags: ignoreversion
-;;Source: "E:\source\V-Chat\dgVoodoo\dgVoodooSetupPaths.dat"; DestDir: "{userappdata}\dgVoodoo"; Flags: ignoreversion
 ;Documentation
 Source: "E:\source\Author\doc\AuthLicense.txt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\source\V-Chat\doc\Intro.rtf"; DestDir: "{app}"; Flags: ignoreversion
@@ -119,8 +110,6 @@ Source: "E:\source\V-Chat\doc\Readme.txt"; DestDir: "{app}"; Flags: ignoreversio
 Source: "E:\source\V-Chat\doc\VChat20.cnt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\source\V-Chat\doc\VChat20.hlp"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\source\V-Chat\doc\sdk.pdf"; DestDir: "{app}"; Flags: ignoreversion
-;x86
-;Source: "E:\source\V-Chat\doc\sdk.doc"; DestDir: "{app}"; Flags: ignoreversion
 ;V-Chat System Files
 Source: "E:\source\V-Chat\sys\chatwrap.dll"; DestDir: "{win}\System32"; Flags: ignoreversion
 Source: "E:\source\V-Chat\sys\vcgfx20.dll"; DestDir: "{win}\System32"; Flags: ignoreversion
@@ -1369,14 +1358,11 @@ Name: "{group}\Microsoft V-Chat 2.0"; Filename: "{app}\{#VCAppExeName}"; Working
 Name: "{group}\Microsoft V-Chat Author 1.1"; Filename: "{app}\{#AuAppExeName}"; WorkingDir: "{app}"
 Name: "{group}\Avatar Wizard 2.0"; Filename: "{app}\Avatar Wizard 2.0\{#AvAppExeName}"; WorkingDir: "{app}"
 Name: "{group}\{cm:UninstallProgram,{#MyAppName}}"; Filename: "{uninstallexe}"
-Name: "{autodesktop}\{#VCAppName}"; Filename: "{app}\{#VCAppExeName}"; Tasks: desktopicon
-Name: "{autodesktop}\{#AuAppName}"; Filename: "{app}\{#AuAppExeName}"; Tasks: desktopicon
-Name: "{autodesktop}\{#AvAppName}"; Filename: "{app}\Avatar Wizard 2.0\{#AvAppExeName}"; Tasks: desktopicon
-Name: "{autodesktop}\Microsoft V-Chat SDK documentation"; Filename: "{app}\sdk.pdf"; Tasks: desktopicon
+Name: "{userdesktop}\{#VCAppName}"; Filename: "{app}\{#VCAppExeName}"; Tasks: desktopicon
+Name: "{userdesktop}\{#AuAppName}"; Filename: "{app}\{#AuAppExeName}"; Tasks: desktopicon
+Name: "{userdesktop}\{#AvAppName}"; Filename: "{app}\Avatar Wizard 2.0\{#AvAppExeName}"; Tasks: desktopicon
+Name: "{userdesktop}\Microsoft V-Chat SDK documentation"; Filename: "{app}\sdk.pdf"; Tasks: desktopicon
 Name: "{group}\Microsoft V-Chat SDK documentation"; Filename: "{app}\sdk.pdf"; WorkingDir: "{app}"
-;x86
-;Name: "{autodesktop}\Microsoft V-Chat SDK documentation"; Filename: "{app}\sdk.doc"; Tasks: desktopicon
-;Name: "{group}\Microsoft V-Chat SDK documentation"; Filename: "{app}\sdk.doc"; WorkingDir: "{app}"
 
 [Registry]
 Root: HKCU; Subkey: "Software\Microsoft\V-Chat"; ValueType: none; Flags: uninsdeletekey
