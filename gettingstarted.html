@@ -63,10 +63,8 @@
 						<li>486 processor or better</li>
 						<li>about 3MB initial space*</li>
 					</ul>
-					<dl>
-						<dt><b>V-Chat downloads worlds when you enter an IRC chat room with a graphical link in its description.</b></dt>
-						<dd>For example: <b>v:{-a http://msvchat.github.io/vchat/worlds/lobby/world.adf}</b></dd>
-					</dl>
+					<hr>
+					<p>V-Chat is a 3D chat program that involves the user with other users in rich 3D environments. MSN relinquished it as a service in 2001 and stopped developing the chat.</p>
 					<h3>V-Chat features</h3>
 					<ul>
 						<li>Both graphical and text based chat experiences</li>
@@ -76,10 +74,13 @@
 						<li>kick out unwanted or obnoxious guests in your own rooms</li>
 						<li>Emote through avatar action buttons, or the button beside your text box.</li>
 					</ul>
-					<p>V-Chat is a 3D chat program that involves the user with other users in rich 3D environments. MSN relinquished it as a service in 2001 and stopped developing the chat.</p>
-					<p>You control your avatar as you walk, fly, and look up and down through the 'rooms' using your <b>arrow</b> keys (up, down, left, right). You can also use your mouse to move around and click "portals" to navigate to different rooms. </p>
+					<b>V-Chat automatically downloads worlds when you enter an IRC chat room with a graphical link in a rooms topic.</b><br>
+					For example: <b>v:{-a http://msvchat.github.io/vchat/worlds/lobby/world.adf}</b> as the topic would make V-Chat automatically load the lobby graphics.
+					<hr>
 					<h3>What is an Avatar?</h3>
 					<p>Avatars are 2d representations of yourself in V-Chat. With the Avatar Wizard you can make your own avatars.</p>
+					<p>You control your avatar as you walk, fly, and look up and down through the 'rooms' using your <b>arrow</b> keys (up, down, left, right). You can also use your mouse to move around and click "portals" to navigate to different rooms. </p>
+					
 					<h3>How to 'fly' in V-Chat.</h3>
 					<ul>
 						<li>ctrl + up arrow key, 'fly' up</li>
@@ -94,10 +95,11 @@
 						<li>ctrl + alt + left arrow key, look left</li>
 						<li>ctrl + alt + right arrow key, look right</li>
 					</ul>
-					<h2 id="AVATARS">Avatars you can download</h2>
+					<hr>
+					<h2 id="AVATARS">Downloadable Avatars</h2>
 					<button onclick="downloadFile()">Download</button>
 					<script>function downloadFile() { const link = document.createElement('a'); link.href = 'https://msvchat.github.io/vchat/avatars/adult.zip'; link.download = 'adult.zip'; document.body.appendChild(link); link.click(); document.body.removeChild(link); }</script>
-					<p><b>Adult Avatars (If you want to use these you will have to host them yourself)</b></p>
+					<p><b>26 Adult Avatars (If you want to use these you will have to host them yourself)</b></p>
 					<p>You can download multiple avatars using .lst files, or you can link directly to your avatar from inside V-Chat </p>
 					<p><b>NOTE: avpluspk.lst has blank avatars for substitution and unverified avatar names.</b>
 						<br>
@@ -106,13 +108,16 @@
 						<b>"http://msvchat.github.io/vchat/avatars/avpluspk.lst"</b> has 16 avatars. <br>
 						<button onclick="copyToClipboard2()">Copy to Clipboard</button>
 						<script>function copyToClipboard2() { var text = "http://msvchat.github.io/vchat/avatars/public.lst"; navigator.clipboard.writeText(text).then(_ => { console.log('copied successfully!'); }); }</script>
-						<b>"http://msvchat.github.io/vchat/avatars/public.lst"</b> has 231 avatars. <br>
+						<b>"http://msvchat.github.io/vchat/avatars/public.lst"</b> has 222 avatars. <br>
 						<button onclick="copyToClipboard3()">Copy to Clipboard</button>
 						<script>function copyToClipboard3() { var text = "http://msvchat.github.io/vchat/avatars/kolestan.lst"; navigator.clipboard.writeText(text).then(_ => { console.log('copied successfully!'); }); }</script>
 						<b>"http://msvchat.github.io/vchat/avatars/kolestan.lst"</b> has 7 avatars I made or modified. <br>
 						<button onclick="copyToClipboard4()">Copy to Clipboard</button>
 						<script>function copyToClipboard4() { var text = "http://msvchat.github.io/vchat/avatars/mv.lst"; navigator.clipboard.writeText(text).then(_ => { console.log('copied successfully!'); }); }</script>
 						<b>"http://msvchat.github.io/vchat/avatars/mv.lst"</b> has 2 avatars <a href="https://github.com/mvoolt">mv</a> made and shared with me.
+						<button onclick="copyToClipboard5()">Copy to Clipboard</button>
+						<script>function copyToClipboard5() { var text = "http://msvchat.github.io/vchat/avatars/varian.lst"; navigator.clipboard.writeText(text).then(_ => { console.log('copied successfully!'); }); }</script>
+						<b>"http://msvchat.github.io/vchat/avatars/varian.lst"</b> has 7 avatars from <a href="http://www.varian.net/dreamfare/dreamavatars/index.html">Varian's Dreamfare</a>
 					</p> 1. Open V-Chat and click <b>'Avatar'</b>. Navigate to <b>'Custom Avatar > Download...'</b> and click on it. <br>
 					<img src="images/downloadav.webp" class="imageRight" alt="General Tab" width="423" height="312"> <br> 2. Enter one of the addresses above. EXACTLY like above minus the quotation marks. YOU MUST USE HTTP NOT HTTPS V-Chat is too primitive to use https properly. Press OK. <br>
 					<img src="images/downloadcustomav.webp" class="imageRight" alt="General Tab" width="283" height="188"> <br> 3. It should open a little window "Download Custom Avatars" if it does not, repeat step 2. You may shift+click to select all the listed avatars. Press OK.<br>
