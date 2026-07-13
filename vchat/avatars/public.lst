@@ -1,9 +1,3 @@
-public/clone.png
-public/leetah2.png
-public/martian1.png
-public/ron.png
-public/cool3.png
-public/KishinDouji-Zenki.png
 public/00024.png
 public/00027.png
 public/00038.png
@@ -12,7 +6,6 @@ public/00050.png
 public/00066.png
 public/00067.png
 public/00126.png
-public/Tammy.png
 public/00158.png
 public/00162.png
 public/00163.png
@@ -91,6 +84,7 @@ public/cloud.png
 public/clyde.png
 public/coldsolo.png
 public/cookie.png
+public/cool3.png
 public/coolchic-shaniatwain.png
 public/cooljim-cooljim.png
 public/coolmickey.png
@@ -119,6 +113,7 @@ public/diver.png
 public/djz-blktie.png
 public/djz-guy.png
 public/djz-trekng.png
+public/dragoon-fedagent.png
 public/einstein.png
 public/elvira.png
 public/emeraldsmonster.png
@@ -128,7 +123,6 @@ public/evolution-doughboy.png
 public/ewhipit.png
 public/eyeball.png
 public/face.png
-public/dragoon-fedagent.png
 public/federal.png
 public/felix.png
 public/fett.png
@@ -139,8 +133,8 @@ public/gabriel.png
 public/garfield.png
 public/gatelady.png
 public/girlie.png
-public/grey.png
 public/goldguy.png
+public/grey.png
 public/harleyquin.png
 public/haveaniceday.png
 public/horsegal.png
@@ -159,12 +153,15 @@ public/justka2.png
 public/karla2.png
 public/kbm-kbm.png
 public/ken-ohki.png
+public/KishinDouji-Zenki.png
 public/krista.png
 public/kyle.png
 public/lady.png
 public/ladyir.png
+public/leetah2.png
 public/maidsim.png
 public/mars.png
+public/martian1.png
 public/max.png
 public/mech.png
 public/megryan.png
@@ -185,6 +182,7 @@ public/puppy.png
 public/redhead.png
 public/redheads.png
 public/robsnewav.png
+public/ron.png
 public/rosa1.png
 public/rr.png
 public/ryu.png
@@ -198,6 +196,7 @@ public/sphere2.png
 public/spider.png
 public/spiderman.png
 public/starguy.png
+public/Tammy.png
 public/taz.png
 public/thundersbar1.png
 public/thundersmith.png
