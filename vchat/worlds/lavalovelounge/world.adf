@@ -4,6 +4,7 @@ Args=-p 30 -a cluck.png
 Source=http://msvchat.github.io/vchat/worlds/lavalovelounge/world.adf
 [data]
 world.wdb=./data/world.wdb
+world.pal=world.pal
 about.txt=about.txt
 [images]
 barkeep.gif= ../images/barkeep.gif, 128,256, 0, 255,0,0, 255, 204, 153
